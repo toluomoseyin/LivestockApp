@@ -1,0 +1,118 @@
+[
+  {
+    "AppUser": {
+      "FirstName": "Sexton",
+      "LastName": "Sullivan",
+      "UserName": "sextonsullivan@bitendrex.com",
+      "email": "sextonsullivan@bitendrex.com",
+      "gender": 0,
+      "isActive": true,
+      "ZipCode": "7909",
+      "Address": {
+        "Street": "12 Sangotedo",
+        "City": "Ajah",
+        "State": "Lagos"
+
+      },
+      "photo": "http://placehold.it/32x32",
+      "PublicID": "akk8886o9sRq"
+    },
+    "Coverage": "Within state",
+    "CoverageLocation": "Lagos",
+    "NIN": "43788450992",
+    "NINTrackingId":  "dhiw89892392389"
+  },
+  {
+    "AppUser": {
+      "FirstName": "Garrett",
+      "LastName": "Hart",
+      "UserName": "garretthart@bitendrex.com",
+      "email": "garretthart@bitendrex.com",
+      "gender": 1,
+      "isActive": true,
+      "ZipCode": "844",
+      "Address": {
+        "Street": "12 Sangotedo",
+        "City": "Nent CIty",
+        "State": "Abuja"
+
+      },
+      "photo": "http://placehold.it/32x32",
+      "PublicID": "akk8886o9sRq"
+    },
+    "Coverage": "Outside state",
+    "CoverageLocation": "Abuja",
+    "NIN": "489389923",
+    "NINTrackingId": "dkkdfi32kkdfk"
+  },
+  {
+    "AppUser": {
+      "FirstName": "Elvira",
+      "LastName": "Nichols",
+      "UserName": "elviranichols@bitendrex.com",
+      "email": "elviranichols@bitendrex.com",
+      "gender": 0,
+      "isActive": true,
+      "ZipCode": "982",
+      "Address": {
+        "Street": "12 Sangotedo",
+        "City": "PortHacourt",
+        "State": "Rivers"
+
+      },
+      "photo": "http://placehold.it/32x32",
+      "PublicID": "akk8886o9sRq"
+    },
+    "Coverage": "Within state",
+    "CoverageLocation": "Rivers",
+    "NIN": "32899091829",
+    "NINTrackingId": "hkjfkldlk992"
+  },
+  {
+    "Appuser": {
+      "FirstName": "Jo",
+      "LastName": "Craig",
+      "UserName": "jocraig@bitendrex.com",
+      "email": "jocraig@bitendrex.com",
+      "gender": 0,
+      "isActive": false,
+      "ZipCode": "3173",
+      "Address": {
+        "Street": "12 Sangotedo",
+        "City": "Ajah",
+        "State": "Lagos"
+
+      },
+      "photo": "http://placehold.it/32x32",
+      "PublicID": "akk8886o9sRq"
+    },
+    "Coverage": "Outside state",
+    "CoverageLocation": "Lagos",
+    "NIN": "1266798912",
+    "NINTrackingId": "dkjsdkj678721fd"
+  },
+  {
+    "AppUser": {
+      "FirstName": "Liza",
+      "LastName": "Conley",
+      "UserName": "lizaconley@bitendrex.com",
+      "email": "lizaconley@bitendrex.com",
+      "gender": 0,
+      "isActive": false,
+      "ZipCode": "1500",
+      "Address": {
+        "Street": "12 salem",
+        "City": "Abba",
+        "State": "Abia"
+      },
+      "photo": "http://placehold.it/32x32",
+      "PublicID": "akk8886o9sRq"
+    },
+    "Coverage": "Within state",
+    "CoverageLocation": "Abia",
+    "NIN": "2773981924",
+    "NINTrackingId": "dkk3l4l54kl"
+
+
+  }
+]

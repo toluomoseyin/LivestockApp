@@ -1,0 +1,148 @@
+﻿@model PaginatedResultDto<UserVm>
+
+@{  var alt = "https://res.cloudinary.com/oddcubes/image/upload/v1623677056/fluxk0fwarirww2bqpb9.jpg"; }
+
+
+
+
+
+
+<div class="container bg-light">
+    <div class="mb-1">
+        <h2 class="brand pl-0" style="color:#2078BF; ">Registered Users</h2>
+    </div>
+    <div class="d-flex flex-wrap flex-sm-wrap col-lg-12 col-sm-12 justify-content-end">
+
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+
+                @for (int i = 1; i <= Model.PageMetaData.TotalPages; i++)
+                {
+    <li class="page-item">
+        <a class="page-link" asp-action="RegisteredUsers" asp-controller="Dashboard" asp-route-page=@i>@i</a>
+    </li>}
+
+
+            </ul>
+        </nav>
+    </div>
+
+    <div class="">
+
+
+        <div class="shadow bg-white rounded  col-sm-12 text-center p-4 table-responsive-sm" id="tbody">
+
+
+            <table class="table table-borderless table-striped table-hover align-middle">
+
+                <thead>
+                    <tr>
+                        <th class="text-left">User Id</th>
+                        <th class="text-left">Email Address</th>
+                        <th class="text-left" >Role</th>
+                        <th>Status</th>
+
+                    </tr>
+                </thead>
+
+
+                <tbody>
+
+                    @foreach (var item in Model.ResponseData)
+                    {
+
+                <tr>
+                    <td id="product-detail" class="text-left">
+                        <a href="#exampleModal" id="product-detail-link" data-toggle="modal" data-target="#exampleModal" class="text-decoration-none displayModal">
+                                <p class="mb-0" id="@item.Id" onclick="displayData(this)">@item.FirstName @item.LastName </p>
+                            
+
+                        </a>
+                        <input type="hidden" name="id" id="ids" value="@item.Id" />
+                    </td>
+                    <td class="text-left">@item.Email</td>
+                    <td class="text-left" >@item.Roles[0]</td>
+
+                    @if (item.IsActive == true)
+                    {
+
+                <td><i class="badge badge-pill badge-primary">Active</i></td> }
+                                else
+                                {
+
+                <td><i class="badge badge-pill badge-secondary">Inactive</i></td>}
+
+
+
+
+
+
+                </tr>}
+
+
+                    
+                </tbody>
+            </table>
+
+        </div>
+
+
+    </div> 
+
+
+</div>
+
+
+
+
+<div class="modal fade " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"> User Details</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="parent">
+                    <div class="box-one font-weight-normal"  style="font-size:22px;">
+                        <h5>
+                            <span class="" id="role" style="font-size:30px;"></span><br/>
+
+                            <span class="" id="fullName">
+                                Name:  FirstName LastName
+                            </span>
+                            <br />
+                            <span class="" id="email" style="font-size:20px;">Email: myUser@gmail.com</span>
+                        </h5>
+                        <h5>
+                            <span class="" id="businessLocation">Business Location</span>
+                            <br />
+
+                        </h5>                                            
+                            <a id="getMarket" class=" btn btn-success" style="visibility:hidden;">See Market</a>                       
+                    </div>
+                    <div class="box-two">
+                        <div class="my-image">
+                            <img class="myimg" id="user-image" src="@alt">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+

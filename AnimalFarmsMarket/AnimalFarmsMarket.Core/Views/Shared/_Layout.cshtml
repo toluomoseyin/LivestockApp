@@ -1,0 +1,223 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="~/css/owl-carousel/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="~/css/owl-carousel/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/css/site.css"/>
+    <link rel="stylesheet" href="~/css/Market.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/modals.css" />
+    <link rel="stylesheet" href="~/css/sliders.css" />
+    <link rel="stylesheet" href="~/css/DetailsPage.css"/>
+    <link rel="stylesheet" href="~/css/homePartial.css" />
+    <link href="~/css/partner.css" rel="stylesheet" />
+    <link href="~/css/about-us.css" rel="stylesheet" />
+    <title>@ViewBag.Title</title>
+    <script>var currentUser = '@HttpContextAccessor.HttpContext.Session.GetString("UserId")';</script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+    <script src="~/js/cart.js"></script>
+</head>
+<body class=" bg-light">
+    <header>
+        <nav class="home-nav d-flex justify-content-between align-items-center">
+            <div class="container d-flex justify-content-between align-items-center">
+
+                <div class="logo-div">
+                    <a asp-action="index" asp-controller="home">
+                        <img src="~/images/assets/footer-logo.png" alt="live stock delivery" />
+                    </a>
+                </div>
+
+                <div class="menu-div">
+                    <div class="hamburger-div">
+                        <i class="fa fa-navicon fa-2x text-white"></i>
+                    </div>
+                    <div class="menu-list-div">
+                        <div class="menu-dropdown-div dropdown-menu-container">
+                            <div class="menu-list-items">
+                                <ul class="navbar-nav align-items-center justify-content-around w-100">
+                                    <li class="nav-item dropdown dropdown-element">
+                                        <a class="nav-link pad-home-nav" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                                    </li>
+                                    <li class="nav-item dropdown dropdown-element nav-item">
+                                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="AboutUs">About Us</a>
+                                    </li>
+                                    <li class="nav-item dropdown dropdown-element nav-item">
+                                        <a class="nav-link" asp-area="" asp-controller="Account" asp-action="AboutAgent">Be an Agent</a>
+                                    </li>
+                                    <li class="nav-item dropdown dropdown-element nav-item">
+                                        <a class="nav-link pad-home-nav" data-toggle="modal" id="testcreate-agent__btn" data-target="#track" href="">Track Livestock</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="loggedin-user-div">
+                                <button id="locationModalBtn" class="text-light button-primary btn shadow buy-now-btn">Buy Now</button>
+                                @if (!User.Identity.IsAuthenticated)
+                                {
+                                    <form asp-action="Login" asp-controller="Account" method="get">
+                                        <button type="submit" class="text-light button-secondary btn shadow login-nav-btn">Login</button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <partial name="_UserNavThumbnailPartial" />
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="drop">
+                    <a href="#" class="pull-cart">
+                        <i class="bi bi-cart2" style="font-size:28px; color:#fff;"></i>
+                        <span id="shoppingCart-badge" class="badge badge-light rounded-circle"
+                              style="font-size:10px;color:#2078bf; margin-left:-1em;top:-2em;">0</span>
+                    </a>
+                    <div class="dropdown-content">
+                        <div class="menu-cart-cover">
+                            <div id="menu-cart">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header> 
+
+    <div class="body-con">
+        <div class="modal fade" id="track" role="dialog" aria-labelledby="track" aria-hidden="true" style="z-index:99999;">
+            <div class="modal-dialog  modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="text-center font-weight-bold w-100 text-center modal-title">Track Your Item</h3>
+                        <button id="playCarousel" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="col-sm-12 d-flex rounded">
+                            <div class="col-12">
+                                <p class="text-center px-3">Please fill in the tracking ID provided during purchase.</p>
+                                <div asp-validation-summary="ModelOnly"></div>
+                                <div class="row">
+                                    <div class="col-sm-6 m-sm-auto">
+                                        <input id="trackingIndex" type="text" class="w-100" />
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <button onclick="TrackingBtn1(this)" class="btn btn-primary mt-3"
+                                            id="create-agent__btn">
+                                        Track
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="trackingHistory" role="dialog" aria-labelledby="trackingHistory" aria-hidden="true" style="z-index:999999;">
+            <div class="modal-dialog  modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="text-center font-weight-bold w-100 text-center modal-title">Order Information</h3>
+                        <button id="playCarousel" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body overflow-auto">
+
+                        <div asp-validation-summary="ModelOnly"></div>
+                        <div class="justify-content-lg-start" style="margin-top:20px" id="trackingHistoryPage">
+                            <div id="trackingHistory1">
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        @RenderBody()
+
+    </div>
+
+    <!-- Locations Modal -->
+    <div class="modal fade" id="preferredLocationModal" tabindex="-1" role="dialog" aria-labelledby="preferredLocation" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <button type="button" class="close text-right pr-3" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body">
+                    <form asp-controller="Market" asp-action="Index" method="GET">
+                        <input name="page" id="page" type="hidden" value="1" />
+                        <input name="location" id="location" type="hidden" value="" />
+                        <div id="" class="px-5 py-3 text-center">
+                            <h3 class="site-color"><b><span>Choose your preferred</span> location</b></h3><br>
+                            <h5 class="site-color">This displays all products associated with the chosen address</h5><br>
+                            <div class="dropdown-container modal-dropdown-container">
+                                <div class="dropdown modal-dropdown w-75 bg-white">
+                                    <button class="btn btn-light text-left w-100" type="button" data-toggle="dropdown">
+                                        <span class="pl-2 dropdown-text text-grey">Location</span>
+                                        <span class="caret float-right">
+                                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                        </span>
+                                    </button>
+                                    <ul id="locations-list" class="dropdown-menu mt-0 w-100" style="overflow-y:auto; max-height:150px;">
+                                    </ul>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-green text-white mt-70px" id="ctn" style="width:150px;">Continue</button>
+                        </div><br><br>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Modal container. Javascript was used to fill the content -->
+    <div class="modal fade mx-0" id="cartModal" tabindex="-1" style="z-index:12000!important" role="dialog" aria-labelledby="cart" aria-hidden="true">
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/owl-carousel/owl.carousel.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/popper/popper.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/MarketPlaceScript.js" asp-append-version="true"></script>
+    <script src="~/js/Market.js" asp-append-version="true"></script>
+    <script src="~/js/modals.js" asp-append-version="true"></script>
+    <script src="~/js/scrollers.js" asp-append-version="true"></script>
+    <script src="~/js/DetailsPage.js" asp-append-version="true"></script>
+    <script src="~/js/TrackingHistory.js" asp-append-version="true"></script>
+
+    
+    <script>
+        $(document).ready(function () {
+            // Add down arrow icon for collapse element which is open by default
+            $(".collapse.show").each(function () {
+                $(this).prev(".heading").find(".fa").addClass("fa-angle-down").removeClass("fa-angle-right");
+            });
+            // Toggle right and down arrow icon on show hide of collapse element
+            $(".collapse").on('show.bs.collapse', function () {
+                $(this).prev(".heading").find(".fa").removeClass("fa-angle-right").addClass("fa-angle-down");
+            }).on('hide.bs.collapse', function () {
+                $(this).prev(".heading").find(".fa").removeClass("fa-angle-down").addClass("fa-angle-right");
+            });
+            updateShoppingCart();
+            setInterval(updateShoppingCart, 5000);
+            fillCartTable();
+            setInterval(UpdateCheckoutPage, 2000);
+        });</script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

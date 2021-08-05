@@ -1,0 +1,67 @@
+﻿@model CardDetails
+
+<style>
+    .form-control:focus{
+        box-shadow:none !important;
+    }
+</style>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-5 pt-5">
+            <div class="pt-4">
+                <img src="~/images/assets/Checkouimage.jpg" alt="Alternate Text" class="img-fluid" />
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="col-10 mx-auto p-5">
+                <h2 class="text-left font-weight-bold" style="color:#2078bf">Input card Details</h2>
+
+                <h4 class="text-left font-weight-bold" style="color:#2078bf">Amount to pay: @Model.amount</h4>
+                @if(ViewData["errorMsg"] as string != null)
+                {
+                    <div class="alert alert-danger">@ViewData["errorMsg"]</div>
+                }
+                
+
+                <form method="post" asp-action="Initiate" asp-controller="Checkout">
+                    <input asp-for="authorization.mode" class="form-control border-right-0" value="pin" hidden>
+                    <input asp-for="currency" class="form-control border-right-0" value="NGN" hidden>
+                    <input asp-for="amount" class="form-control border-right-0" hidden>
+                    <input asp-for="email" hidden />
+                    <input asp-for="tx_ref" hidden/>
+
+                    <div class="form-group">
+                        <div id="pay" class="input-group">
+                            <input asp-for="fullname" class="checkout form-control" placeholder="Name on Card" style="background:inherit; border:none; border-bottom:1px solid #2078bf; border-radius:unset;">
+                        </div>
+                        <small class="text-danger"> <span asp-validation-for="fullname"></span></small>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input asp-for="cardNumber" class="form-control border-right-0" placeholder="0000-0000-0000-0000" style="background:inherit; border:none; border-bottom:1px solid #2078bf; border-radius:unset;">
+                        </div>
+                        <small class="text-danger"> <span asp-validation-for="cardNumber"></span></small>
+                    </div>
+
+                    <div class="form-group d-flex">
+                        <input asp-for="ExpirationMonth" class="text-center form-control border-right-0" placeholder="mm" style="background:inherit; border:none; border-bottom:1px solid #2078bf; border-radius:unset;width:25%;">@*<span style="margin-top: 18px; font-size: 16px;" class="mr-0">/</span>*@
+                        <input asp-for="ExpirationYear" class="text-center form-control mr-2 border-right-0" placeholder="yy" style="background:inherit; border:none; border-bottom:1px solid #2078bf; border-radius:unset;width:25%;">
+                        <input asp-for="cvv" class="text-center form-control border-right-0" placeholder="cvv" style="background:inherit; border:none; border-bottom:1px solid #2078bf; border-radius:unset;width:50%;">
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input asp-for="authorization.pin" class="form-control border-right-0" placeholder="Pin" style="background:inherit; border:none; border-bottom:1px solid #2078bf; border-radius:unset;">
+                        </div>
+                        <small class="text-danger"> <span asp-validation-for="authorization.pin"></span></small>
+                    </div>
+                    <div asp-validation-summary="All" class="text-danger" id="resetpass-list-error"></div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-success mt-3" id="reset-password-btn">Pay</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<partial name="_FooterLowerPartial" />

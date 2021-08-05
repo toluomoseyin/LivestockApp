@@ -1,0 +1,310 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model DetailsViewModel
+@{
+    ViewData["Title"] = "Details";
+    var isAvailable = Model.LivestockModel.Availability == true ? "In stock" : "Out of stock";
+    var color = isAvailable == "Out of stock" ? "red" : "green";
+    var images = new List<string>();
+    foreach (var item in Model.LivestockModel.Images)
+    {
+        images.Add(item.ImageUrl);
+        if (images.Count() == 4)
+        {
+            break;
+        }
+    }
+    var defaultPhotos = new List<string>();
+    switch (Model.LivestockModel.CategoryId)
+    {
+        case "1":
+            defaultPhotos.Add("https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/02/14/16/berkeley-farm-dairy.jpg");
+            break;
+        case "2":
+            defaultPhotos.Add("https://cdn.pixabay.com/photo/2020/09/01/17/19/goat-5535783_1280.jpg");
+            break;
+        case "3":
+            defaultPhotos.Add("https://cdn.pixabay.com/photo/2019/04/08/12/26/pig-4111895_1280.jpg");
+            break;
+        case "4":
+            defaultPhotos.Add("https://cdn.pixabay.com/photo/2019/12/04/23/34/sheep-4673941_1280.jpg");
+            break;
+        case "5":
+            defaultPhotos.Add("https://cdn.pixabay.com/photo/2019/11/24/11/55/chicken-4649258_1280.jpg");
+            break;
+        case "6":
+            defaultPhotos.Add("https://cdn.pixabay.com/photo/2019/03/05/23/35/rabbit-4037325_1280.jpg");
+            break;
+        case "7":
+            defaultPhotos.Add("https://cdn.pixabay.com/photo/2016/08/09/16/25/catfish-1581045_1280.jpg");
+            break;
+    }
+
+    var rating = (int)Model.LivestockModel.Rating;
+    var rateMessage = ViewData["RatingError"];
+    var reviewMessage = ViewData["reviewError"];
+}
+<div class="big-container">
+    <div class="center-div">
+        <div id="show-market-div" class="show-market-div">
+            <span id="show-market" class="btn btn-outline-primary show-market">Show Market Menu</span>
+        </div>
+        <div class="row pt-4 pr-4 pl-4 route">
+            <div class="col-lg-12">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb bg-transparent">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Location</a></li>
+                        <li class="breadcrumb-item"><a href="#">Cattle Market</a></li>
+                        <li class="breadcrumb-item active" aria-current="page"><strong>Animal ID - @Model.LivestockModel.Id </strong></li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <div class="medium-container">
+            <div id="side-navigation" class="side-navigation">
+                <div class="col-80">
+                    @await Html.PartialAsync("_LocationPartial", Model.LivestockModel.LocationMarkets)
+                    <div class="latest">
+                        <h4>Latest</h4>
+                        <div class="latest-div">
+                            <div class="latest-img">
+                                <img src="https://tinyurl.com/34tprmje" alt="white cow" />
+                            </div>
+                            <div class="latest-text">
+                                <p>Animal ID - 900085000597794</p>
+                                <p><b>N293,072.00</b></p>
+                            </div>
+                        </div>
+                        <div class="latest-div">
+                            <div class="latest-img">
+                                <img src="https://tinyurl.com/34tprmje" alt="white cow" />
+                            </div>
+                            <div class="latest-text">
+                                <p>Animal ID - 900085000597794</p>
+                                <p><b>N293,072.00</b></p>
+                            </div>
+                        </div>
+                        <div class="latest-div">
+                            <div class="latest-img">
+                                <img src="https://tinyurl.com/34tprmje" alt="white cow" />
+                            </div>
+                            <div class="latest-text">
+                                <p>Animal ID - 900085000597794</p>
+                                <p><b>N293,072.00</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="details-div">
+                    <div class="picture-price-div">
+                        <div class="photo-div">
+                            @if (images.Count() == 0)
+                            {
+                                @foreach (var image in defaultPhotos)
+                                {
+                                    <div class="mySlides">
+                                        <img src=@image style="width:100%;">
+                                    </div>
+                                }
+                                if (defaultPhotos.Count() < 4)
+                                {
+                                    for (int i = 0; i < 4 - defaultPhotos.Count(); i++)
+                                    {
+                                        <div class="mySlides">
+                                            <img src="~/images/assets/footer-logo.png" style="width:100%;">
+                                        </div>
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                @foreach (var image in images)
+                                {
+                                    <div class="mySlides">
+                                        <img src=@image style="width:100%;">
+                                    </div>
+                                }
+                                if (images.Count() < 4)
+                                {
+                                    for (int i = 0; i < 4 - images.Count(); i++)
+                                    {
+                                        <div class="mySlides">
+                                            <img src="~/images/assets/footer-logo.png" style="width: 100%; object-fit:cover;">
+                                        </div>
+                                    }
+                                }
+                            }
+
+                            <!-- Next and previous buttons -->
+                            <a class="prev-btn" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next-btn" onclick="plusSlides(1)">&#10095;</a>
+
+                            <!-- Thumbnail images -->
+                            <div class="rowz">
+                                @if (images.Count() == 0)
+                                {
+                                    @for (int i = 0; i < defaultPhotos.Count(); i++)
+                                    {
+                                        <div class="column">
+                                            <img class="demo cursor" src="@defaultPhotos[i]" style="width:100%" onclick="currentSlide(@i+1)" alt="Thumbnail_image">
+                                        </div>
+                                    }
+                                    if (defaultPhotos.Count() < 4)
+                                    {
+                                        for (int i = 0; i < 4 - defaultPhotos.Count(); i++)
+                                        {
+                                            <div class="column">
+                                                <img class="demo cursor" src="~/images/assets/footer-logo.png" style="width:100%" onclick="currentSlide(@i+2)" alt="Thumbnail_image">
+                                            </div>
+                                        }
+                                    }
+
+                                }
+                                else
+                                {
+                                    @for (int i = 0; i < images.Count(); i++)
+                                    {
+                                        <div class="column">
+                                            <img class="demo cursor" src="@images[i]" style="width:100%" onclick="currentSlide(@i+1)" alt="Thumbnail_image">
+                                        </div>
+                                    }
+                                    if (images.Count() < 4)
+                                    {
+                                        for (int i = 0; i < 4 - images.Count(); i++)
+                                        {
+                                            <div class="column">
+                                                <img class="demo cursor" src="~/images/assets/footer-logo.png" style="width:100%" onclick="currentSlide(@i+2)" alt="Thumbnail_image">
+                                            </div>
+                                        }
+                                    }
+                                }
+
+                            </div>
+                        </div>
+                        <div class="price-div">
+                            <div class="price-details">
+                                <div class="animal-id">
+                                    <h2><strong>ANIMAL ID - @Model.LivestockModel.Id</strong></h2>
+                                </div>
+                                <div class="animal-detail">
+                                    <p>Product Code: @Model.LivestockModel.Breed</p>
+                                    <p style="color:orange; white-space:nowrap;"><strong>Avaliability: <span style="color:@color">@isAvailable</span></strong></p>
+                                    <div class="stars">
+                                        @for (int i = 0; i < rating; i++)
+                                        {
+                                            <i class="fa fa-star star" aria-hidden="true" style="width:10px; height:10px; color:#06864D;"></i>
+                                        }
+                                        @if (rating < 5)
+                                        {
+                                            for (int i = 0; i < 5 - rating; i++)
+                                            {
+                                                <i class="fa fa-star star" aria-hidden="true" style="width:10px; height:10px; color:#838383;"></i>
+                                            }
+                                        }
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <h2>@String.Format(new System.Globalization.CultureInfo("en-NG"), "{0:C}", Model.LivestockModel.SellingPrice)</h2>
+                                </div>
+                                <div class="count">
+                                    <div class="qty-div">
+                                        <p>Qty</p>
+                                        <div class="qty-btn">
+                                            <button id="minus-btn" class="count-btn"> - </button>
+                                            <span id="count" style="background-color:#ffffff; border: #919191 1px solid; padding: 4px 8px 4.5px 8px;"> 1 </span>
+                                            <button id="pluz-btn" class="count-btn"> + </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            @if (User.Identity.IsAuthenticated && !User.IsInRole("Customer"))
+                            {
+                                <div class="add-btn">
+                                    <button id="add-cart-buttonz"data-item-id="@Model.LivestockModel.Id" data-quantity="1" data-price="@Model.LivestockModel.SellingPrice" data-available="@Model.LivestockModel.Availability" onclick="addToCart(event)" type="button" class="btn btn-success cart" disabled>Add to Cart</button>
+                                    <button id="add-review-buttonz" data-toggle="modal" data-target="#exampleModalCenter" type="button" class="btn btn-success cart" style="padding: 0 10px;" disabled>Add Rating or Review</button>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="add-btn">
+                                    <button id="add-to-cart-button" data-item-id="@Model.LivestockModel.Id" data-quantity="1" data-price="@Model.LivestockModel.SellingPrice" data-available="@Model.LivestockModel.Availability" onclick="addToCart(event)" type="button" class="btn btn-success cart">Add to Cart</button>
+                                    <button id="add-review-button" data-toggle="modal" data-target="#exampleModalCenter" type="button" class="btn btn-success cart" style="padding: 0 10px;">Add Rating or Review</button>
+                                </div>
+                            }
+
+                            <div class="text-danger message"><small>@rateMessage</small></div>
+                            <div class="text-danger message"><small>@reviewMessage</small></div>
+
+                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <form method="post" asp-action="Details" id="review-form">
+                                            <input type="hidden" asp-for="AddReview.RatingFigure" id="rating" />
+                                            <div class="modal-header d-flex flex-column px-3 py-3 mx-1 my-1">
+                                                <span class="w-100 d-flex align-items-start">
+                                                    <span class="d-flex my-3">
+                                                        <span class="d-flex flex-column ml-2">
+                                                            <small>Rate this Livestock</small>
+                                                            <span class="mt-0">
+                                                                <i class="fa fa-fw fa-star text-muted" data-review-value="1"></i>
+                                                                <i class="fa fa-fw fa-star text-muted" data-review-value="2"></i>
+                                                                <i class="fa fa-fw fa-star text-muted" data-review-value="3"></i>
+                                                                <i class="fa fa-fw fa-star text-muted" data-review-value="4"></i>
+                                                                <i class="fa fa-fw fa-star text-muted" data-review-value="5"></i>
+                                                                <span class="text-success ml-2" id="user-review-value">0</span>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </span>
+                                                <textarea class="my-3 rounded w-100 shadow-0 border-muted border-1 px-3 py-3 my-3" asp-for="AddReview.ReviewText" id="review" data-emojiable="true" rows="4" placeholder="Add a review..."></textarea>
+                                                <span class="w-100 d-flex justify-content-between align-items-center mt-1">
+                                                    <i class="fa fa-fw fa-smile text-danger"></i>
+                                                    <button type="submit" class="btn btn-success btn-sm" name="submit-review" id="submit-review">Add Rating or Review</button>
+                                                </span>
+                                            </div>
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-review-div">
+                        <ul class="nav-tab">
+                            <li class="itemz">
+                                <a class="tablinks" onclick="openTitle(event, 'desc')" id="defaultOpen"> <strong>Description</strong> </a>
+                            </li>
+                            <li class="itemz">
+                                <a class="tablinks" onclick="openTitle(event, 'reviewz')"> <strong>Reviews(@Model.LivestockModel.Reviews.Count())</strong> </a>
+                            </li>
+                        </ul>
+                        <div class="body-container">
+                            <div class="tabcontent" id="desc">
+                                <p>Animal ID - @Model.LivestockModel.Id</p>
+                                <p>Weight: @Model.LivestockModel.Weight kg</p>
+                                <p>Breed: @Model.LivestockModel.Breed</p>
+                                <p>Source: Livestock247 Feedlot Somewhere in Nigeria</p>
+                                <p>Last Known Location: Lagos</p>
+                                <p>Certified by: Qualified Veterinary Professionals to be Traceable and Fit-for-Slaughter</p>
+                            </div>
+                            <div class="tabcontent" id="reviewz">
+                                @foreach (var item in Model.LivestockModel.Reviews)
+                                {
+                                    <p><strong>@item.User.FirstName</strong> says...</p>
+                                    <p>@item.ReviewText</p>
+                                    <hr>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<partial name="_FooterLowerPartial" />

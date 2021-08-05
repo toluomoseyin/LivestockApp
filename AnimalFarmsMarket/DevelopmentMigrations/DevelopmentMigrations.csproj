@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Migrations\20210713151755_add-recipient.cs" />
+	  <Compile Remove="Migrations\20210713151755_add-recipient.Designer.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.11" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\AnimalFarmsMarket.Data\AnimalFarmsMarket.Data.csproj" />
+	</ItemGroup>
+</Project>

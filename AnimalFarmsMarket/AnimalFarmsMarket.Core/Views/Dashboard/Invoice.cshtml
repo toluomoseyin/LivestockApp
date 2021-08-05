@@ -1,0 +1,156 @@
+﻿@model PagedInvoiceViewModel
+@using AnimalFarmsMarket.Data.Enum;
+
+
+@{
+    if(ViewBag.isDashboard == null){
+            ViewBag.isDashboard = false;
+        }
+
+    var gender = Enum.GetNames(typeof(Gender));
+    var paymentStatus = Enum.GetNames(typeof(PaymentStatus));
+    var dataCount = Model.ResponseData.Count();
+
+}
+<div style="margin:50px auto 20px auto; width:80%;">
+    <h3 style="color:#2078BF;font-weight:bold">INVOICE</h3>
+</div>
+
+
+
+@if (dataCount < 1)
+{
+    <div style="display:flex; justify-content:center;height:50px">
+        <p style="margin-left: 50px;
+        margin-bottom: 7px;
+        font-weight:bold; color:#2078BF;">NO INVOICE RECORD</p>
+    </div>
+}
+
+@if (dataCount > 0)
+{
+    <div class="" style="width: 80%;
+        background-color: whitesmoke;
+        box-shadow: rgba(32, 120, 191, 0.35) 0px 5px 15px;
+        margin:50px auto 20px auto;">
+        <div class="accordion" id="accordionFlushExample">
+
+            <div style="display:flex; align-items:center;height:50px">
+                <p style="margin-left:50px;margin-bottom:7px;font-weight:bold">ORDER DETAILS</p>
+            </div>
+
+            @foreach (var order in @Model.ResponseData)
+            {
+                var status = "";
+                var statusColor = "";
+                if(order.PaymentStatus == 0)
+                {
+                    status = "Pending";
+                    statusColor = "badge-warning";
+                }
+                else
+                {
+                    status = "Paid";
+                    statusColor = "badge-success";
+
+                }
+
+                <div asp-controller="Dashboard" asp-action="" id="invoiceForm">
+
+                    <div class="" style="border-radius:0">
+                        <div class="heading" id="header">
+                            <h2 class="mb-0" id="flush-headingTwo">
+                                <button class="d-flex btn btn-link btn-block text-left collapsed pl-5" style="box-shadow: none; border-color: rgba(0,0,0,.125);font-weight:lighter;text-decoration:none;border-radius:0" type="button" data-toggle="collapse" data-target="#flush-collapseTwo_@order.Id" aria-expanded="true" aria-controls="flush-collapseTwo">
+                                    ID-@order.Id <i class="fa fa-angle-right" style="width:100px;color:grey;margin-left:auto"></i>
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="flush-collapseTwo_@order.Id" class="collapse" aria-labelledby="flush-headingTwo" data-parent="#accordionFlushExample">
+                            <div class="" style="margin:20px 30px 20px 30px;">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr style="border-radius:0">
+                                                <th scope="col" style="font-weight:bolder">Type</th>
+                                                <th scope="col" style="font-weight:bolder">Sex</th>
+                                                <th scope="col" style="font-weight:bolder">Date</th>
+                                                <th scope="col" style="font-weight:bolder">Quantity</th>
+                                                <th scope="col" style="font-weight:bolder">Weight</th>
+                                                <th scope="col" style="font-weight:bolder">Product Amount</th>
+                                                <th scope="col" style="font-weight:bolder">Delivery Amount</th>
+                                                <th scope="col" style="font-weight:bolder">Total Amount</th>
+                                            </tr>
+                                        </thead>
+                                        @foreach (var orderitem in order.OrderItems)
+                                        {
+                                            var totalamount = @orderitem.Total + order.ShippingPlan.DeliveryCost;
+                                            <tbody>
+                                                <tr style="border-radius:0">
+                                                    <td style="font-weight:normal">@orderitem.Livestock.Breed</td>
+                                                    <td style="font-weight:normal">@gender[@orderitem.Livestock.Sex]</td>
+                                                    <td style="font-weight:normal">@orderitem.DateCreated</td>
+                                                    <td style="font-weight:normal">@orderitem.Quantity</td>
+                                                    <td style="font-weight:normal">@orderitem.Livestock.Weight</td>
+                                                    <td style="font-weight:normal">@orderitem.Livestock.SellingPrice</td>
+                                                    <td style="font-weight:normal">@order.ShippingPlan.DeliveryCost</td>
+                                                    <td style="font-weight:normal">@totalamount</td>
+                                                </tr>
+                                            </tbody>
+                                        }
+
+                                    </table>
+                                </div>
+                                <div>
+                                    <div class="ml-1 pb-2" style="display:flex">
+                                        <h6>Payment Status : </h6>
+                                        
+                                        <span class="ml-1 mt-0 mb-1 badge @statusColor" style="font-style:italic;">@status</span>
+                                  
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            }
+
+        </div>
+
+    </div>
+
+
+}
+
+
+
+
+@if (dataCount > 0)
+{
+    <div class="d-flex flex-wrap flex-sm-wrap col-lg-12 col-sm-12 justify-content-center" style="margin-top:2.5em; margin-bottom:2em">
+        <nav class="pagination-outer" aria-label="Page navigation">
+            <ul class="pagination">
+
+                @for (int i = 1; i <= Model.PageMetaData.TotalPages; i++)
+                {
+                    
+                    <li class="">
+                        <button class="page-link" href="" aria-label="current" id="@i" onclick="GoToPage(this)">@i</button>
+                    </li>
+
+                }
+
+            </ul>
+        </nav>
+    </div>
+}
+
+
+
+
+
+

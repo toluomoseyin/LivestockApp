@@ -1,0 +1,24 @@
+﻿<div class="container" id="reset-password">
+    <div class="row">
+        <div class="col-md-8 mx-auto d-flex m-5 justify-content-center bg-light rounded">
+            <div class="col-10 mx-auto p-5">
+                <h3 class="text-left font-weight-bold">Enter email and amount</h3>
+                <form method="post" asp-action="Paystack" asp-controller="Checkout">
+                    <div class="form-group">
+                        <div class="input-group  password-input">
+                            <input name="email" class="form-control border-right-0" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group  password-input">
+                            <input name="amount" class="form-control border-right-0" placeholder="Amount">
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-success mt-3" id="reset-password-btn">Pay</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

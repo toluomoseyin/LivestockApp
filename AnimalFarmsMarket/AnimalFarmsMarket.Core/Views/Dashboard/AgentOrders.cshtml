@@ -1,0 +1,130 @@
+﻿@model PaginatedResultDto<ShapedListOfOrderItem>
+
+<div id="myOrders">
+    <div class="row mb-5">
+        <div class="col-sm-10 offset-sm-1">
+            <div class="mt-5">
+                <h2 class="brand pl-0" id="order-header">Agent Orders</h2>
+                @if (ViewBag.AgentPaid != null)
+                {
+
+                    <div class="alert alert-success m-3 p-3" role="alert">
+                        <span class="mr-3">Your payment request was successful, you will receive your funds within 24hrs.</span>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                }
+                @if (ViewBag.AgentPaidFailed != null)
+                {
+
+                    <div class="alert alert-danger m-3 p-3" role="alert">
+                        <span class="mr-3">Payment Request was not successfull, Please try again!</span>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                }
+            </div>
+
+                <div class="d-flex justify-content-center mt-4">
+                    <div class="bg-white col-sm-12 text-center p-4 table-responsive-sm" id="table-container">
+
+                        <table class="table table-borderless">
+                            @if (Model == null)
+                            {
+                                <div class="mb-5 text-center">
+
+                                    <h2 class="brand pl-0" style="color:#2078BF; ">No Order Records.</h2>
+                                </div>
+                            }
+                            else
+                            {
+                            <thead>
+                                <tr>
+                                    <th id="product-detail">Product Details</th>
+                                    <th>Quantity</th>
+                                    <th>Total Amount</th>
+                                    <th>Confirmation Status</th>
+                                </tr>
+                            </thead>
+
+                            <tbody id="table-body">
+                                @if (Model != null)
+                                {
+                                    foreach (var item in Model.ResponseData)
+                                    {
+                                <tr>
+                                    <td id="product-detail">
+                                        <a asp-action="AgentOrderItemDetails" asp-controller="Dashboard" asp-route-id="@item.Id" asp-route-page="@Model.PageMetaData.Page">
+                                            <div id="product-detail-text" class="text-left">
+                                                <h6 class="mb-0"><small>@item.Id</small></h6>
+                                                <h6 class="mt-0"><small>@item.DateCreated</small></h6>
+                                            </div>
+                                        </a>
+                                    </td>
+
+
+                                    <td><i class="badge badge-pill badge-info" style="font-size:medium">@item.Quantity</i></td>
+
+
+                                    <td> @string.Format(new CultureInfo("ng-NG"), "{0:c}", item.Amount)</td>
+
+
+                                    @if (item.Status == 0)
+                                    {
+        
+                                        <td><i class="badge badge-pill badge-warning" style="font-size:medium">Order Pending </i></td>
+                                    }
+                                    else
+                                    {
+                                        <td><i class="badge badge-pill badge-primary" style="font-size:medium">Order Confirmed</i></td>
+
+                                        if (item.AgentPaid == 0)
+                                        {
+                                            <form asp-action="AgentPaymentRequest" asp-controller="Dashboard">
+                                                <input type="text" name="orderId" value="@item.OrderId" hidden />
+                                                <input type="text" name="itemId" value="@item.OrderItemId" hidden />
+                                                <td><button type="submit" class="btn btn-warning">Request Payment</button></td>
+                                            </form>
+                                        }
+                                        else
+                                        {
+                                            <td><i class="badge badge-pill badge-success" style="font-size:medium">Payment Received</i></td>
+                                        }
+
+
+                                    }
+
+
+                                </tr>
+                                    }
+                                }
+
+                            </tbody>
+                            }
+                        </table>
+                    </div>
+                </div>
+
+
+            @if (Model != null)
+            {
+                <div class="col-12">
+                    <ul class="pagination mt-3">
+                        @*<li class="page-item"><a class="page-link" href="#">Previous</a></li>*@
+                        @for (int i = 1; i <= Model.PageMetaData.TotalPages; i++)
+                        {
+                            <li class="page-item">
+                                <a asp-controller="Dashboard" asp-action="AgentOrders" class="page-link btn btn-sm" asp-route-page="@i">@i</a>
+                            </li>
+                        }
+                        @*<li class="page-item"><a class="page-link" href="#">Next</a></li>*@
+                    </ul>
+                </div>
+            }
+
+        </div>
+    </div>
+
+</div>

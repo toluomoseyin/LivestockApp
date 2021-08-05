@@ -1,0 +1,564 @@
+2021-06-29 00:30:26.3240 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 00:30:26.3240 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 00:30:30.8130 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 00:30:30.8130 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 00:35:46.5613 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 00:35:46.5716 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 00:36:00.8675 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 00:36:00.8675 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:49:05.1743 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:49:05.1857 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:49:05.2212 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:49:11.4492 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:49:11.4492 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:49:11.4680 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:49:17.1631 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:49:17.1631 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:49:30.6723 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:49:30.6794 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:49:34.8917 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:49:34.8917 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:50:12.7515 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:50:12.7515 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:50:12.7722 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:50:35.0969 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:50:35.1006 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:50:37.3817 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:50:37.3817 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:50:39.5708 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:50:39.5708 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:52:18.9941 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:52:18.9941 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:53:13.8946 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:53:13.8982 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:53:13.9274 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:53:22.4604 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:53:22.4604 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:53:23.6648 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:53:23.6648 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:53:23.6856 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:53:23.8197 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:53:23.8197 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:53:24.0101 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:53:24.0101 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:53:24.2427 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:53:24.2427 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:53:24.2669 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:54:26.5983 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:54:26.6045 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:55:03.8911 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:55:03.8911 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:55:03.9165 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:55:13.3744 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:55:13.3862 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:55:47.9576 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:55:47.9657 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:55:59.3553 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:55:59.3677 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:56:17.5383 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 02:56:17.5383 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 10:25:50.4387 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 10:25:50.4387 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 10:25:50.4735 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 10:25:54.0134 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 10:25:54.0134 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 10:25:54.0545 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 10:31:47.1418 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 10:31:47.1418 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 10:37:33.4799 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 10:37:33.4799 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 10:37:33.5099 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:00:35.3717 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:00:35.3717 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:00:35.4163 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:00:38.9675 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:00:38.9675 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:00:39.0011 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:00:53.8903 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:00:53.8903 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:00:53.9085 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:01:19.9978 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:01:19.9978 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:01:20.0246 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:01:31.5138 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:01:31.5138 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:02:12.1934 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:02:12.1934 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:02:15.9789 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:02:15.9789 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:02:15.9990 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:04:13.8122 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:04:13.8122 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:04:13.8413 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:05:48.6220 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:05:48.6220 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:05:48.6631 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:05:52.6416 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:05:52.6446 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:05:52.6446 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:14:01.8351 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:14:01.9916 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:14:19.4064 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:14:19.5515 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:18:20.3293 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:18:20.4976 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:18:30.1710 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:18:30.3114 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:22:15.7560 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:22:15.7560 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:22:15.8036 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:22:19.5116 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:22:19.5116 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:24:38.9649 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:24:38.9649 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:24:39.0125 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:24:42.6909 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:24:42.6909 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:24:42.7253 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:25:29.9328 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:25:29.9328 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:25:30.1521 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:25:37.7248 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:25:37.8307 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:25:37.9723 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:27:20.3237 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:27:20.3237 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:27:20.3558 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:27:23.3652 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:27:23.3652 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:27:50.4458 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:27:50.4458 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:27:50.4742 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:28:26.6734 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:28:26.8254 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:28:36.5636 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:28:36.6814 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:30:34.0830 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:30:34.0830 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:30:34.1421 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:30:38.1484 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:30:38.1484 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:30:38.1813 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:32:25.9190 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 11:32:25.9190 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:32:25.9638 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:32:29.2371 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 11:32:29.2371 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:33:30.9014 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:33:30.9014 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:33:30.9534 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:33:34.9653 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:33:34.9653 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 11:34:47.5987 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 11:34:47.5987 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:35:01.2553 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 11:35:01.2553 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:45:36.8128 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 11:45:36.8128 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:45:36.9091 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:45:40.5932 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 11:45:40.5932 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:46:05.6889 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 11:46:05.6924 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:46:05.7169 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:48:47.0550 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 11:48:47.0550 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:50:59.6103 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 11:50:59.6103 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:51:08.7730 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 11:51:08.7741 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:51:12.0487 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:51:12.0487 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 11:51:12.0699 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:51:18.2493 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 11:51:18.2493 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:51:18.2821 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:55:27.3129 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:55:27.3129 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 11:55:27.4182 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:55:29.8392 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:55:29.8392 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 11:55:29.8670 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:55:42.8263 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 11:55:42.8263 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:55:47.9555 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 11:55:47.9555 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:58:49.5388 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:58:49.5388 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 11:58:49.6276 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:58:52.0747 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 11:58:52.0747 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:58:52.0978 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:58:56.6733 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:58:56.6733 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 11:58:56.6998 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:59:00.7219 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 11:59:00.7309 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:59:07.2053 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 11:59:07.2161 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:59:17.9459 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 11:59:17.9459 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 11:59:17.9830 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:00:26.2066 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 12:00:26.2167 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:00:26.2552 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:00:43.9933 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 12:00:44.0019 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:01:32.9648 WARN|Microsoft.AspNetCore.Identity.UserManager| Invalid password for user 150d62b8-09b7-49c7-bde9-2557c7f08d43.
+2021-06-29 12:01:32.9670 WARN|Microsoft.AspNetCore.Identity.SignInManager| User 150d62b8-09b7-49c7-bde9-2557c7f08d43 failed to provide the correct password.
+2021-06-29 12:01:45.3096 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 12:01:45.3183 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:01:45.3667 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:01:49.1436 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 12:01:49.1436 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:05:47.0594 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 12:05:47.0728 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:06:48.3967 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 12:06:48.4070 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:06:51.7519 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 12:06:51.7519 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:10:03.6933 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 12:10:04.0639 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:10:05.2059 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:10:11.6409 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 12:10:12.1853 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:10:12.4596 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:17:02.3977 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:17:02.3977 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 12:17:02.5091 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:17:05.9958 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:17:05.9958 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 12:17:06.0213 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:18:57.5921 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 12:18:57.5921 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:19:01.1758 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 12:19:01.1890 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:21:08.6081 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 12:21:08.6081 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:21:08.7044 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:21:12.1551 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 12:21:12.1551 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:22:45.8915 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 12:22:45.8915 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:22:45.9845 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:22:49.9804 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 12:22:49.9804 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:26:20.5952 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 12:26:20.5952 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:26:20.6879 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:26:23.9278 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 12:26:23.9278 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:29:54.5836 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 12:29:54.5836 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:29:54.6747 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:29:58.5555 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 12:29:58.5555 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 12:29:58.5865 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:10:43.3859 WARN|Microsoft.AspNetCore.Identity.UserManager| Invalid password for user 6773a187-a176-45c4-917c-a8d33bed3cb9.
+2021-06-29 15:10:43.3935 WARN|Microsoft.AspNetCore.Identity.SignInManager| User 6773a187-a176-45c4-917c-a8d33bed3cb9 failed to provide the correct password.
+2021-06-29 15:10:55.3256 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:10:55.3387 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:12:38.4907 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:12:38.4907 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:13:34.7174 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:13:34.7302 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:13:41.0584 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:13:41.0584 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:14:47.5958 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Microsoft.Data.Sqlite.SqliteConnectionExtensions.ExecuteNonQuery(SqliteConnection connection, String commandText, SqliteParameter[] parameters)
+   at Microsoft.Data.Sqlite.SqliteTransaction..ctor(SqliteConnection connection, IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at System.Data.Common.DbConnection.BeginDbTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-29 15:14:47.7054 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:15:35.5865 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:15:35.5865 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:15:35.7190 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:15:40.1584 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:15:40.1588 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:16:33.7578 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:16:33.7578 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:16:34.0626 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:16:39.6396 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:16:39.8402 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:17:22.5595 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Microsoft.Data.Sqlite.SqliteConnectionExtensions.ExecuteNonQuery(SqliteConnection connection, String commandText, SqliteParameter[] parameters)
+   at Microsoft.Data.Sqlite.SqliteTransaction..ctor(SqliteConnection connection, IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at System.Data.Common.DbConnection.BeginDbTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-29 15:17:22.8345 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:17:39.6557 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Microsoft.Data.Sqlite.SqliteConnectionExtensions.ExecuteNonQuery(SqliteConnection connection, String commandText, SqliteParameter[] parameters)
+   at Microsoft.Data.Sqlite.SqliteTransaction..ctor(SqliteConnection connection, IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at System.Data.Common.DbConnection.BeginDbTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-29 15:17:39.8772 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:19:25.0331 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:19:25.0331 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:19:29.0165 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:19:29.0182 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:19:29.0807 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:20:23.0578 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:20:23.0578 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:20:23.1740 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:20:28.0027 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:20:28.0027 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:21:00.6841 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Microsoft.Data.Sqlite.SqliteConnectionExtensions.ExecuteNonQuery(SqliteConnection connection, String commandText, SqliteParameter[] parameters)
+   at Microsoft.Data.Sqlite.SqliteTransaction..ctor(SqliteConnection connection, IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at System.Data.Common.DbConnection.BeginDbTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-29 15:21:00.7712 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:21:11.3109 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:21:11.3205 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:21:21.5219 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Microsoft.Data.Sqlite.SqliteConnectionExtensions.ExecuteNonQuery(SqliteConnection connection, String commandText, SqliteParameter[] parameters)
+   at Microsoft.Data.Sqlite.SqliteTransaction..ctor(SqliteConnection connection, IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at System.Data.Common.DbConnection.BeginDbTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-29 15:21:21.5489 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:21:22.5643 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Microsoft.Data.Sqlite.SqliteConnectionExtensions.ExecuteNonQuery(SqliteConnection connection, String commandText, SqliteParameter[] parameters)
+   at Microsoft.Data.Sqlite.SqliteTransaction..ctor(SqliteConnection connection, IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at System.Data.Common.DbConnection.BeginDbTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-29 15:21:22.5862 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:21:25.2757 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Microsoft.Data.Sqlite.SqliteConnectionExtensions.ExecuteNonQuery(SqliteConnection connection, String commandText, SqliteParameter[] parameters)
+   at Microsoft.Data.Sqlite.SqliteTransaction..ctor(SqliteConnection connection, IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at System.Data.Common.DbConnection.BeginDbTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-29 15:21:25.2919 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:21:26.7146 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Microsoft.Data.Sqlite.SqliteConnectionExtensions.ExecuteNonQuery(SqliteConnection connection, String commandText, SqliteParameter[] parameters)
+   at Microsoft.Data.Sqlite.SqliteTransaction..ctor(SqliteConnection connection, IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at System.Data.Common.DbConnection.BeginDbTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-29 15:21:26.7367 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:21:29.1609 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Microsoft.Data.Sqlite.SqliteConnectionExtensions.ExecuteNonQuery(SqliteConnection connection, String commandText, SqliteParameter[] parameters)
+   at Microsoft.Data.Sqlite.SqliteTransaction..ctor(SqliteConnection connection, IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at System.Data.Common.DbConnection.BeginDbTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-29 15:21:29.1795 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-29 15:21:44.3362 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:21:44.3362 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:21:44.3851 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:25:46.8663 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:25:46.8663 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:26:42.9281 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:26:42.9403 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:26:46.7250 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:26:46.7250 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:33:28.1313 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:33:28.1478 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:33:28.2178 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:34:06.5043 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:34:06.5043 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:34:06.5647 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:34:13.5228 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:34:13.5228 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:34:13.5641 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:35:50.7364 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:35:50.7452 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:35:50.7964 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:35:56.0105 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:35:56.0105 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:35:56.0359 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:45:43.2369 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:45:43.2369 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:45:43.3451 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:45:56.0008 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:45:56.0026 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:47:54.6644 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:47:54.6747 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:52:27.2003 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:52:27.2003 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:52:27.3177 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:52:30.9451 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:52:30.9451 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:54:26.2656 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:54:26.2656 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:54:26.3813 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:54:30.4341 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:54:30.4341 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:56:42.5605 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:56:42.5605 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:56:42.6554 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:56:50.0286 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:56:50.0286 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:59:48.5795 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:59:48.5795 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:59:48.6720 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 15:59:51.1005 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 15:59:51.1005 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 16:00:37.1913 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 16:00:37.2070 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 16:00:40.8249 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 16:00:40.8382 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 16:00:55.4204 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 16:00:55.4254 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 16:00:55.4481 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 16:03:06.1320 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 16:03:06.1320 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 16:03:06.2282 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 16:03:10.3007 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 16:03:10.3007 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 16:03:10.3275 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 16:12:15.0402 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 16:12:15.0402 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 16:12:15.1607 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 16:12:23.2759 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 16:12:23.2759 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 16:12:35.1445 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 16:12:35.1445 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 16:12:37.9850 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 16:12:37.9850 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 16:12:38.0203 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 16:12:40.3130 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 16:12:40.3130 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 16:12:47.3793 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 16:12:47.3793 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 16:12:56.4028 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 16:12:56.4028 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 16:12:56.4638 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 16:12:59.2891 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 16:12:59.2891 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 16:13:06.2194 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 16:13:06.2225 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-06-29 16:13:24.9243 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/css/fontawesome.min.css
+2021-06-29 16:13:24.9247 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js

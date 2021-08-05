@@ -1,0 +1,57 @@
+﻿@model AnimalFarmsMarket.Data.ViewModels.AddTrackingHistoryViewModel
+
+<form asp-action="AddTracking" asp-controller="Dashboard" method="post">
+    <div class="row" style="padding-right:50px;">
+
+        <input type="hidden" value="@ViewData["OrderId"]" asp-for="OrderId" />
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label asp-for="Location"></label>
+                <div class="input-group">
+                    <select asp-for="Location" asp-items="Html.GetEnumSelectList<States>()" class="form-control">
+                        <option value="" disabled selected hidden>Select State...</option>
+
+                    </select>
+
+
+                </div>
+                <small class="mb-1 text-danger"><span asp-validation-for="Location"></span></small>
+
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label asp-for="Status"></label>
+                <div class="input-group ">
+                    <select asp-for="Status" asp-items="Html.GetEnumSelectList<TrackingHistoryStatus>()" class="form-control">
+                        <option value="" disabled selected hidden>Select Delivery Status...</option>
+
+                    </select>
+
+                </div>
+                <small class="mb-1 text-danger"><span asp-validation-for="Status"></span></small>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row" style="padding-right:50px;">
+        <div class="col-sm-12">
+            <div class="form-group">
+                <label asp-for="Description"></label>
+                <div class="input-group ">
+                    <textarea asp-for="Description" placeholder="Give a description of your current location" class="w-100 " style="outline-color: #6CB4EE; outline-width: 3px; border-radius: 10px; border-color: #ced4da; padding:10px;" rows="5"></textarea>
+                </div>
+                <small class="mb-1 text-danger"><span asp-validation-for="Description"></span></small>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="row" style="padding-right:50px;">
+        <div class="mb-4 mt-2 w-50 m-auto">
+            <button class="login_submit_button" type="submit">SAVE</button>
+        </div>
+   </div>
+</form>

@@ -1,0 +1,36 @@
+2021-07-22 14:52:26.2703 WARN|Microsoft.AspNetCore.Identity.UserManager| Invalid password for user 150d62b8-09b7-49c7-bde9-2557c7f08d43.
+2021-07-22 14:52:26.3099 WARN|Microsoft.AspNetCore.Identity.SignInManager| User 150d62b8-09b7-49c7-bde9-2557c7f08d43 failed to provide the correct password.
+2021-07-22 14:53:01.7221 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 14:53:01.9297 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 20:53:15.4952 ERROR|Microsoft.EntityFrameworkCore.Database.Command| Failed executing DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "AspNetRoles" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_AspNetRoles" PRIMARY KEY,
+    "Name" TEXT NULL,
+    "NormalizedName" TEXT NULL,
+    "ConcurrencyStamp" TEXT NULL
+);
+2021-07-22 21:27:40.0128 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:28:45.0443 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:28:59.7502 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:29:17.8028 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:30:30.6506 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:30:37.5003 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:30:41.0366 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:30:49.7482 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:30:49.9783 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:31:14.4113 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:31:14.9574 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:32:45.5936 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:35:29.3632 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:35:57.1084 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:35:57.1888 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:36:25.1806 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:36:53.7334 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:37:03.3835 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:37:03.4801 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:39:50.3696 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:39:50.4655 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:41:31.3503 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:42:38.9719 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:42:54.6729 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-22 21:43:02.2552 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js

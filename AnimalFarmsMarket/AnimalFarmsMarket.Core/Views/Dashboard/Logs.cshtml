@@ -1,0 +1,64 @@
+﻿@model List<string>
+
+<div class="col-sm-12 track-order" id="divtwo" style="padding-top: 70px">
+
+    <div>
+        <h1 class="track-header">Log Files</h1>
+    </div>
+    <div class=" col-sm-10 rounded mx-auto p-5 mb-5" style="background-color: #FFFFFF;
+                                                            box-shadow: rgba(32, 120, 191, 0.35) 0px 5px 15px">
+        <div class="row">
+            <div class="col">
+                @if (ViewData["FetchError"] != null)
+                {
+                    <h3 class="track-subheader">There was an error loading the logs</h3>
+                }
+                else
+                {
+                    if (Model.Count() > 1)
+                    {
+                        <table class="table table-borderless table-striped table-hover align-middle">
+
+                            <thead>
+                                <tr>
+                                    <th class="text-left">File</th>
+                                    <th class="text-left">Actions</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+                                @foreach (var item in Model)
+                                {
+                                    if (item.ToLower().Contains("innerlog")) continue;
+
+                                    <tr>
+                                        <td id="product-detail" class="text-left">
+                                            <a asp-action="Log" class="text-decoration-none displayModal">
+                                                <p class="mb-0">@item </p>
+                                            </a>
+                                        </td>
+                                        <td class="text-left"><a asp-action="Log" asp-route-id="@item" class="btn btn-primary">View Log</a></td>
+                                        <td class="text-left">
+
+                                            <form method="post" asp-action="DeleteLog" id="delete-log">
+                                                <input type="hidden" name="id" value="@item"/>
+                                                <button type="submit" class="btn btn-danger">Delete File</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+
+                    }
+                    else
+                    {
+                        <h3 class="track-subheader">There are no logs at this time</h3>
+                    }
+
+                }
+            </div>
+        </div>
+    </div>
+</div>

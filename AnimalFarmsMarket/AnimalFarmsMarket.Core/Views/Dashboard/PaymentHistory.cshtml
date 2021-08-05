@@ -1,0 +1,206 @@
+﻿@model PaginatedResultDto<OrderDetailsViewModel>
+
+@{
+    if(ViewBag.isDashboard == null){
+        ViewBag.isDashboard = false;
+    }
+    bool isDashboard = ViewBag.isDashboard;
+}
+
+<div class="container p-5 ml-10 bg-light">
+    <div class="mb-5">
+        <h2 class="pl-0 brand" style="color:#2078BF; ">Payment History</h2>
+    </div>
+    <div class="mt-4 justify-content-center">
+
+        @if (Model.ResponseData.Count() > 0)
+        {
+
+            <div class="p-4 text-center bg-white rounded shadow col-sm-12 table-responsive-sm" id="tbody">
+
+                @if (User.IsInRole("Admin"))
+                {
+
+                    <table class="table table-borderless">
+
+                        <thead>
+                            <tr class="justify-content-between">
+                                <th>Customer Id</th>
+                                <th>Order Details</th>
+                                <th>Amount</th>
+                                <th>Date</th>
+                                <th>Status</th>
+
+                            </tr>
+                        </thead>
+
+
+                        <tbody id="paymentInfo">
+
+                            @foreach (var item in Model.ResponseData)
+                            {
+
+                                <tr class="justify-content-between">
+
+                                    <td>
+                                        <a href="#exampleModal" id="product-detail-link" data-toggle="modal" data-target="#exampleModal" class="text-decoration-none displayModal">
+                                            <p class="mb-0" id="@item.UserId" onclick="displayData(this)">@item.User.FirstName @item.User.LastName </p>
+                                        </a>
+                                    </td>
+                                    <td id="product-detail">
+                                        
+                                            <div id="product-detail-text" class="text-left">
+                                                <a asp-controller="Dashboard" asp-action="OrderDetails" asp-route-id="@item.Id" class="mb-0">@item.Id</a>
+
+                                            </div>
+                                     
+                                    </td>
+                                    <td>NGN @item.PaymentAmount</td>
+                                    <td>@DateTime.Parse(item.DateCreated).ToLongDateString()</td>
+                                    @if (item.PaymentStatus == 1)
+                                    {
+                                        <td><i class="badge badge-pill badge-success w-100">Paid</i></td>
+                                    }
+                                    else if (item.PaymentStatus == 0)
+                                    {
+                                        <td><i class="badge badge-pill badge-warning w-100">Pending</i></td>
+                                    }
+                                
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                }
+                else
+                {
+                    <table class="table table-borderless">
+
+                        <thead>
+                            <tr class="justify-content-between">
+                                <th class="text-align-left">Order Details</th>
+                                <th>Amount</th>
+                                <th>Date</th>
+                                <th>Status</th>
+
+                            </tr>
+                        </thead>
+
+
+                        <tbody id="paymentInfo ">
+
+                            @foreach (var item in Model.ResponseData)
+                            {
+                                <tr class="justify-content-between">
+                                    <td id="product-detail">
+                                        
+                                            <div id="product-detail-text" class="text-left">
+                                                <a asp-controller="Dashboard" asp-action="OrderDetails" asp-route-id="@item.Id"  class="mb-0">@item.Id</a>
+                                            </div>
+                                        
+                                    </td>
+                                    <td>NGN @item.PaymentAmount</td>
+                                    <td>@DateTime.Parse(item.DateCreated).ToLongDateString()</td>
+                                    @if (item.PaymentStatus == 1)
+                                    {
+                                        <td><i class="badge badge-pill badge-success w-75">Paid</i></td>
+                                    }
+                                    else if (item.PaymentStatus == 0)
+                                    {
+                                        <td><i class="badge badge-pill badge-warning w-75">Pending</i></td>
+                                    }
+                                  
+
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                }
+
+            </div>
+
+            <div class="flex-wrap d-flex flex-sm-wrap col-lg-12 col-sm-12 justify-content-center" style="margin-top:2.5em; margin-bottom:2em">
+
+                <nav aria-label="Page navigation">
+                    <ul class="pagination">
+
+                        @for (int i = 1; i <= Model.PageMetaData.TotalPages; i++)
+                        {
+                            <li class="page-item">
+                                <button class="page-link" href="#" aria-label="current" id="@i" onclick="curBtnPayment(this)">@i</button>
+                            </li>
+                        }
+
+
+                    </ul>
+                </nav>
+            </div>
+
+        }
+
+        else
+        {
+    <div class="d-flex justify-content-center align-content-center">
+        <div class="bg-white col-sm-12 text-center p-4 table-responsive-sm" id="table-container">
+            <table class="table table-borderless">
+                <tbody class="text-center">
+                    <tr class="mb-5 text-center p-4">
+                        <td colspan="5">
+                            <h2 class="brand p-4" style="color:#2078BF; ">No Payment Record</h2>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+        }
+    </div>
+        
+
+    </div>
+
+
+
+
+
+
+<div class="modal fade " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"> User Details</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="parent">
+                    <div class="box-one font-weight-normal" style="font-size:22px;">
+                        <h5>
+                            <span class="" id="role" style="font-size:30px;">>Agent</span><br />
+                            <span class="" id="fullName">
+                                Name:  FirstName LastName
+                            </span>
+                            <br />
+                            <span class="" id="email" style="font-size:20px;">Email: myUser@gmail.com</span>
+                        </h5>
+                        <h5>
+                            <span class="" id="businessLocation">Business Location</span>
+                            <br />
+                        </h5>
+                        
+                    </div>
+                    <div class="box-two">
+                        <div class="my-image">
+                            <img id="user-image" class="myimg" src="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

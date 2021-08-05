@@ -1,0 +1,176 @@
+﻿@model UserRegistrationViewModel
+@using AnimalFarmsMarket.Data.Enum
+
+<div class="col-sm-8 d-flex rounded mx-auto" style="background: #fff !important; margin-top: 5% !important; border: 1px solid #eee !important; margin-bottom: 40px; padding-bottom: 30px;">
+    <div class="col-sm-12">
+        <div class="text-center my-4"><h1 style="color: #2078BF">Sign Up</h1></div>
+        <h6 class="text-center px-3">Before we proceed further...</h6>
+        <form method="Post" asp-controller="Account" asp-action="UserRegistration">
+            <div class=" text-danger" asp-validation-summary="ModelOnly"></div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="agent-section__heading">Contact</h2>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="FirstName" class="required-field"></label>
+                        <div class="input-group agent-input">
+                            <input type="text" asp-for="FirstName" class="form-control" placeholder="First Name">
+
+                            <div class="input-group-append">
+                                <span class="input-group-text"><img src="~/images/assets/form-user.png" /></span>
+                            </div>
+
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="FirstName"></span></small>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Email" class="required-field"></label>
+                        <div class="input-group  agent-input">
+                            <input type="email" asp-for="Email" class="form-control" placeholder="Email">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <img src="~/images/assets/form-envelope.png" />
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="Email"></span></small>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="LastName" class="required-field"></label>
+                        <div class="input-group agent-input">
+                            <input type="text" asp-for="LastName" class="form-control" placeholder="Last Name">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <img src="~/images/assets/form-user.png" />
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="LastName"></span></small>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Gender" class="required-field"></label>
+                        <div class="input-group" id="agent-select-gender">
+                            <select asp-for="Gender" asp-items="Html.GetEnumSelectList<Gender>()" class="form-control">
+                                <option>Select Gender ...</option>
+                            </select>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="Gender"></span></small>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="agent-section__heading">Address</h2>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label asp-for="Address.Street" class="required-field"></label>
+                        <div class="input-group  agent-input">
+                            <input type="text" asp-for="Address.Street" class="form-control" placeholder="Street Name">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <img src="~/images/assets/form-contact-address-marker.png" class="w-75" />
+                                </span>
+                            </div>
+                            <small class="mb-1 text-danger"><span asp-validation-for="Address.Street"></span></small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="Address.City" class="required-field">City</label>
+                        <div class="input-group  agent-input">
+                            <input type="text" asp-for="Address.City" class="form-control" placeholder="City">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <img src="~/images/assets/form-city-marker.png" class="w-75" />
+                                </span>
+                            </div>
+                            <small class="mb-1 text-danger"><span asp-validation-for="Address.City"></span></small>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="ZipCode">Zip Code</label>
+                        <div class="input-group  agent-input">
+                            <input type="text" asp-for="ZipCode" class="form-control" placeholder="Zip Code">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <img src="~/images/assets/form-city-marker.png" class="w-75" />
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="ZipCode"></span></small>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+
+                    <div class="form-group">
+                        <label asp-for="Address.State" class="required-field">State</label>
+                        <div class="input-group" id="agent-select-gender">
+                            <select asp-for="Address.State" asp-items="Html.GetEnumSelectList<States>()" class="form-control">
+                                <option>Select State ...</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Address.Country" class="required-field">Country</label>
+                        <div class="input-group" id="agent-select-gender">
+                            <select asp-for="Address.Country" asp-items="Html.GetEnumSelectList<States>()" class="form-control" disabled>
+                                <option>Nigeria</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="agent-section__heading">Set Password</h2>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="Password" class="required-field"></label>
+                        <div class="input-group  agent-input">
+                            <input type="password" asp-for="Password" class="form-control" placeholder="Password">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <img src="~/images/assets/form-lock.png" />
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="Password"></span></small>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="ConfirmPassword" class="required-field"y></label>
+                        <div class="input-group  agent-input">
+                            <input type="password" asp-for="ConfirmPassword" class="form-control" placeholder="Confirm Password">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <img src="~/images/assets/form-lock.png" />
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="ConfirmPassword"></span></small>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary mt-3" id="create-agent__btn">Sign Up</button>
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

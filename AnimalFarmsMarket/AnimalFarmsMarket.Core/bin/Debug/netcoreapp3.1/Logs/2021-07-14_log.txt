@@ -1,0 +1,81 @@
+2021-07-14 15:24:14.7245 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:24:14.8489 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:24:22.7238 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:24:22.7716 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:26:28.4143 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:26:33.2396 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:36:03.1008 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:36:10.9891 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:36:11.2789 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:41:18.5677 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:41:52.1716 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:45:31.0498 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:45:36.6586 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:49:10.5129 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:49:14.7474 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:54:17.5324 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:54:29.2458 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:55:07.4249 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:55:10.1661 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:55:10.2250 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:57:19.3802 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:57:19.8476 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:57:26.9781 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 15:57:27.3526 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-14 16:01:10.7904 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:01:12.3992 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:01:30.8305 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:01:31.5620 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:05:55.4845 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:05:57.4349 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:07:15.7036 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:07:19.2817 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:07:41.6780 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:07:42.0948 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:08:43.8889 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:08:50.1598 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:09:28.1029 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:09:32.9933 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:18:51.3025 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:18:53.7358 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:18:53.7712 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:21:34.1692 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:21:36.0251 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:21:36.0591 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:22:48.8625 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:22:50.5500 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:22:50.5912 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:25:25.8368 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:25:28.6806 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:25:28.7171 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:26:49.1621 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:26:52.1197 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:26:52.1579 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:29:15.4500 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:29:17.6918 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:29:17.7258 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:39:48.5951 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:39:48.8233 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:41:38.7457 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 16:41:38.7933 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 17:22:35.1617 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 17:22:38.3307 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 17:22:38.3758 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 17:29:26.0733 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 17:29:41.0097 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 17:29:41.0611 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 17:36:52.8387 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 17:36:52.9158 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 17:36:55.9490 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 17:36:55.9932 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 18:47:59.5196 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 18:47:59.6060 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 18:48:02.0943 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 18:48:02.1402 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 18:48:39.3501 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 18:48:39.3993 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 18:48:43.9563 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 18:48:44.0121 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 18:48:45.7633 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 18:48:45.8104 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-14 18:50:05.2392 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.

@@ -1,0 +1,114 @@
+﻿@model PaginatedResultDto<ShapedListOfOrderItem>
+
+@{
+    if (ViewBag.isDashboard == null)
+    {
+        ViewBag.isDashboard = false;
+    }
+    bool isDashboard = ViewBag.isDashboard;
+}
+
+<div class="mb-5">
+    <div class="">
+        <div class="mt-5">
+            <h2 class="brand pl-0" style="color:#2078BF;">Orders</h2>
+        </div>
+
+        <div class="d-flex justify-content-center mt-4">
+            <div class="bg-white col-sm-12 text-center p-4 table-responsive-sm" id="table-container">
+                <table class="table table-borderless">
+                    @if (Model.ResponseData.Count() < 1)
+                    {
+                        <h2 class="brand pl-0" style="color:#2078BF; ">No Order Record</h2>
+                    }
+                    else
+                    {
+
+
+                        <thead>
+                            <tr>
+                                <th id="product-detail">Product Details</th>
+                                <th>DeliveryStatus</th>
+                                <th>Amount</th>
+                                <th>payment Status</th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="table-body">
+                            @if (Model != null)
+                            {
+                                var count = 0;
+                                foreach (var item in Model.ResponseData)
+                                {
+                                    if (isDashboard && count >= 5)
+                                    {
+                                        break;
+                                    }
+
+                                    <tr>
+                                        <td id="product-detail">
+                                            <a asp-action="OrderDetails" asp-controller="Dashboard" asp-route-Id="@item.Id">
+                                                <div id="product-detail-text" class="text-left">
+                                                    <h6 class="mb-0"><small>@item.Id</small></h6>
+                                                    <h6 class="mt-0"><small>@item.DateCreated</small></h6>
+                                                </div>
+                                            </a>
+                                        </td>
+
+                                        @*-------------------------------- Checking the Delivery status--------------------------------------- *@
+
+                                        @if (item.Status == 0)
+                                        {
+                                            <td><i class="badge badge-pill badge-warning">Pending</i></td>
+                                        }
+                                        else
+                                        {
+                                            <td><i class="badge badge-pill badge-success">Delivered</i></td>
+                                        }
+
+                                    <td>@string.Format(new CultureInfo("ng-NG"), "{0:c}", item.Amount)</td>
+
+
+                                        @*-------------------------------- Checking the Confirmation status--------------------------------------- *@
+
+                                        @if (item.AgentPaid == 0)
+                                        {
+                                            <td><i class="badge badge-pill badge-warning">Pending</i></td>
+                                        }
+                                        else
+                                        {
+                                            <td><i class="badge badge-pill badge-success">Payment Received</i></td>
+                                        }
+
+                                    </tr>
+
+                                    count++;
+                                }
+                            }
+
+                        </tbody>
+                    }
+                </table>
+            </div>
+        </div>
+
+
+
+        @if (Model != null && !isDashboard)
+        {
+            <div class="col-12">
+                <ul class="pagination mt-3">
+                    @*<li class="page-item"><a class="page-link" href="#">Previous</a></li>*@
+                    @for (int i = 1; i <= Model.PageMetaData.TotalPages; i++)
+                    {
+                        <li class="page-item">
+                            <button class="page-link btn btn-sm" id="@i" onclick="OrderBtn(this)">@i</button>
+                        </li>
+                    }
+                    @*<li class="page-item"><a class="page-link" href="#">Next</a></li>*@
+                </ul>
+            </div>
+        }
+
+    </div>
+</div>

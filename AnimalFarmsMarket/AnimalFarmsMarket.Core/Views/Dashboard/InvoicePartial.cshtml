@@ -1,0 +1,99 @@
+﻿@model PagedInvoiceViewModel
+@using AnimalFarmsMarket.Data.Enum;
+
+@{
+    if (ViewBag.isDashboard == null)
+    {
+        ViewBag.isDashboard = false;
+    }
+    bool isDashboard = ViewBag.isDashboard;
+    var paymentStatus = Enum.GetNames(typeof(PaymentStatus));
+    var gender = Enum.GetNames(typeof(Gender));
+    var dataCount = Model.ResponseData.Count();
+
+}
+
+@if (dataCount > 0)
+{
+    <div style="display:flex; align-items:center;height:50px">
+        <p style="margin-left:50px;margin-bottom:7px;font-weight:bold">ORDER DETAILS</p>
+    </div>
+
+    var count = 0;
+
+    foreach (var order in @Model.ResponseData)
+    {
+        if (isDashboard && count >= 5)
+        {
+            break;
+        }
+        var status = "";
+        var statusColor = "";
+        if (order.PaymentStatus == 0)
+        {
+            status = "Pending";
+            statusColor = "badge-warning";
+        }
+        else
+        {
+            status = "Paid";
+            statusColor = "badge-success";
+        }
+
+        <div class="" style="border-radius:0">
+            <div class="heading" id="header">
+                <h2 class="mb-0" id="flush-headingTwo">
+                    <button class="d-flex btn btn-link btn-block text-left collapsed pl-5" style="box-shadow: none; border-color: rgba(0,0,0,.125);font-weight:lighter;text-decoration:none;border-radius:0" type="button" data-toggle="collapse" data-target="#flush-collapseTwo_@order.Id" aria-expanded="true" aria-controls="flush-collapseTwo">
+                        ID-@order.Id <i class="fa fa-angle-right" style="width:100px;color:grey;margin-left:auto"></i>
+                    </button>
+                </h2>
+            </div>
+
+            <div id="flush-collapseTwo_@order.Id" class="collapse" aria-labelledby="flush-headingTwo" data-parent="#accordionFlushExample">
+                <div class="" style="margin:20px 30px 20px 30px;">
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr style="border-radius:0">
+                                    <th scope="col" style="font-weight:normal">Type</th>
+                                    <th scope="col" style="font-weight:normal">Sex</th>
+                                    <th scope="col" style="font-weight:normal">Date</th>
+                                    <th scope="col" style="font-weight:normal">Quantity</th>
+                                    <th scope="col" style="font-weight:normal">Weight</th>
+                                    <th scope="col" style="font-weight:normal">Product Amount</th>
+                                    <th scope="col" style="font-weight:normal">Delivery Amount</th>
+                                    <th scope="col" style="font-weight:normal">Total Amount</th>
+                                </tr>
+                            </thead>
+                            @foreach (var orderitem in order.OrderItems)
+                            {
+                                var totalamount = @orderitem.Total + order.ShippingPlan.DeliveryCost;
+                                <tbody>
+                                    <tr style="border-radius:0">
+                                        <td>@orderitem.Livestock.Breed</td>
+                                        <td>@gender[@orderitem.Livestock.Sex]</td>
+                                        <td>@orderitem.DateCreated</td>
+                                        <td>@orderitem.Quantity</td>
+                                        <td>@orderitem.Livestock.Weight</td>
+                                        <td>@orderitem.Livestock.SellingPrice</td>
+                                        <td>@order.ShippingPlan.DeliveryCost</td>
+                                        <td>@totalamount</td>
+                                    </tr>
+                                </tbody>
+                            }
+                        </table>
+                    </div>
+                    <div>
+                        <div class="ml-1 pb-2" style="display:flex">
+                            <h6>Payment Status : </h6>
+
+                            <span class="ml-1 mt-0 mb-1 badge @statusColor" style="font-style:italic;">@status</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        count++;
+    }
+}

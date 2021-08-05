@@ -1,0 +1,131 @@
+﻿@model IEnumerable<LocationMarketVm>
+
+@{
+    Object shouldRender = null;
+    if (Model == null)
+    {
+        shouldRender = "";
+    }
+}
+<nav class="navbar navbar-expand-sm navbar-toggleable-sm m-0 p-0">
+    <div class="p-0 m-0 w-100">
+        <div class="toggle-btn-close">
+            <button class="navbar-toggler toggleColor mt-3" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbarSupportedContent"
+                    aria-label="Toggle navigation">
+                <i class="fa fa-compass fa-2x"></i>
+                Market Menu
+            </button>
+            <i id="close-button" class="fa fa-close" style="position:absolute; font-size:30px; top: 10px; right:20px; cursor:pointer; color:red; z-index: 2000;"></i>
+        </div>
+
+        <div class="navbar-collapse collapse d-sm-inline-flex">
+            <div class="row w-100 mt-3">
+                <div class="col-lg-12">
+                    <div class="accordion box-shadow" id="accordionFlushExample">
+
+                        @if (shouldRender == "")
+                        {
+                            <div class="myaccordion ">
+                                <div class="heading" id="header">
+                                    <h2 class="mb-0" id="flush-headingOne">
+                                        <button class="d-flex btn accordion-btn accordion-active text-left collapsed w-100 " type="button" data-toggle="collapse" data-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+                                            Lagos <i class="fa fa-angle-down ml-auto p-1"></i>
+                                        </button>
+                                    </h2>
+                                </div>
+
+                                <div id="flush-collapseOne" class="collapse" aria-labelledby="flush-headingOne" data-parent="#accordionFlushExample">
+
+                                    <div>
+                                        <ul class="list-group">
+                                            <li class="list-group-item border-0 text-secondary" style="cursor:pointer">
+                                                <a style="text-decoration:none" asp-action="fetchLivestockLocation-market" asp-controller="Market" asp-route-market="Fish Market">
+                                                    Fish Market  <span class="badge bg-warning float-right bg-info">5</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="myaccordion ">
+                                <div class="heading" id="header">
+                                    <h2 class="mb-0" id="flush-headingTwo">
+                                        <button class="d-flex btn accordion-btn accordion-active text-left collapsed w-100 " type="button" data-toggle="collapse" data-target="#flush-collapseTwo" aria-expanded="true" aria-controls="flush-collapseOne">
+                                            Kano <i class="fa fa-angle-down ml-auto p-1"></i>
+                                        </button>
+                                    </h2>
+                                </div>
+
+                                <div id="flush-collapseTwo" class="collapse" aria-labelledby="flush-headingTwo" data-parent="#accordionFlushExample">
+
+                                    <div>
+                                        <ul class="list-group">
+                                            <li class="list-group-item border-0 text-secondary" style="cursor:pointer">
+                                                <a style="text-decoration:none" asp-action="fetchLivestockLocation-market" asp-controller="Market" asp-route-market="Sheep Market">
+                                                    Sheep Market  <span class="badge bg-warning float-right bg-info">5</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="myaccordion ">
+                                <div class="heading" id="header">
+                                    <h2 class="mb-0" id="flush-headingTri">
+                                        <button class="d-flex btn accordion-btn accordion-active text-left collapsed w-100 " type="button" data-toggle="collapse" data-target="#flush-collapseTri" aria-expanded="true" aria-controls="flush-collapseOne">
+                                            Enugu  <i class="fa fa-angle-down ml-auto p-1"></i>
+                                        </button>
+                                    </h2>
+                                </div>
+
+                                <div id="flush-collapseTri" class="collapse" aria-labelledby="flush-headingTri" data-parent="#accordionFlushExample">
+
+                                    <div>
+                                        <ul class="list-group">
+                                            <li class="list-group-item border-0 text-secondary" style="cursor:pointer">
+                                                <a style="text-decoration:none" asp-action="fetchLivestockLocation-market" asp-controller="Market" asp-route-market="Pig Market">
+                                                    Pig Market  <span class="badge bg-warning float-right bg-info">2</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> }
+                        else
+                        {
+
+                            @foreach (var item in @Model)
+                            {
+
+                                <div class="myaccordion ">
+                                    <div class="heading" id="header">
+                                        <h2 class="mb-0" id="flush-headingOne">
+                                            <button class="d-flex btn accordion-btn accordion-active text-left collapsed w-100 " type="button" data-toggle="collapse" data-target="#flush-collapseOne_@item.location" aria-expanded="true" aria-controls="flush-collapseOne">
+                                                @item.location<i class="fa fa-angle-down ml-auto p-1"></i>
+                                            </button>
+                                        </h2>
+                                    </div>
+
+                                    <div id="flush-collapseOne_@item.location" class="collapse" aria-labelledby="flush-headingOne" data-parent="#accordionFlushExample">
+
+                                        <div>
+                                            <ul class="list-group">
+                                                @foreach (var market in @item.MarketData)
+                                                {
+
+                                                    <li class="list-group-item border-0 text-secondary" style="cursor:pointer">
+                                                        <a style="text-decoration:none" asp-action="fetchLivestockLocation-market" asp-controller="Market" asp-route-market="@market.MarketName" asp-route-location="@item.location">
+                                                            @market.MarketName <span class="badge bg-warning float-right bg-info">@market.NoOfLivestocks</span>
+                                                        </a>
+                                                    </li>
+                                                }
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>

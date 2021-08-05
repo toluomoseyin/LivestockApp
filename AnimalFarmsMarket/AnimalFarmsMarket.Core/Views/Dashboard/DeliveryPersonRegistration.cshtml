@@ -1,0 +1,233 @@
+﻿@model AddDeliveryPersonViewModel
+@using AnimalFarmsMarket.Data.Enum
+
+<div class="col-sm-8 d-flex bg-light rounded mx-auto mt-4" style="background:#fff !important; margin-top:5% !important; border:1px solid #eee !important;  margin-bottom: 40px; padding-bottom: 30px;">
+    <div class="col-sm-12">
+        <div class="text-center my-4"><h1 style="color: #2078BF">Register Delivery Person</h1></div>
+        <form asp-action="DeliveryPersonRegistration" asp-controller="Dashboard" method="post">
+            @if (ViewData["agentAdded"] != null)
+            {
+                <div class="alert alert-success alert-dismissible" role="alert">
+                    Delivery person registration was successful
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            }
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="agent-section__heading">Personal Information</h4>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="FirstName"></label>
+                        <div class="input-group">
+                            <input type="text" asp-for="FirstName" class="form-control del_person_input_border_right_0" placeholder="First Name">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <img src="~/images/assets/form-user.png"/>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Gender"></label>
+                        <div class="input-group ">
+                            <select asp-for="Gender" asp-items="Html.GetEnumSelectList<Gender>()" class="form-control">
+                                <option>Select Gender ...</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="LastName"></label>
+                        <div class="input-group">
+                            <input type="text" asp-for="LastName" class="form-control del_person_input_border_right_0" placeholder="Last Name">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <img src="~/images/assets/form-user.png"/>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Email"></label>
+                        <div class="input-group ">
+                            <input type="email" asp-for="Email" class="form-control del_person_input_border_right_0" placeholder="Email">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <img src="~/images/assets/form-envelope.png"/>
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="Email"></span></small>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="agent-section__heading">Address</h4>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label asp-for="Street">Street Name</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control del_person_input_border_right_0" placeholder="Street Name" asp-for="Street">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <img src="~/images/assets/form-contact-address-marker.png" class="w-75"/>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="City">City</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control del_person_input_border_right_0" asp-for="City" placeholder="City">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <img src="~/images/assets/form-city-marker.png" class="w-75"/>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ZipCode">Zip Code</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control del_person_input_border_right_0" placeholder="Zip Code" asp-for="ZipCode">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <img src="~/images/assets/form-city-marker.png" class="w-75"/>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="State"></label>
+                        <div class="input-group ">
+                            <select asp-for="State" asp-items="Html.GetEnumSelectList<States>()" class="form-control">
+                                <option>Select State ...</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Country">Country</label>
+                        <div class="input-group" id="agent-select-gender">
+
+                            <select asp-for="Country" asp-items="Html.GetEnumSelectList<Countries>()" class="form-control" disabled>
+                                <option>Nigeria</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="agent-section__heading">ID and Location</h4>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="Coverage"></label>
+                        <div class="input-group ">
+                            <select asp-for="Coverage" asp-items="Html.GetEnumSelectList<Coverage>()" class="form-control">
+                                <option>Select Coverage ...</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="NIN"></label>
+                        <div class="input-group ">
+                            <input type="text" class="form-control del_person_input_border_right_0" asp-for="NIN" placeholder="NIN Number">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2078bf"
+                                         class="bi bi-person-badge" viewBox="0 0 16 16">
+                                        <path d="M6.5 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                        <path d="M4.5 0A2.5 2.5 0 0 0 2 2.5V14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2.5A2.5 2.5 0 0 0 11.5 0h-7zM3 2.5A1.5 1.5 0 0 1 4.5 1h7A1.5 1.5 0 0 1 13 2.5v10.795a4.2 4.2 0 0 0-.776-.492C11.392 12.387 10.063 12 8 12s-3.392.387-4.224.803a4.2 4.2 0 0 0-.776.492V2.5z"/>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="CoverageLocation">Coverage Location</label>
+                        <div class="input-group ">
+                            <input type="text" class="form-control del_person_input_border_right_0" asp-for="CoverageLocation" placeholder="Coverage Location">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <img src="~/images/assets/form-city-marker.png" class="w-75"/>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="NINTrackingId">NIN Tracking Id </label>
+                        <div class="input-group ">
+                            <input type="text" class="form-control del_person_input_border_right_0" asp-for="NINTrackingId" placeholder="NIN Tracking Id">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2078bf"
+                                         class="bi bi-person-badge" viewBox="0 0 16 16">
+                                        <path d="M6.5 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                        <path d="M4.5 0A2.5 2.5 0 0 0 2 2.5V14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2.5A2.5 2.5 0 0 0 11.5 0h-7zM3 2.5A1.5 1.5 0 0 1 4.5 1h7A1.5 1.5 0 0 1 13 2.5v10.795a4.2 4.2 0 0 0-.776-.492C11.392 12.387 10.063 12 8 12s-3.392.387-4.224.803a4.2 4.2 0 0 0-.776.492V2.5z"/>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="agent-section__heading">Set Password</h4>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="Password">Password</label>
+                        <div class="input-group ">
+                            <input asp-for="Password" class="form-control del_person_input_border_right_0" placeholder="Password">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <img src="~/images/assets/form-lock.png" class="w-75"/>
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="Password"></span></small>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="ConfirmPassword"></label>
+                        <div class="input-group">
+                            <input asp-for="ConfirmPassword" class="form-control del_person_input_border_right_0" placeholder="Confirm Password">
+                            <div class="input-group-append ">
+                                <span class="input-group-text bg-white ">
+                                    <img src="~/images/assets/form-lock.png" class="w-75"/>
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="ConfirmPassword"></span></small>
+                    </div>
+                </div>
+            </div>
+            <div asp-validation-summary="All" class="text-danger forgotPass-list-error text-center"></div>
+            <div class="text-center m-4">
+                <button type="submit" class="btn btn-success font-weight-bolder px-md-5 py-md-3 md">Register</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section scripts{
+    @{
+        <partial name="_ValidationScriptsPartial"/>
+    }
+}

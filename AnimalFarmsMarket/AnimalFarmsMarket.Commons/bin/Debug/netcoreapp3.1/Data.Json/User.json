@@ -1,0 +1,82 @@
+[
+  {
+    "FirstName": "Snow",
+    "LastName": "Flores",
+    "UserName": "snowflores@bitendrex.com",
+    "email": "snowflores@bitendrex.com",
+    "gender": 1,
+    "isActive": false,
+    "ZipCode": "1460",
+    "Address": {
+      "Street": "12 Sangotedo",
+      "City": "Ajah",
+      "State": "Lagos"
+    },
+    "photo": "http://placehold.it/32x32",
+    "PublicID": "akk8886o9sRq"
+  },
+  {
+    "FirstName": "Ramona",
+    "LastName": "Durham",
+    "UserName": "taryosky@gmail.com",
+    "email": "taryosky@gmail.com",
+    "gender": 0,
+    "isActive": true,
+    "ZipCode": "6583",
+    "Address": {
+      "Street": "15 lAST Avenue",
+      "City": "Maitama",
+      "State": "Abuja"
+    },
+    "photo": "http://placehold.it/32x32",
+    "PublicID": "akk8886o9sRq"
+  },
+  {
+    "FirstName": "Dalton",
+    "LastName": "Welch",
+    "UserName": "daltonwelch@bitendrex.com",
+    "email": "daltonwelch@bitendrex.com",
+    "gender": 1,
+    "isActive": false,
+    "ZipCode": "155",
+    "Address": {
+      "Street": "15 Salem street",
+      "City": "Jos",
+      "State": "Plateau"
+    },
+    "photo": "http://placehold.it/32x32",
+    "PublicID": "akk8886o9sRq"
+  },
+  {
+    "FirstName": "Heather",
+    "LastName": "Kramer",
+    "UserName": "heatherkramer@bitendrex.com",
+    "email": "heatherkramer@bitendrex.com",
+    "gender": 0,
+    "isActive": true,
+    "ZipCode": "2118",
+    "Address": {
+      "Street": "15 Nothingham street",
+      "City": "PortHacourt",
+      "State": "Rivers"
+    },
+    "photo": "http://placehold.it/32x32",
+    "PublicID": "akk8886o9sRq"
+  },
+  {
+    "FirstName": "Leblanc",
+    "LastName": "Johns",
+    "UserName": "leblancjohns@bitendrex.com",
+    "email": "iriajenfrancis@gmail.com",
+    "gender": 1,
+    "isActive": false,
+    "ZipCode": "2413",
+    "Address": {
+      "Street": "15 Salem street",
+      "City": "Abba",
+      "State": "Abia"
+    },
+    "photo": "http://placehold.it/32x32",
+    "PublicID": "akk8886o9sRq"
+  }
+]

@@ -1,0 +1,32 @@
+﻿/****************************** Order Page *************************************/
+#order-header {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #2078BF;
+    margin-bottom: 20px;
+    padding-left: 100px;
+}
+
+#product-detail-link {
+    text-decoration: none;
+}
+
+#table-container {
+    border-radius: 10px 10px;
+    box-shadow: rgba(32, 120, 191, 0.35) 0px 5px 15px;
+}
+
+#product-detail {
+    max-width: 150px;
+}
+
+#product-detail-text {
+    color: #838383;
+}
+
+#table-body {
+    font-size: 14px
+}
+
+/********************************************************************************/

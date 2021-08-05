@@ -1,0 +1,359 @@
+﻿@model AddAgentViewModel
+@using AnimalFarmsMarket.Data.Enum
+
+<!-- Register Agent Form  -->
+
+<div class="col-sm-8 d-flex rounded mx-auto" style="background: #fff !important; margin-top: 4% !important; border: 1px solid #eee !important; margin-bottom: 40px; padding-bottom: 30px;">
+    <div class="col-12">
+        <div class="text-center my-4"><h1 style="color: #2078BF">Agent Registration</h1></div>
+        <h6 class="text-center px-3">Fill the form below and our experts will get in touch with you.</h6>
+
+        @if (ViewBag.AgentRegistrationErr == true)
+        {
+            <div class="d-flex justify-content-center ">
+
+                <div style="width:100%; text-align:justify;" asp-validation-summary="All" class="alert alert-danger forgotPass-list-error" id="summary"></div>
+
+            </div>
+
+        }
+
+        <form method="Post" asp-controller="Account" asp-action="AgentRegistration">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="agent-section__heading">Contact</h2>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="fullName" asp-for="FirstName" class="required-field">First Name</label>
+                        <div class="input-group agent-input">
+                            <input type="text" asp-for="FirstName" class="form-control" placeholder="First Name">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2078bf"
+                                         class="bi bi-person" viewBox="0 0 16 16">
+                                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="FirstName"></span></small>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Email" class="required-field">Email</label>
+                        <div class="input-group  agent-input">
+                            <input type="text" asp-for="Email" class="form-control" placeholder="Email">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2078bf"
+                                         class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="Email"></span></small>
+                    </div>
+
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="fullName" class="required-field">Last Name</label>
+                        <div class="input-group agent-input">
+                            <input type="text" asp-for="LastName" class="form-control" placeholder="Second Name">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2078bf"
+                                         class="bi bi-person-fill" viewBox="0 0 16 16">
+                                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="LastName"></span></small>
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="gender" asp-for="Gender" class="required-field">Gender</label>
+                        <div class="input-group" id="agent-select-gender">
+                            <select asp-for="Gender" asp-items="Html.GetEnumSelectList<Gender>()" class="form-control">
+                                <option>Select Gender ...</option>
+
+                            </select>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="Gender"></span></small>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="agent-section__heading" class="required-field">Address</h2>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label for="ContactAddress">Street Name</label>
+                        <div class="input-group  agent-input">
+                            <input type="text" asp-for="Address.Street" class="form-control" placeholder="Street Name">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2078bf"
+                                         class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+
+                    <div class="form-group">
+                        <label for="city" class="required-field">City</label>
+                        <div class="input-group  agent-input">
+                            <input type="text" asp-for="Address.City" class="form-control" placeholder="City">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2078bf"
+                                         class="bi bi-geo" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                              d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="City">Zip Code</label>
+                        <div class="input-group  agent-input">
+                            <input type="text" asp-for="ZipCode" class="form-control" placeholder="Zip Code">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2078bf"
+                                         class="bi bi-pin-map" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                              d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z" />
+                                        <path fill-rule="evenodd"
+                                              d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="ZipCode"></span></small>
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+
+
+
+                    <div class="form-group">
+                        <label for="gender" class="required-field">State</label>
+                        <div class="input-group" id="agent-select-gender">
+                                <select asp-for="Address.State" asp-items="Html.GetEnumSelectList<States>()" class="form-control">
+                                    <option>Select State ...</option>
+
+                                </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="gender" class="required-field">Country</label>
+                        <div class="input-group" id="agent-select-gender">
+
+                            <select asp-for="Address.Country" asp-items="Html.GetEnumSelectList<Countries>()" class="form-control" disabled>
+                                <option>Nigeria</option>
+
+                            </select>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="agent-section__heading">ID and Business Location</h2>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="BusinessLocation" class="required-field">Business Location</label>
+                        <div class="input-group  agent-input">
+                            <input type="text" asp-for="BusinessLocation" class="form-control" placeholder="Business Location">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2078bf"
+                                         class="bi bi-compass" viewBox="0 0 16 16">
+                                        <path d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                                        <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="BusinessLocation"></span></small>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="NINTrackingId" class="required-field">NIN Tracking Id</label>
+                        <div class="input-group  agent-input">
+                            <input type="text" asp-for="NINTrackingId" class="form-control" placeholder="NIN Tracking Id">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2078bf"
+                                         class="bi bi-person-badge" viewBox="0 0 16 16">
+                                        <path d="M6.5 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                        <path d="M4.5 0A2.5 2.5 0 0 0 2 2.5V14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2.5A2.5 2.5 0 0 0 11.5 0h-7zM3 2.5A1.5 1.5 0 0 1 4.5 1h7A1.5 1.5 0 0 1 13 2.5v10.795a4.2 4.2 0 0 0-.776-.492C11.392 12.387 10.063 12 8 12s-3.392.387-4.224.803a4.2 4.2 0 0 0-.776.492V2.5z" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="NINTrackingId"></span></small>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="City" class="required-field">NIN</label>
+                        <div class="input-group  agent-input">
+                            <input type="text" asp-for="NIN" class="form-control" placeholder="NIN">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2078bf"
+                                         class="bi bi-person-badge" viewBox="0 0 16 16">
+                                        <path d="M6.5 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                        <path d="M4.5 0A2.5 2.5 0 0 0 2 2.5V14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2.5A2.5 2.5 0 0 0 11.5 0h-7zM3 2.5A1.5 1.5 0 0 1 4.5 1h7A1.5 1.5 0 0 1 13 2.5v10.795a4.2 4.2 0 0 0-.776-.492C11.392 12.387 10.063 12 8 12s-3.392.387-4.224.803a4.2 4.2 0 0 0-.776.492V2.5z" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="NIN"></span></small>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="agent-section__heading">Account Details</h2>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+
+                        <label for="gender" asp-for="Bank" class="required-field">Bank</label>
+                        <div class="input-group" id="agent-select-gender">
+                            <select asp-for="Bank" asp-items="Html.GetEnumSelectList<Banks>()" class="form-control">
+                                <option>Select Bank ...</option>
+
+                            </select>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="Gender"></span></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="City" class="required-field">Account Number</label>
+                        <div class="input-group  agent-input">
+                            <input type="text" asp-for="AccountNumber" class="form-control" placeholder="Account Number">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2078bf" class="bi bi-bank2" viewBox="0 0 16 16">
+                                        <path d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916l-7.5-5zM12.375 6v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1H.5z" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="AccountNumber"></span></small>
+
+                    </div>
+
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="City" class="required-field">Account Name</label>
+                        <div class="input-group  agent-input">
+                            <input type="text" asp-for="AccountName" class="form-control" placeholder="Account Name">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2078bf" class="bi bi-bank2" viewBox="0 0 16 16">
+                                        <path d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916l-7.5-5zM12.375 6v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1H.5z" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="AccountName"></span></small>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="agent-section__heading">Set Password</h2>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="City" class="required-field">Password</label>
+                        <div class="input-group  agent-input">
+                            <input type="password" asp-for="Password" class="form-control" placeholder="Password">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2078bf"
+                                         class="bi bi-file-lock2" viewBox="0 0 16 16">
+                                        <path d="M8 5a1 1 0 0 1 1 1v1H7V6a1 1 0 0 1 1-1zm2 2.076V6a2 2 0 1 0-4 0v1.076c-.54.166-1 .597-1 1.224v2.4c0 .816.781 1.3 1.5 1.3h3c.719 0 1.5-.484 1.5-1.3V8.3c0-.627-.46-1.058-1-1.224z" />
+                                        <path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="Password"></span></small>
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="City" class="required-field">Confirm Password</label>
+                        <div class="input-group  agent-input">
+                            <input type="password" asp-for="ConfirmPassword" class="form-control" placeholder="Confirm Password">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2078bf"
+                                         class="bi bi-file-lock2-fill" viewBox="0 0 16 16">
+                                        <path d="M7 6a1 1 0 0 1 2 0v1H7V6z" />
+                                        <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-2 6v1.076c.54.166 1 .597 1 1.224v2.4c0 .816-.781 1.3-1.5 1.3h-3c-.719 0-1.5-.484-1.5-1.3V8.3c0-.627.46-1.058 1-1.224V6a2 2 0 1 1 4 0z" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="ConfirmPassword"></span></small>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary mt-3" id="create-agent__btn">Send</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+<partial name="_FooterLowerPartial" />
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

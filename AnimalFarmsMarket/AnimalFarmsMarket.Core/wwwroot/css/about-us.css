@@ -1,0 +1,276 @@
+﻿/*----------About Us-------------*/
+
+
+
+.outer-container {
+    background-color: #10163A;
+    height: 200px;
+    width: auto;
+    display: flex;
+}
+
+.ld-Jumbotron {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ld-Jumbotron > h1 {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0px 5px 2px grey;
+
+    
+}
+
+
+
+/*----------Who we are-----------*/
+
+.who-Jumbotron {
+    background-color: #2079bf;
+    color: #ffffff;
+    padding: 10px;
+    width: 500px;
+    height: 510px;
+    position: relative;
+    top: 90px;
+    z-index: 1;
+}
+
+
+.who-Jumbotron p{
+    margin: 10px;
+    font-size: 17px;
+}
+.img-container {
+    font-size: 12px;
+    padding: 5px;
+}
+
+.who-img {
+    position:relative;
+    left: -50px;
+    border-radius: 9px;
+}
+
+.who-img img {
+    border-radius: 10px;
+    height: 600px;
+}
+
+.about-us-member-img {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.about-us-member-img > div {
+    text-align: center;
+    min-width: 85px;
+}
+
+.about-us-members-list-container {
+    display: flex;
+}
+
+
+/*----------Feaure----------*/
+.feat-container {
+    background-color: #2079bf;
+}
+
+.feat-Jumbotron {
+   
+    height: 350px;
+    position: relative;
+    margin-left: 430px;
+    margin: 0 auto;
+}
+
+.blue-container {
+    background-color: #2078bf;
+    display: flex;
+    position: relative;
+    top: -50px;
+    margin-top: -30px;
+}
+.feature {
+    margin-left: 470px;
+    margin-top: -390px;
+    border-radius: 9px;
+    color: #8B8B8B;
+}
+.feature > h2 {
+    color: #2078bf;
+}
+
+footer > p {
+    color: #ffffff;
+    background-color: #2079bf;
+    text-align: center;
+    border-radius: 5px;
+}
+.blue-container{
+    width: 25%;
+    border-radius: 5px;
+}
+
+
+/*---------Meet the team------------*/
+
+.mth-Jumbotron {
+    background: url('../images/assets/group.png') 0px -50px no-repeat;
+    background-size: cover;
+    
+    height: 400px;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.overlay {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 1.5);
+}
+
+.mth-footer {
+    background-color: #2078bf;
+    color: white;
+    text-align: center;
+}
+
+/*---------Responsiveness---------*/
+
+
+
+@media screen and (max-width: 768px) {
+
+    .about-us-members-list-container {
+        flex-direction:  column;
+        text-align: center;
+        background-color: #ffffff;
+       
+    }
+
+
+    .who-Jumbotron {
+        color: #8B8B8B;
+        background-color: #ffffff;
+        margin-top: -150px;
+        width: 400px;
+        text-align: center;
+        font-size: 15px;
+        z-index: 0;
+    }
+
+    h2 {
+        color: #2078bf;
+    }
+
+        .who-img img {
+
+            width: 400px;
+            height: 400px;
+            margin-left: 70px;
+            margin-top: 150px;
+           
+            
+        }
+
+    .about-us-member-img {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+/*--------------------------------------------------*/
+
+
+
+    .feature {
+        color: #8B8B8B;
+        text-align: justify;
+        background-color: white;
+        height: auto;
+        position: static;
+        margin: 0;
+        margin-top: 40px;
+        border-radius: 9px;
+    }
+
+        .feature > h2 {
+            color: #2078bf;
+            
+        }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .about-us-members-list-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .who-Jumbotron {
+        color: black;
+        text-align: center;
+        height: auto;
+        z-index: 0;
+        width: 150vw;
+    }
+
+    h2 {
+        color: #2078bf;
+    }
+
+    .who-img img {
+        width: 400px;
+        height: 400px;
+        margin-left: 0vw;
+        position: relative;
+        top: 100px;
+        
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .outer-container {
+        margin: auto;
+        text-align: center;
+        height: 200px;
+        background-size:contain;
+        
+    }
+
+    .ld-Jumbotron {
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ld-Jumbotron > h1 {
+        color: #ffffff;
+        font-size: 30px;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    .mth-Jumbotron {
+        background: url('../images/assets/group.png') no-repeat;
+        background-size: cover;
+        height: 180px;
+    }
+
+    .overlay {
+        width: 100%;
+        height: 200px;
+        background-color: rgba(255, 255, 255, 1.5);
+    }
+
+}

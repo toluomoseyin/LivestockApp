@@ -1,0 +1,106 @@
+﻿@model PaginatedResultDto<ShappedListOfLivestock>
+
+@{ int nextPage = Model.PageMetaData.Page + 1;}
+@{ int prevPage = Model.PageMetaData.Page - 1;}
+
+
+
+
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<div class="container mt-5">
+    <div class="mb-4 mr-5 " style="padding-left:15px;">
+        <h2 class="brand pl-0" style="color:#2078BF; ">Livestock</h2>
+    </div>
+    <div id="myLivestock">
+        @if (Model.ResponseData.Count() == 0)
+        {
+            <div style="display:flex; justify-content:center;height:50px">
+                <p style="margin-left:50px;margin-bottom:7px;font-weight:bold">NO RECORD FOUND</p>
+            </div>
+        }
+        else
+        {
+            <div class="col">
+                <div class="row">
+                    @foreach (var item in Model.ResponseData)
+                    {
+                        <div class="col-12 col-md-6 col-lg-4 mb-2 ">
+                            <div class="card" style="padding-bottom:0px">
+                                <img class="card-img-top" src="@item.Photo" alt="Card image cap" height="250">
+                                <div class="card-body">
+                                    <h6 class="card-title"><a asp-route-id="@item.Id" title="View Product">@item.Breed</a></h6>
+                                    <p>
+                                        @if ((await _authorization.AuthorizeAsync(User, "AdminRolePolicy")).Succeeded)
+                                        {
+                                            <small class="mr-2">Agent Name: <a asp-route-id="@item.AgentId">@item.Name</a></small><br />
+                                        }
+                                        <small class="mr-2">Market location: @item.Location</small>
+                                    </p>
+
+                                    <div class="row">
+                                        <div class="col">
+                                            <p class="btn btn-danger btn-block">&#8358; @item.Price</p>
+                                        </div>
+                                        @if ((await _authorization.AuthorizeAsync(User, "AgentRolePolicy")).Succeeded)
+                                        {
+                                            <div class="col">
+                                                <a asp-controller="dashboard" asp-action="editlivestock" asp-route-id=@item.Id class="btn btn-success btn-block">Edit</a>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+
+
+
+                    <div class="col-12">
+                        <nav aria-label="...">
+                            <ul class="pagination pagination1">
+                                @if (Model.PageMetaData.Page != 1)
+                                {
+                                    <li class="page-item">
+                                        <a class="page-item" id="@prevPage" onclick="livestockBtn(this)" tabindex="-1">Previous</a>
+                                    </li>
+                                }
+
+                                <li class="page-item disabled">
+                                    <a id="@Model.PageMetaData.Page">@Model.PageMetaData.Page</a>
+                                </li>
+                                @for (int i = Model.PageMetaData.Page + 1; i <= Model.PageMetaData.Page + 2; i++)
+                                {
+                                    @if (i > Model.PageMetaData.TotalPages)
+                                    {
+                                        break;
+                                    }
+                                    <li class="page-item">
+                                        <a class="page-item" id="@i" onclick="livestockBtn(this)" tabindex="-1">@i</a>
+                                    </li>
+                                }
+                                @if (Model.PageMetaData.Page < Model.PageMetaData.TotalPages)
+                                {
+                                    <li class="page-item">
+                                        <a class="page-item" id="@nextPage" onclick="livestockBtn(this)">Next</a>
+                                    </li>
+                                }
+                                <li class="page-item pt-2 ml-3">
+                                    @Model.PageMetaData.Page of @Model.PageMetaData.TotalPages
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        }
+
+
+
+    </div>
+
+
+
+</div>
+

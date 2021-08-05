@@ -1,0 +1,709 @@
+2021-06-28 11:50:46.6433 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 11:50:46.6433 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 11:50:47.0015 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 11:53:57.4917 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 11:53:57.4917 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 11:55:28.7713 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 11:59:21.2265 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-06-28 11:59:28.6715 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-06-28 11:59:38.9779 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-06-28 11:59:40.6734 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 11:59:40.6734 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 11:59:40.7074 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 11:59:45.5664 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 11:59:45.5696 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 11:59:45.5817 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 13:17:42.8442 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 13:17:42.8442 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 13:17:42.9367 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 13:17:48.4672 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 13:17:48.4709 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 13:17:48.4709 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 13:26:48.4085 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 13:26:48.4085 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 13:26:48.6921 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 13:28:50.4474 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 13:28:50.5994 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 13:28:50.6625 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 13:28:50.9345 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:33:25.7020 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:33:25.7020 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:33:25.9979 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:33:37.1862 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:33:37.3086 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:33:37.3725 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:33:37.6806 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:36:01.7887 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:36:01.7887 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:36:02.0720 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:36:16.4953 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:36:16.6274 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:36:16.7306 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:36:16.8920 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:43:37.2240 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:43:37.2240 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:43:37.4154 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:44:03.5336 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:44:03.6204 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:44:03.6869 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:44:03.8049 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:46:14.3515 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:55:47.3020 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:55:47.4133 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:55:48.0632 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:55:57.6435 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:55:57.7576 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:55:57.8037 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 14:55:58.0273 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:02:44.5264 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:02:44.5264 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:02:44.7210 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:02:51.3003 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:02:51.3957 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:02:51.4531 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:02:51.6091 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:03:30.7244 ERROR|Microsoft.EntityFrameworkCore.Database.Command| Failed executing DbCommand (3ms) [Parameters=[@p5='?' (Size = 36), @p0='?' (Size = 27), @p1='?' (Size = 20), @p2='?' (Size = 36), @p3='?' (Size = 36), @p4='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "DeliveryAssignments" SET "DateCreated" = @p0, "DateUpdated" = @p1, "DeliveryPersonId" = @p2, "OrderId" = @p3, "Status" = @p4
+WHERE "Id" = @p5;
+SELECT changes();
+2021-06-28 15:03:30.7758 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-28 15:03:30.9195 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:05:20.3098 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-06-28 15:05:24.9308 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-06-28 15:05:35.8591 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-06-28 15:05:36.7609 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:05:36.7609 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:05:36.7962 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:05:41.5682 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:05:41.5682 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:05:41.5682 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:06:11.2771 ERROR|Microsoft.EntityFrameworkCore.Database.Command| Failed executing DbCommand (2ms) [Parameters=[@p5='?' (Size = 36), @p0='?' (Size = 27), @p1='?' (Size = 20), @p2='?' (Size = 36), @p3='?' (Size = 36), @p4='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "DeliveryAssignments" SET "DateCreated" = @p0, "DateUpdated" = @p1, "DeliveryPersonId" = @p2, "OrderId" = @p3, "Status" = @p4
+WHERE "Id" = @p5;
+SELECT changes();
+2021-06-28 15:06:11.3085 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-28 15:06:11.3221 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:06:19.0803 ERROR|Microsoft.EntityFrameworkCore.Database.Command| Failed executing DbCommand (1ms) [Parameters=[@p5='?' (Size = 36), @p0='?' (Size = 27), @p1='?' (Size = 20), @p2='?' (Size = 36), @p3='?' (Size = 36), @p4='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "DeliveryAssignments" SET "DateCreated" = @p0, "DateUpdated" = @p1, "DeliveryPersonId" = @p2, "OrderId" = @p3, "Status" = @p4
+WHERE "Id" = @p5;
+SELECT changes();
+2021-06-28 15:06:19.0928 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-28 15:06:19.1024 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:06:35.0967 ERROR|Microsoft.EntityFrameworkCore.Database.Command| Failed executing DbCommand (1ms) [Parameters=[@p5='?' (Size = 36), @p0='?' (Size = 27), @p1='?' (Size = 20), @p2='?' (Size = 36), @p3='?' (Size = 36), @p4='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "DeliveryAssignments" SET "DateCreated" = @p0, "DateUpdated" = @p1, "DeliveryPersonId" = @p2, "OrderId" = @p3, "Status" = @p4
+WHERE "Id" = @p5;
+SELECT changes();
+2021-06-28 15:06:35.1137 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-28 15:06:35.1137 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:06:57.4496 ERROR|Microsoft.EntityFrameworkCore.Database.Command| Failed executing DbCommand (2ms) [Parameters=[@p5='?' (Size = 36), @p0='?' (Size = 27), @p1='?' (Size = 20), @p2='?' (Size = 36), @p3='?' (Size = 36), @p4='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "DeliveryAssignments" SET "DateCreated" = @p0, "DateUpdated" = @p1, "DeliveryPersonId" = @p2, "OrderId" = @p3, "Status" = @p4
+WHERE "Id" = @p5;
+SELECT changes();
+2021-06-28 15:06:57.4612 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-28 15:06:57.4612 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:07:29.2263 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:07:29.2263 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:07:29.4375 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:07:37.4890 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:07:37.5777 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:07:37.6331 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:07:37.7506 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:08:20.6892 ERROR|Microsoft.EntityFrameworkCore.Database.Command| Failed executing DbCommand (4ms) [Parameters=[@p5='?' (Size = 36), @p0='?' (Size = 27), @p1='?' (Size = 20), @p2='?' (Size = 36), @p3='?' (Size = 36), @p4='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "DeliveryAssignments" SET "DateCreated" = @p0, "DateUpdated" = @p1, "DeliveryPersonId" = @p2, "OrderId" = @p3, "Status" = @p4
+WHERE "Id" = @p5;
+SELECT changes();
+2021-06-28 15:08:20.7361 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-28 15:08:20.9505 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:09:23.0471 ERROR|Microsoft.EntityFrameworkCore.Database.Command| Failed executing DbCommand (2ms) [Parameters=[@p5='?' (Size = 36), @p0='?' (Size = 27), @p1='?' (Size = 20), @p2='?' (Size = 36), @p3='?' (Size = 36), @p4='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "DeliveryAssignments" SET "DateCreated" = @p0, "DateUpdated" = @p1, "DeliveryPersonId" = @p2, "OrderId" = @p3, "Status" = @p4
+WHERE "Id" = @p5;
+SELECT changes();
+2021-06-28 15:09:23.0768 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-28 15:09:23.2985 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:12:12.3371 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:12:12.3371 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:12:12.4867 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:12:20.3208 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:12:20.4175 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:12:20.4583 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:12:42.2041 ERROR|Microsoft.EntityFrameworkCore.Database.Command| Failed executing DbCommand (3ms) [Parameters=[@p5='?' (Size = 36), @p0='?' (Size = 27), @p1='?' (Size = 20), @p2='?' (Size = 36), @p3='?' (Size = 36), @p4='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "DeliveryAssignments" SET "DateCreated" = @p0, "DateUpdated" = @p1, "DeliveryPersonId" = @p2, "OrderId" = @p3, "Status" = @p4
+WHERE "Id" = @p5;
+SELECT changes();
+2021-06-28 15:12:42.2448 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-28 15:12:42.4768 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:14:35.4198 ERROR|Microsoft.EntityFrameworkCore.Database.Command| Failed executing DbCommand (2ms) [Parameters=[@p5='?' (Size = 36), @p0='?' (Size = 27), @p1='?' (Size = 20), @p2='?' (Size = 36), @p3='?' (Size = 36), @p4='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "DeliveryAssignments" SET "DateCreated" = @p0, "DateUpdated" = @p1, "DeliveryPersonId" = @p2, "OrderId" = @p3, "Status" = @p4
+WHERE "Id" = @p5;
+SELECT changes();
+2021-06-28 15:14:35.4423 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-28 15:14:35.6489 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:16:57.3976 ERROR|Microsoft.EntityFrameworkCore.Database.Command| Failed executing DbCommand (2ms) [Parameters=[@p5='?' (Size = 36), @p0='?' (Size = 27), @p1='?' (Size = 20), @p2='?' (Size = 36), @p3='?' (Size = 36), @p4='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "DeliveryAssignments" SET "DateCreated" = @p0, "DateUpdated" = @p1, "DeliveryPersonId" = @p2, "OrderId" = @p3, "Status" = @p4
+WHERE "Id" = @p5;
+SELECT changes();
+2021-06-28 15:16:57.4262 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-28 15:21:46.5503 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:21:46.5503 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:21:46.7474 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:21:57.2239 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:21:57.3192 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:21:57.3975 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:22:48.2168 ERROR|Microsoft.EntityFrameworkCore.Database.Command| Failed executing DbCommand (4ms) [Parameters=[@p5='?' (Size = 36), @p0='?' (Size = 27), @p1='?' (Size = 20), @p2='?' (Size = 36), @p3='?' (Size = 36), @p4='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "DeliveryAssignments" SET "DateCreated" = @p0, "DateUpdated" = @p1, "DeliveryPersonId" = @p2, "OrderId" = @p3, "Status" = @p4
+WHERE "Id" = @p5;
+SELECT changes();
+2021-06-28 15:22:48.2548 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-28 15:22:49.2480 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:24:23.5241 ERROR|Microsoft.EntityFrameworkCore.Database.Command| Failed executing DbCommand (2ms) [Parameters=[@p5='?' (Size = 36), @p0='?' (Size = 27), @p1='?' (Size = 20), @p2='?' (Size = 36), @p3='?' (Size = 36), @p4='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "DeliveryAssignments" SET "DateCreated" = @p0, "DateUpdated" = @p1, "DeliveryPersonId" = @p2, "OrderId" = @p3, "Status" = @p4
+WHERE "Id" = @p5;
+SELECT changes();
+2021-06-28 15:24:23.5505 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-28 15:24:30.8096 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:30:13.2326 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:30:13.2326 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:30:13.4190 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:30:20.3367 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:30:20.4205 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:30:20.5048 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:31:14.3901 ERROR|Microsoft.EntityFrameworkCore.Database.Command| Failed executing DbCommand (4ms) [Parameters=[@p5='?' (Size = 36), @p0='?' (Size = 27), @p1='?' (Size = 20), @p2='?' (Size = 36), @p3='?' (Size = 36), @p4='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "DeliveryAssignments" SET "DateCreated" = @p0, "DateUpdated" = @p1, "DeliveryPersonId" = @p2, "OrderId" = @p3, "Status" = @p4
+WHERE "Id" = @p5;
+SELECT changes();
+2021-06-28 15:31:14.4368 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-28 15:31:14.6574 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:33:24.8680 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:33:24.9586 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:33:24.9929 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:35:32.3444 ERROR|Microsoft.EntityFrameworkCore.Database.Command| Failed executing DbCommand (2ms) [Parameters=[@p5='?' (Size = 36), @p0='?' (Size = 27), @p1='?' (Size = 20), @p2='?' (Size = 36), @p3='?', @p4='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "DeliveryAssignments" SET "DateCreated" = @p0, "DateUpdated" = @p1, "DeliveryPersonId" = @p2, "OrderId" = @p3, "Status" = @p4
+WHERE "Id" = @p5;
+SELECT changes();
+2021-06-28 15:35:32.3621 ERROR|Microsoft.EntityFrameworkCore.Update| An exception occurred in the database while saving changes for context type 'AnimalFarmsMarket.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-28 15:35:32.5456 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:36:01.0651 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 15:36:07.3628 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:01:29.7522 FATAL|Microsoft.AspNetCore.Server.Kestrel| Unable to start Kestrel.
+2021-06-28 16:02:23.4082 FATAL|Microsoft.AspNetCore.Server.Kestrel| Unable to start Kestrel.
+2021-06-28 16:12:04.0276 FATAL|Microsoft.AspNetCore.Server.Kestrel| Unable to start Kestrel.
+2021-06-28 16:12:32.8649 FATAL|Microsoft.AspNetCore.Server.Kestrel| Unable to start Kestrel.
+2021-06-28 16:13:57.3258 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:13:57.3258 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:13:57.3698 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:14:02.0303 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:14:02.0307 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:14:02.0307 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:15:41.1849 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:15:41.1849 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:15:41.1849 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:16:05.2417 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:16:05.2417 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:16:05.2417 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:16:06.6074 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:16:06.6074 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:16:06.6151 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:16:12.2609 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:16:53.6550 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:16:53.6550 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:16:53.6550 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:16:55.9061 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:16:56.1131 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:16:56.2982 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:16:56.4697 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:16:56.6564 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:16:56.8838 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:20:47.8631 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:20:47.8631 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:20:47.8631 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:20:49.4110 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:20:49.4110 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:20:49.4177 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:21:04.8112 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:21:04.8112 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:21:04.8112 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:21:04.8416 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:21:05.9786 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:21:05.9787 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:21:05.9787 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:21:06.7531 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:21:06.7531 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:21:06.7605 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:21:52.8889 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:21:52.8889 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:21:52.8889 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:21:52.9239 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:21:54.3650 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:21:54.3650 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:21:54.3714 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:21:55.4529 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:21:55.4529 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:21:55.4529 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:22:36.7502 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:22:36.7502 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:22:36.7962 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:22:40.3376 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:22:40.3410 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:22:40.3410 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:26:32.2361 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:26:32.2361 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:26:32.3729 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:26:50.4864 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:27:16.3693 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:27:16.3753 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:27:16.5190 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:27:21.9476 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:29:49.6804 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:29:49.6804 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:29:49.8672 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:30:36.3818 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:30:36.4592 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:30:36.5217 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:30:36.6942 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:34:56.4025 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:34:56.4025 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:34:56.5542 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:36:00.5178 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:36:00.5893 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:36:00.6220 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:36:00.9381 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:37:26.3379 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:37:26.3379 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:37:26.4963 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:38:31.0772 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:38:31.2572 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:38:31.2572 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:38:33.4316 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:42:25.6665 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:44:17.3769 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:44:17.5614 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:44:17.6795 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:45:37.4491 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:45:37.5390 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:45:48.2662 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:45:48.3554 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:45:48.3698 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:59:05.2995 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 16:59:05.2995 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:03:31.1761 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:03:31.1761 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:03:31.3469 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:04:35.6338 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:05:59.0336 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:05:59.2057 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:05:59.3523 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:09:41.8263 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:09:41.8263 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:09:41.8690 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:09:49.4016 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:09:49.4016 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:09:49.4176 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:14:10.4990 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:14:10.4990 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:14:10.5297 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:14:15.1711 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:14:15.1711 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:38:40.4236 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:38:40.4236 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:38:40.5175 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:38:45.6666 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:38:45.6666 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:57:29.0945 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:57:29.0945 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:57:34.0500 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:57:34.0500 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:57:34.0769 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:59:15.4330 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:59:15.4330 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:59:15.4785 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:59:20.4328 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:59:20.4328 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 17:59:20.4581 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:02:27.0580 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:02:27.0688 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:03:03.1358 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:03:03.1439 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:03:08.0655 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:03:08.0655 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:03:08.1043 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:07:29.9096 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:07:29.9096 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:07:29.9580 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:07:43.9246 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:07:43.9246 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:08:14.4219 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:08:14.4263 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:08:14.4706 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:09:41.2526 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:09:41.2526 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:09:41.3493 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:09:46.7936 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:09:46.8001 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:11:42.1341 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:11:42.1341 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:11:42.1636 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:11:43.9816 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:11:43.9816 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:11:44.0066 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:12:06.7301 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:12:06.7301 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:12:06.8028 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:12:11.3080 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:12:11.3080 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:12:11.3690 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:55:53.6247 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:58:09.9597 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:58:11.6963 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:58:35.7762 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:58:35.7762 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:58:35.8773 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 18:58:44.0404 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:10:17.1750 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:10:17.1750 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:10:17.2848 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:10:20.9919 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:14:25.0506 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:14:25.0506 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:14:25.3475 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:20:06.5865 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:20:06.5865 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:20:06.6792 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:20:11.0522 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:31:30.3434 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:31:30.3434 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:31:30.4615 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:31:34.3138 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:34:05.5916 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:34:05.5916 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:34:05.9278 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:34:38.7799 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:34:39.1603 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:35:33.6935 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:36:14.0589 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:36:14.5794 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:36:35.1677 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:38:26.4104 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:38:26.5686 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 19:38:26.9656 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:01:40.7703 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:01:40.7703 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:01:40.8699 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:03:25.1924 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:03:25.1924 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:06:25.3158 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:06:25.3269 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:06:30.7119 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:06:30.7119 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:08:55.9927 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:08:55.9927 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:08:56.0361 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:09:01.8752 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:09:42.8351 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:09:45.1700 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:11:44.8808 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:11:44.8808 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:11:45.1575 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:12:46.4514 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:15:49.6910 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:15:50.0042 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:16:13.7218 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:18:51.5340 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:18:51.5340 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:18:51.7925 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:20:23.2498 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:22:17.2467 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:22:17.2466 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:22:17.5459 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:25:13.7461 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:25:13.7461 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:25:14.0314 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:25:28.8438 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:40:32.5430 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:44:56.9119 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:46:14.0449 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:46:50.8802 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:46:50.8802 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:46:50.9138 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:46:56.5435 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:53:44.7270 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:53:44.7270 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:53:44.7799 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:53:50.7537 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:53:50.7671 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:55:21.6325 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:55:21.7708 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:55:21.9745 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:56:23.1879 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:58:49.7781 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:58:49.9309 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 21:59:33.4542 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 22:02:33.3823 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 22:02:33.3823 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 22:02:33.4125 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 22:02:37.5684 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 22:02:37.5684 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 22:02:37.5851 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 22:14:19.5285 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 22:14:19.5285 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 22:14:19.6035 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 22:14:38.5512 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 22:14:38.5534 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 22:14:38.5979 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 22:18:17.0077 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 22:18:17.0077 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 22:18:22.9570 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 22:18:22.9570 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 22:23:59.6593 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-06-28 22:23:59.6726 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.

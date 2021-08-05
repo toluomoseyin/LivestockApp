@@ -1,0 +1,56 @@
+﻿/** ............... style for registered users. .................*/
+.parent {
+    background-color: #1861ac;
+    display: flex;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    
+}
+
+
+
+.box-one {
+    width: 80%;
+    color: white;
+    background-color: #1861ac;
+    padding: 40px;
+   
+    
+}
+
+.box-two {
+    width: 80%;
+    background: linear-gradient(-57deg, #f5fbff 63%, #1861ac 42%);
+    color: white;
+}
+
+.myimg {
+    max-width: 100%;
+    border-radius: 50%;
+    border: 3px solid #f5fbff;
+}
+
+.my-image {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 8%;
+    margin-left: 27%;
+}
+
+.color-secondary, a {
+    color: #F0DA50;
+    text-decoration: none;
+}
+
+.contact-link {
+    padding: 10px 30px;
+    background: #F7DF1E;
+    border-radius: 5px;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+}
+

@@ -1,0 +1,14 @@
+[
+  {
+    "Role": "Admin"
+  },
+  {
+    "Role": "Customer"
+  },
+  {
+    "Role": "Agent"
+  },
+  {
+    "Role": "Delivery"
+  }
+]

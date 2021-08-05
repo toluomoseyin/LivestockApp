@@ -1,0 +1,156 @@
+2021-07-06 00:00:00.4899 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:00:00.5342 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:00:01.1320 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:04:37.6908 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:04:37.6908 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:04:40.0712 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:04:40.0712 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:04:40.1172 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:04:46.3375 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:04:46.3587 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:04:46.4492 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:36:36.1721 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:36:36.1854 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:36:36.2179 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:36:39.0435 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:36:39.0635 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:36:39.1402 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:37:36.9073 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:37:36.9313 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:37:37.0119 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:38:28.2970 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:38:28.2970 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:38:28.3347 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:40:10.8782 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:40:10.8992 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:40:10.9712 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:41:13.2219 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:41:13.2219 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:41:13.2822 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:41:15.7434 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:41:15.7602 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 00:41:15.8312 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 08:44:09.3114 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 08:45:34.5685 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:32:53.3198 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 09:32:53.3848 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 09:32:53.3908 ERROR|AnimalFarmsMarket.Core.ErrorController| /email-confirm
+2021-07-06 09:38:41.7359 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 09:38:41.7637 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 09:38:41.7740 ERROR|AnimalFarmsMarket.Core.ErrorController| /email-confirm
+2021-07-06 09:39:56.8910 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 09:39:56.8910 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 09:39:56.8910 ERROR|AnimalFarmsMarket.Core.ErrorController| /email-confirm
+2021-07-06 09:40:13.8509 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 09:40:13.8509 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 09:40:13.8643 ERROR|AnimalFarmsMarket.Core.ErrorController| /email-confirm
+2021-07-06 09:40:40.4158 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 09:40:40.4210 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 09:40:40.4210 ERROR|AnimalFarmsMarket.Core.ErrorController| /email-confirm
+2021-07-06 09:40:43.8606 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 09:41:21.6139 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:41:21.6240 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:41:21.6755 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:42:06.3480 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:42:06.3626 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:42:06.4031 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:42:09.4843 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:42:09.4843 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:42:09.5323 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:42:29.4307 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:42:29.4307 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:42:29.4918 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:43:27.1576 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:43:27.1576 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:43:27.1972 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:43:32.2810 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:43:32.2897 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:43:32.3484 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:43:35.5009 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:43:35.5032 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:43:35.5470 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:43:40.4965 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:43:40.5006 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:44:04.6594 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:44:04.6594 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:44:04.7029 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:44:55.9599 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:44:55.9767 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:44:56.0363 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:46:06.2995 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:46:06.3077 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:46:06.3440 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:46:18.5704 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:46:18.5704 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:46:18.6221 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:46:53.8415 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 09:48:36.5583 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 09:48:38.2590 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 09:48:43.5415 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 09:48:45.8209 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 09:48:48.0096 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 09:50:10.4226 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 09:53:35.8608 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 09:54:03.4268 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 09:54:03.4791 WARN|Microsoft.AspNetCore.Identity.UserManager| User 5709b408-622e-4903-a1ce-5237adcefb7b password validation failed: PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresLower;PasswordRequiresUpper.
+2021-07-06 09:54:31.6826 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 09:54:31.7017 WARN|Microsoft.AspNetCore.Identity.UserManager| User 5709b408-622e-4903-a1ce-5237adcefb7b password validation failed: PasswordTooShort;PasswordRequiresUpper.
+2021-07-06 09:54:58.7838 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 09:54:58.8294 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 09:55:02.7984 WARN|Microsoft.AspNetCore.Session.SessionMiddleware| Error unprotecting the session cookie.
+2021-07-06 10:22:42.6626 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:22:42.6626 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:23:42.2890 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:23:42.2890 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:23:42.3836 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:23:49.4031 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:23:49.4031 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:23:50.0479 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:24:30.0458 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:24:30.0587 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:24:30.1199 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:38:51.6704 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:38:51.6985 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:38:51.7876 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:43:45.7090 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:43:45.7185 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:43:45.7834 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:43:49.7055 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:43:49.7156 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:43:51.6308 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:46:57.4364 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:46:57.4470 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:46:57.5100 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:47:01.6947 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:47:01.7079 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 10:47:02.5484 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:41:56.3879 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:41:56.4757 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:41:56.6903 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:42:48.1166 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:42:48.4371 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:42:50.4486 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:43:12.1792 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:43:12.3192 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:43:12.6167 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:43:22.8476 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:43:23.8418 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:43:24.9136 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:46:16.8224 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:46:16.8224 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:46:16.9246 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:47:06.9868 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:47:06.9868 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:47:07.0604 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:47:47.2470 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:47:47.2470 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:47:47.3161 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:47:50.6241 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:47:50.6559 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 11:47:51.8584 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 12:00:00.9230 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 12:00:00.9230 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 12:00:01.0387 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 12:00:31.8474 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 12:00:31.8709 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-06 12:00:32.2813 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.

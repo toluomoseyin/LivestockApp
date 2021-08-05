@@ -1,0 +1,28 @@
+﻿@model PaginatedResultDto<ShapedListOfLivestockVm>
+
+
+
+<div class="col-12 ">
+    <div class="d-flex flex-wrap flex-sm-wrap col-lg-12 col-sm-12">
+        @foreach (var item in @Model.ResponseData)
+        {
+            <div class="col-lg-4 col-sm-6 p-lg-2 p-sm-2 p-4">
+                <div class="card hover hover-2 text-white rounded">
+                    <a asp-controller="Market" asp-action="" asp-route-id="@item.Id">
+                        <img style="border-radius: 5px; width: 98%; min-height: 180px; max-height: 180px; margin: 5px auto; margin-left: 2px;" src="@item.Photo" alt="@item.Id" height="300" width="300">
+                    </a>
+                    <div class="hover-overlay"></div>
+                    <div class="hover-2-content px-5 py-4">
+                        <h3 class="hover-2-title text-capitalize font-weight-light mb-0">Animal-Id: @item.Id</h3>
+                        <h3 class="hover-2-price text-white font-weight-light mb-0"> @String.Format(new System.Globalization.CultureInfo("en-NG"), "{0:C}", @item.Price)</h3>
+
+                        <a class="addBtn hover-2-description text-uppercase mb-4" data-price="@item.Price" data-quantity="1" data-item-id="@item.Id" onclick="addToCart(event)">Add to Cart</a>
+                        <input type="hidden" name="@Model.PageMetaData.Page" id="prev" value="@Model.PageMetaData.Page" />
+                        <input type="hidden" name="@Model.PageMetaData.Page" id="nxt" value="@Model.PageMetaData.Page" />
+
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

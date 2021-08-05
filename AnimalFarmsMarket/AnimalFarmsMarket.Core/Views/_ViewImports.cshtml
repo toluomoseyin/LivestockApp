@@ -1,0 +1,13 @@
+@using AnimalFarmsMarket.Core
+@using AnimalFarmsMarket.Data.Models
+@using AnimalFarmsMarket.Data.DTOs
+@using AnimalFarmsMarket.Data.ViewModels
+@using Microsoft.AspNetCore.Identity;
+@using System.Globalization;
+@inject UserManager<AppUser> _userManager
+@using AnimalFarmsMarket.Data.Enum
+@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService _authorization
+@using Microsoft.AspNetCore.Http;
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers

@@ -1,0 +1,43 @@
+[
+  {
+    "Id": "1",
+    "Name": "Cattle",
+    "Description": "Domesticated bovine farm animals that are raised for their meat, milk, or hides or for draft purposes"
+  },
+
+  {
+    "Id": "2",
+    "Name": "Goats",
+    "Description": "Ruminant and hollow-horned mammal belonging to the genus Capra"
+  },
+
+  {
+    "Id": "3",
+    "Name": "Pigs",
+    "Description": "Pigs are stout-bodied, short-legged, omnivorous mammals, with thick skin usually sparsely coated with short bristles"
+  },
+
+  {
+    "Id": "4",
+    "Name": "Sheep",
+    "Description": "Sheep are species of domesticated ruminant mammal, raised for its meat, milk, and wool"
+  },
+
+  {
+    "Id": "5",
+    "Name": "Poultry",
+    "Description": "Poultry is the name used to describe all domesticated birds. They produce meat and eggs used as food"
+  },
+
+  {
+    "Id": "6",
+    "Name": "Rabbit",
+    "Description": " Rabbits are small mammals with fluffy, short tails, whiskers and distinctive long ears"
+  },
+
+  {
+    "Id": "7",
+    "Name": "Fish",
+    "Description": "Fish are aquatic, craniate, gill-bearing animals that lack limbs with digits"
+  }
+]

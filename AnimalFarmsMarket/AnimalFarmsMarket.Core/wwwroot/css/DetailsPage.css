@@ -1,0 +1,525 @@
+﻿/*----------------------------------*/
+/*-----------Details Page-----------*/
+/*----------------------------------*/
+/*Responsive Sample*/
+
+
+.big-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 150px;
+}
+
+.medium-container {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 100px;
+    margin: 0px auto;
+    position: relative;
+}
+.home-center-div {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.side-navigation, .main-content {
+    position: absolute;
+    width: 100%;
+    min-height: 100px;
+}
+
+.side-navigation {
+    background-color: #f5feff;
+    z-index: 2;
+    height: 100%;
+    display: none;
+}
+.side-navigation:hover{
+    overflow-y: auto;
+}
+.main-content {
+    position: relative;
+}
+
+.picture-price-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    box-sizing: border-box;
+}
+
+.photo-div, .price-div {
+    margin: 10px 20px;
+    width: 100%;
+    align-items: center;
+    box-sizing:border-box;
+}
+
+.photo-div {
+    position:relative;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    margin-bottom: 20px;
+}
+
+    .photo-div img {
+        width: 100%;
+        object-fit:cover;
+    }
+
+.mySlides {
+    display: none;
+}
+.mySlides img{
+    height:320px;
+} 
+
+.cursor {
+    cursor: pointer;
+}
+
+
+.prev-btn,
+.next-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next-btn {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    .prev-btn:hover,
+    .next-btn:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+.rowz {
+    display: flex;
+}
+
+.column {
+    width: 25%;
+    box-sizing:border-box;
+    border:0.5px solid #838383;
+}
+.column img{
+    height:70px;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+    .active,
+    .demo:hover {
+        opacity: 1;
+    }
+
+.description-review-div {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.price-details {
+    display: flex;
+    justify-content: space-between;
+    color:#838383;
+}
+
+.qty-div {
+    width: 85px;
+    display: flex;
+    justify-self: end;
+    padding-top: 10px;
+    margin-right:20px;
+}
+
+    .qty-div p {
+        margin-right: 10px;
+    }
+
+.qty-btn {
+    white-space: nowrap;
+}
+
+#pluz-btn {
+    border-radius: 0 5px 5px 0;
+}
+
+#minus-btn {
+    border-radius: 5px 0 0 5px;
+}
+.qty-btn span{
+    margin: 0 -5px;
+}
+.count-btn {
+    width: 10%;
+    border: none;
+    background-color: #2078BF;
+    color: #ffffff;
+    padding: 4px 19px 4px 8px;    
+    text-align: center;
+}
+
+.cart {
+    margin: 10px auto;
+    width: 100%;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: #06864D;
+    padding: 0.6rem 0;
+}
+
+    .cart:hover {
+        background-color: #09cf77;
+        color: #fff
+    }
+
+.body-container {
+    border-radius: 0 0 5px 5px;
+}
+
+
+.latest {
+    color:#838383;
+    margin-top: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    padding:20px 0px;
+}
+.latest-div{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    width:100%;
+    border:1px #ccc solid;
+    background-color:#ffffff;
+    color: #838383;
+    margin: 20px 0px;
+    overflow:hidden;
+    padding:20px;
+}
+.latest-img {
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: 20px;
+    min-width: 70px;
+    min-height: 70px;
+    max-width: 50%;
+    max-height: 50%;
+}
+.latest.text{
+    width:70%;
+}
+.latest-img img {
+    border-radius:4px;
+    width: 100%;
+    object-fit:fill;
+    min-width: 70px;
+    min-height: 70px;
+    max-width:50%;
+    max-height:50%;
+}
+
+.latest-text p{
+    margin:0px;
+}
+
+.col-80 {
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.route {
+    display: none;
+}
+
+.toggle-btn-close {
+    display: flex;
+    justify-content: space-between;
+}
+
+.show-market-div {
+    position: relative;
+    height: 50px;
+}
+
+.show-market {
+    position: absolute;
+    margin: 10px;
+    left: 10px;
+}
+
+.nav-tab {
+    display: flex;
+    margin: 0;
+    margin-left: 0px;
+}
+
+.body-container {
+    border-radius: 0px 5px 5px 5px;
+    border: 1px solid #919191;
+    height: 40%;
+}
+
+.itemz {
+    list-style: none;
+    margin-right: 2px;
+    border-top: 1px solid #919191;
+    border-left: 1px solid #919191;
+    border-right: 1px solid #919191;
+    border-radius: 5px 5px 0 0;
+    padding: 1rem 2rem;
+}
+
+    .itemz a {
+        text-decoration: none;
+        color: #737373;
+        cursor: pointer;
+    }
+
+.text {
+    
+}
+.animal-id, .price {
+        margin-top: 15px;
+        text-align: left;
+        top:0;
+        position:absolute;
+        color:#838383;
+    }
+
+      .price{
+          margin-top:50px;
+      }
+        .animal-id h2 {
+            font-size: 1rem;
+            font-weight: 400;
+        }
+    .animal-detail {
+        margin:0;
+        padding-right:20px;
+    }
+    .animal-detail p{
+        margin:0px;
+        padding:0px;
+    }
+    
+    .star i {
+        width: 5px;
+        height: 5px;
+    }
+
+.tabcontent {
+    display: none;
+    color: #838383;
+    margin: 3rem 1.5rem;
+}
+    .activate{
+        border-bottom: 3px solid #2078BF;
+    }
+#reviewz p{
+    margin:0;
+}
+@media all and (min-width:600px) {
+    .side-navigation:hover {
+        overflow-y:initial;
+    }
+    .center-div {
+        width: 90%;
+        margin: 0px auto;
+    }
+    .animal-id h2 {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    .latest-img {
+        margin: 3px;
+    }
+
+    .latest.text {
+        width: 60%;
+    }
+
+    .latest-text p {
+        margin: 0px;
+        font-size: 12px;
+    }
+
+}
+@media all and (min-width:800px) {
+    
+    .medium-container{
+        display:flex;
+        
+    }
+    .side-navigation, .main-content {
+        position: static;
+        min-height: 100px;
+        display: block;
+    }
+    .side-navigation{
+        background-color: none;
+        width:25%;
+        min-width: 200px;
+        position:relative;
+        height: 100vh;
+    }
+    .main-content{
+        width:75%;
+    }
+    .animal-id{
+        position:static;
+        display:none;
+    }
+    .description-review-div{
+        width: 96%;
+        padding:10px;
+        box-sizing:border-box;
+    }
+    .picture-price-div{
+        display:flex;
+        padding:10px;
+        box-sizing:border-box;
+    }
+    .photo-div, .price-div{
+        width:100%;
+    }
+    .photo-div{
+        margin-top: 0px;
+    }
+    .photo-div img{
+        margin-top:0px;
+        height:100%;
+    }
+    .column img {
+        height: 78px;
+    }
+
+    .animal-id h2 {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .animal-id span {
+        font-weight: bold;
+    }
+    .price{
+        position:static;
+        margin-top:0px;
+        padding-right:20px;
+    }
+    
+    .route{
+        display:block;
+    }
+    .toggle-btn-close {
+        display: none;
+    }
+    .show-market-div{
+        display: none;
+    }
+    .col-80{
+        position:static;
+        width:100%;
+        margin-left:20px;
+    }
+    .latest-div {
+        justify-content: space-around;
+        width:95%;
+    }
+    .latest-img img {
+        object-fit: cover;
+    }
+    .add-btn{
+        margin-top:30px;
+        display:flex;
+        justify-content:space-between;
+    }
+    .cart{
+        width:48%;
+    }
+    .home-center-div {
+        width: 80%;
+    }
+    .center-div {
+        width: 80%;
+        margin: 0px auto;
+    }
+    .mySlides img {
+        height: 350px;
+    }
+    .latest-img {
+        margin: 3px;
+    }
+
+    .latest.text {
+        width: 60%;
+    }
+
+    .latest-text p {
+        margin: 0px;
+        font-size: 12px;
+    }
+
+}
+@media all and (min-width:1200px) {
+    .photo-div, .price-div {
+        width: 44%;
+    }
+    .photo-div {
+        margin-top: 2px;
+    }
+    .photo-div img {
+        margin-top: 0px;
+    }
+    .animal-id h2 {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .latest-div {
+        width: 90%;
+    }
+    .qty-div {
+        display: block;
+    }
+    .price-details {
+        display: block;
+    }
+    .mySlides img{
+        height:250px;
+    }
+    .latest-img {
+        margin:3px;
+    }
+
+    .latest.text {
+        width: 60%;
+    }
+    .latest-text p {
+        margin: 0px;
+        font-size: 12px;
+    }
+    .column img{
+        height:60px;
+    }
+
+}

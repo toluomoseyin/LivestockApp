@@ -1,0 +1,74 @@
+﻿<ul class="private-area-dropdown-nav nav navbar-nav">
+    <li class="private-area-dropdown dropdown">
+        <a class="dropdown-toggle text-decoration-none" data-toggle="dropdown">
+            @if (!string.IsNullOrWhiteSpace(HttpContextAccessor.HttpContext.Session.GetString("UserName")))
+            {
+                <span id="user-name">
+                    @HttpContextAccessor.HttpContext.Session.GetString("UserName").Trim()
+                </span>
+
+            }
+          
+            <span style="color: #fff;">
+                <small>
+                    as
+                    @if (!string.IsNullOrWhiteSpace(HttpContextAccessor.HttpContext.Session.GetString("UserRole")))
+                    {
+                        @HttpContextAccessor.HttpContext.Session.GetString("UserRole");
+                    }
+                </small>
+            </span>
+        </a>
+        <ul class="dropdown-menu dropdown-menu-privave shadow border-0">
+            @if (ViewBag.Area == "private")
+            {
+                <li><a asp-controller="home" asp-action="index" asp-route-q="update-profile">Home <span class=" pull-right"></span></a></li>
+                <li class="divider"></li>
+            }
+            else
+            {
+                @if (!string.IsNullOrWhiteSpace(HttpContextAccessor.HttpContext.Session.GetString("activeStatus"))
+             && HttpContextAccessor.HttpContext.Session.GetString("activeStatus") == "True")
+                {
+                    <li><a asp-controller="dashboard" asp-action="index" asp-route-q="update-profile">Dashbaord <span class=" pull-right"></span></a></li>
+                    <li class="divider"></li>
+                }
+            }
+            <li><a asp-controller="Dashboard" asp-action="Profile" asp-route-q="update-profile">My Profile <span class="glyphicon glyphicon-cog pull-right"></span></a></li>
+            <li class="divider"></li>
+            @if (!string.IsNullOrWhiteSpace(HttpContextAccessor.HttpContext.Session.GetString("activeStatus"))
+       && HttpContextAccessor.HttpContext.Session.GetString("activeStatus") == "True")
+            {
+
+                <li><a asp-controller="Dashboard" asp-action="Orders">Orders <span class="glyphicon glyphicon-stats pull-right"></span></a></li>
+                <li class="divider"></li>
+                @if ((await _authorization.AuthorizeAsync(User, "CustomerRolePolicy")).Succeeded)
+                {
+                    <li><a asp-controller="Dashboard" asp-action="Invoice" asp-route-page="1">Invoice</a></li>
+                    <li class="divider"></li>
+                }
+                <li><a asp-controller="Dashboard" asp-action="PaymentHistory" asp-route-page="1"> Payments <span class="glyphicon glyphicon-heart pull-right"></span></a></li>
+                @if ((await _authorization.AuthorizeAsync(User, "AdminRolePolicy")).Succeeded)
+                {
+                    <li><a asp-controller="Dashboard" asp-action="RegisteredUsers" asp-route-page="1"> Users <span class="glyphicon glyphicon-heart pull-right"></span></a></li>
+                }
+                <li class="divider"></li>
+                <li><a asp-controller="Dashboard" asp-action="TrackOrders">Track Order <span class="glyphicon glyphicon-heart pull-right"></span></a></li>
+                <li class="divider"></li>
+                @if ((await _authorization.AuthorizeAsync(User, "AdminAndAgentRolePolicy")).Succeeded)
+                {
+                    <li><a asp-action="Livestock" asp-controller="Dashboard">Livestock<span class="glyphicon glyphicon-heart pull-right"></span></a></li>
+                    <li class="divider"></li>
+                }
+                @if ((await _authorization.AuthorizeAsync(User, "AdminAndDeliveryRolePolicy")).Succeeded)
+                {
+                    <li><a asp-action="DeliveryAssignment" asp-controller="Dashboard">Delivery <span class="glyphicon glyphicon-heart pull-right"></span></a></li>
+                    <li class="divider"></li>
+                }
+            }
+            <li>
+                <form asp-controller="Account" asp-action="Logout" method="post"><button class="btn btn-link">Logout</button></form>
+            </li>
+        </ul>
+    </li>
+</ul>

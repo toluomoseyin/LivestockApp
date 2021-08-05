@@ -1,0 +1,249 @@
+﻿@model ShippingDetailsToReturnViewModel
+@using AnimalFarmsMarket.Data.Enum
+
+@{
+    var user = ViewBag.Ship.User;
+    var deliveryModes = ViewBag.Ship.DeliveryModes;
+    var shippingDetails = ViewBag.Ship.ShippingPlans;
+    var payment = ViewBag.Ship.PaymentMethods;
+}
+
+
+<div class="col-sm-8 d-flex rounded mx-auto" style="background: #fff !important;  margin-top: 5% !important; border: 1px solid #eee !important; margin-bottom: 40px; padding-bottom: 30px;">
+    <form method="post" asp-controller="Market" asp-action="Payment" id="shipping-details-form">
+        <div class="col-sm-12">
+            <div class="text-center my-4"><h1 style="color: #2078BF">SHIPPING DETAILS</h1></div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="agent-section__heading">Buyer's Information</h2>
+                </div>
+                <div class="col-sm-6">
+
+                    <div class="form-group">
+
+                        <div class="">
+
+                            <div class="d-flex align-content-end">
+                                <span class="" style="width:30px!important;">
+                                    <img src="~/images/assets/form-user.png" />
+                                </span>
+                                <h4>@user.FirstName @user.LastName</h4>
+                            </div>
+                        </div>
+                        <input asp-for="@Model.UserId" value="@user.Id" type="hidden" class="form-control">
+
+                    </div>
+
+
+
+
+
+                    <div class="form-group">
+
+                        <div class="input-group  agent-input">
+
+                            <div class="input-group-append">
+                                <span class="">
+                                    <img src="~/images/assets/form-contact-address-marker.png" class="w-75" />
+                                </span>
+                                <p>@user.Street @user.City @user.State</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+
+                        <div class="input-group-append">
+                            <span class="mr-1">
+                                <img src="~/images/assets/form-envelope.png" />
+                            </span>
+                            <p>@user.Email</p>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+
+                        <div class="input-group  agent-input">
+
+                            <div class="input-group-append">
+                                <span class="">
+                                    <img src="~/images/assets/form-phone.png" class="w-75" />
+                                </span>
+
+                                     @if (@user.PhoneNumber == null)
+                                     {
+                                    <p>N/A</p>
+                                    }
+                                    else
+                                    {
+                                   <p>@user.PhoneNumber</p>
+                                    }
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="agent-section__heading">Delivery Information</h2>
+                </div>
+
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label><b>Coverage</b></label>
+                        <div class="input-group  agent-input">
+                            <select asp-for="@Model.ShippingPlanId" class="form-control" id="getdetails" required>
+                                <option value="Select Coverage" selected disabled>Select Coverage</option>
+                                @foreach (var item in shippingDetails)
+                                {
+                                    <option value="@item.Id">@item.Coverage</option>
+                                }
+
+
+                            </select>
+
+                            <small class="mb-1 text-danger"> <span></span></small>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label><b>Period</b></label>
+                        <div class="input-group">
+                            <input class="form-control" id="period" asp-for="@Model.DeliveryPeriod" readonly required/>
+
+                        </div>
+                        <small class="mb-1 text-danger"><span></span></small>
+                    </div>
+
+
+                </div>
+                <div class="col-sm-6">
+
+                    <div class="form-group">
+                        <label><b>Location</b></label>
+                        <div class="input-group" id="agent-select-gender">
+                            <select id="state" asp-for="@Model.ShippedTo" class="form-control" required>
+                                <option value="Select State" selected disabled>Select State ...</option>
+                                @foreach (var state in Enum.GetNames(typeof(States)))
+                                {
+                                    <option value="@state">@state</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label><b>Cost</b></label>
+                        <div class="input-group" id="agent-select-gender">
+                            <input asp-for="@Model.DeliveryCost" class="form-control" id="cost" readonly required/>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="agent-section__heading">Pick Up Information</h2>
+                </div>
+                @foreach (var item in deliveryModes)
+                {
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label></label>
+
+
+
+                            <div class="d-inline-block">
+                                <input asp-for="@Model.DeliveryModeId" value="@item.Id" type="radio" checked required>
+
+                                <label>@item.Name</label>
+
+                            </div>
+                            <small class="mb-1 text-danger"><span></span></small>
+                        </div>
+                    </div>
+                }
+
+            </div>
+
+
+
+
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="agent-section__heading">Payment Information</h2>
+                </div>
+                @foreach (var item in payment)
+                {
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label></label>
+                            <div class="d-inline-block">
+                                <input asp-for="@Model.PaymentMethodId" type="radio" data-metod-name="@item.Name" value="@item.Id" onselect="updateForm(event)" checked required>
+                                <label>@item.Name</label>
+
+                            </div>
+                            <small class="mb-1 text-danger"><span></span></small>
+                        </div>
+                    </div>
+                }
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="agent-section__heading">Cart Information</h2>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label><b>Sub-Total</b></label>
+                        <div class="input-group  agent-input" id="itemsPrice">
+                            0
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label><b>Total</b></label>
+                        <div class="input-group" id="totalprice">
+                            0
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="cartItemsContainer">
+
+            </div>
+            
+
+            <div class="text-center">
+                <button  type="submit" class="btn btn-primary mt-3" id="create-agent__btn">Proceed</button>
+            </div>
+
+        </div>
+    </form>
+</div>
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

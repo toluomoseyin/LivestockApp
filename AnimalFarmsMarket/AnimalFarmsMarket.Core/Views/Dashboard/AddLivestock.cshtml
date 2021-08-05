@@ -1,0 +1,470 @@
+﻿@model AddLivestockViewModel
+@using AnimalFarmsMarket.Data.ViewModels;
+@using AnimalFarmsMarket.Data.Enum;
+@{
+    var markets = ViewData["Markets"] as IEnumerable<AddLivestockMarketViewModel>;
+    var categories = ViewData["Categories"] as IEnumerable<AddLivestockCategoryViewModel>;
+    var agentId = ViewData["AgentId"];
+
+    var agentLivestocks = ViewData["AgentLivestocks"] as IEnumerable<AgentLivestockViewModel>;
+    var gender = Enum.GetNames(typeof(Gender));
+    var err = ViewData["AddLivestockErrMsg"] as string;
+
+}
+
+
+<div class="col-sm-8 d-flex bg-light rounded mx-auto mt-4" style="background:#fff !important; margin-top:5% !important; border:1px solid #eee !important;  margin-bottom: 40px; padding-bottom: 30px;">
+    <div class="col-sm-12">
+        @if (ViewBag.LivesStockIsAdded=="true")
+        {
+            <div class="alert alert-success m-3" role="alert">
+                Livestock Added.
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        }
+        @if(ViewBag.Restocked == "true")
+        {
+            <div class="alert alert-success m-3" role="alert">
+                Livestock Restocked!
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        }
+        @if(ViewBag.Restockfailed == "false")
+        {
+            <div class="alert alert-danger" role="alert">
+                Failed to Restock Livestock!
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        }
+
+
+
+
+        <div class="text-center my-4"><h1 style="color: #2078BF">Add Livestock</h1></div>
+        <div class="d-flex justify-content-between my-2">
+            <div class="w-25">
+                <button type="submit" class="btn btn-success font-weight-bolder  w-100  px-md-5 py-md-3 md" data-toggle="modal" data-target="#myModal">Re-stock Livestock</button>
+            </div>
+        </div>
+
+
+
+        <form asp-action="AddLivestock" asp-controller="Dashboard" method="post" enctype="multipart/form-data">
+            @if (agentId != null)
+            {
+                <input type="hidden" value="@agentId" asp-for="AgentId" />
+            }
+
+            @if (err == "true")
+            {
+                <div class="d-flex justify-content-center">
+                    <div style="width:100%; text-align:justify;" asp-validation-summary="All" class="alert alert-danger forgotPass-list-error" id="summary"></div>
+                </div>
+            }
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="agent-section__heading">Livestock Information</h4>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="Breed"></label>
+                        <div class="input-group">
+                            <input type="text" asp-for="Breed" class="form-control del_person_input_border_right_0" placeholder="breed">
+
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <img src="~/images/assets/cattle.png" />
+                                </span>
+                            </div>
+
+
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="Breed"></span></small>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Sex"></label>
+                        <div class="input-group ">
+                            <select asp-for="Sex" asp-items="Html.GetEnumSelectList<Gender>()" class="form-control">
+                                <option>Select Animal Sex ...</option>
+
+                            </select>
+
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="Sex"></span></small>
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="Color"></label>
+                        <div class="input-group">
+                            <input type="text" asp-for="Color" class="form-control del_person_input_border_right_0" placeholder="color">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <img src="~/images/assets/form-user.png" />
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="Color"></span></small>
+
+
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Age"></label>
+                        <div class="input-group ">
+                            <input type="number" asp-for="Age" class="form-control del_person_input_border_right_0" placeholder="age">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <img src="~/images/assets/form-envelope.png" />
+                                </span>
+                            </div>
+
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="Age"></span></small>
+
+
+                    </div>
+
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="Quantity"></label>
+                        <div class="input-group">
+                            <input type="number" class="form-control del_person_input_border_right_0" asp-for="Quantity" placeholder="quantity">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <img src="~/images/assets/form-city-marker.png" class="w-75" />
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="Quantity"></span></small>
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="Weight"></label>
+                        <div class="input-group">
+                            <input type="text" class="form-control del_person_input_border_right_0" placeholder="weight" asp-for="Weight">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <img src="~/images/assets/form-contact-address-marker.png" class="w-75" />
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="Weight"></span></small>
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="MarketId"></label>
+                        <div class="input-group ">
+                            <select asp-for="MarketId" class="form-control">
+                                <option>Select Market ...</option>
+                                @if (markets != null)
+                                {
+                                    @foreach (var market in markets)
+                                    {
+                                        <option value="@market.Id">@market.MarketName</option>
+                                    }
+
+                                }
+
+                            </select>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="MarketId"></span></small>
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="CategoryId"></label>
+                        <div class="input-group" id="agent-select-gender">
+
+                            <select asp-for="CategoryId" class="form-control">
+                                <option>Select Livestock Category ...</option>
+                                @if (categories != null)
+                                {
+                                    @foreach (var category in categories)
+                                    {
+                                        <option value="@category.Id">@category.Name</option>
+                                    }
+                                }
+
+
+                            </select>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="CategoryId"></span></small>
+
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <label> Upload Livestock Image</label>
+                    <div class="custom-file">
+                        <input asp-for="LivestockPhoto" id="customFile">
+                        <label for="customFile">Choose file</label>
+                    </div>
+                    <small class="mb-1 text-danger"><span asp-validation-for="LivestockPhoto"></span></small>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="agent-section__heading">Pricing</h4>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label asp-for="PurchasePrice"></label>
+                        <div class="input-group">
+                            <input type="number" class="form-control del_person_input_border_right_0" placeholder="how much you got the livestock" asp-for="PurchasePrice">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <i class="bi bi-cash" style="font-size: 24px; color: #4c93cb; line-height: 0.5px"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="PurchasePrice"></span></small>
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+
+                    <div class="form-group">
+                        <label asp-for="SellingPrice"></label>
+                        <div class="input-group">
+                            <input type="number" class="form-control del_person_input_border_right_0" placeholder="how much you want to sell" asp-for="SellingPrice">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <i class="bi bi-cash" style="font-size: 24px; color: #4c93cb; line-height: 0.5px"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="SellingPrice"></span></small>
+
+                    </div>
+
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="Discount"></label>
+                        <div class="input-group">
+                            <input type="number" class="form-control del_person_input_border_right_0" placeholder="discount" asp-for="Discount">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <i class="bi bi-cash" style="font-size: 24px; color: #4c93cb; line-height: 0.5px"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="Discount"></span></small>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="agent-section__heading">OTHER INFORMATION</h4>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label asp-for="Description"></label>
+                        <div class="input-group ">
+                            <textarea asp-for="Description" placeholder="Type a Description" class="w-100 " style="outline-color: #6CB4EE; outline-width: 3px; border-radius: 10px; border-color: #ced4da; padding:10px;" rows="5"></textarea>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="Description"></span></small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="text-center m-4">
+                <button type="submit" class="btn btn-success font-weight-bolder px-md-5 py-md-3 md">Add Livestock</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@*this is our modal form*@
+<div class="modal" id="myModal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h3 class="text-center font-weight-bold w-100 text-center modal-title" id="agent-form__lead">RE STOCK A LIVESTOCK </h3>
+                <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+
+
+
+            <!-- Modal body -->
+            <form asp-controller="Dashboard" asp-action="RestockLivestock" method="post">
+                <div class="modal-body">
+                    <div class="col-sm-12 d-flex rounded">
+                        <div class="col-12">
+
+
+                            <input id="livestockid" hidden />
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <div class="input-group ">
+                                        <select asp-for="LivestockId" onchange="populate(this)" id="livestockbreed" class="form-control">
+                                            <option>Select Livestock to Re-Stock ...</option>
+                                            @if (agentLivestocks != null)
+                                            {
+                                                @foreach (var livestock in agentLivestocks)
+                                                {
+                                                    <option value="@livestock.Id"
+                                                            data-sellingprice="@livestock.SellingPrice"
+                                                            data-purchaseprice="@livestock.PurchasePrice"
+                                                            data-quantity="@livestock.Quantity"
+                                                            data-discount="@livestock.Discount">
+                                                        @livestock.Breed - @gender[@livestock.Sex] - @livestock.color
+
+                                                    </option>
+                                                }
+                                            }
+
+
+                                        </select>
+                                        <div asp-validation-summary="ModelOnly" class="text-danger forgotPass-list-error text-center"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row px-3">
+
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label asp-for="PurchasePrice"></label>
+                                        <div class="input-group">
+                                            <input id="purchaseprice" type="number" class="form-control del_person_input_border_right_0" placeholder="how much you got the livestock" asp-for="PurchasePrice">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text bg-white">
+                                                    <i class="bi bi-cash" style="font-size: 24px; color: #4c93cb; line-height: 0.5px"></i>
+                                                </span>
+                                            </div>
+
+            
+                                        </div>
+                                        <small class="mb-1 text-danger"><span asp-validation-for="PurchasePrice"></span></small>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+
+                                    <div class="form-group">
+                                        <label asp-for="SellingPrice"></label>
+                                        <div class="input-group">
+                                            <input id="sellingprice" type="number" class="form-control del_person_input_border_right_0" placeholder="how much you want to sell" asp-for="SellingPrice">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text bg-white">
+                                                    <i class="bi bi-cash" style="font-size: 24px; color: #4c93cb; line-height: 0.5px"></i>
+                                                </span>
+                                            </div>
+                                            <div asp-validation-summary="ModelOnly" class="text-danger forgotPass-list-error text-center"></div>
+                                        </div>
+                                        <small class="mb-1 text-danger"><span asp-validation-for="SellingPrice"></span></small>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-sm-6">
+
+                                    <div class="form-group">
+                                        <label asp-for="Discount"></label>
+                                        <div class="input-group">
+                                            <input id="discount" type="number" class="form-control del_person_input_border_right_0" placeholder="how much you want to sell" asp-for="Discount">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text bg-white">
+                                                    <i class="bi bi-cash" style="font-size: 24px; color: #4c93cb; line-height: 0.5px"></i>
+                                                </span>
+                                            </div>
+                                            <div asp-validation-summary="ModelOnly" class="text-danger forgotPass-list-error text-center"></div>
+                                        </div>
+                                        <small class="mb-1 text-danger"><span asp-validation-for="Discount"></span></small>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-sm-6">
+
+                                    <div class="form-group">
+                                        <label asp-for="Quantity"></label>
+                                        <div class="input-group">
+                                            <input id="quantity" type="number" class="form-control del_person_input_border_right_0" placeholder="how much you want to sell" asp-for="Quantity">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text bg-white">
+                                                    <i class="bi bi-cash" style="font-size: 24px; color: #4c93cb; line-height: 0.5px"></i>
+                                                </span>
+                                            </div>
+                                            <div asp-validation-summary="ModelOnly" class="text-danger forgotPass-list-error text-center"></div>
+                                        </div>
+                                        <small class="mb-1 text-danger"><span asp-validation-for="Quantity"></span></small>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <!-- Modal footer -->
+                <div class="text-center mb-5">
+                    <button type="submit" class="btn btn-primary mt-3" id="create-agent__btn">Proceed</button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+
+
+
+@section scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
+
+<script>
+    // Add the following code if you want the name of the file appear on select
+    $(".custom-file-input").on("change", function () {
+        var fileName = $(this).val().split("\\").pop();
+        $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+    });
+
+    function populate(e) {
+
+        document.getElementById("purchaseprice").value = e.selectedOptions[0].getAttribute('data-purchaseprice');
+        document.getElementById("sellingprice").value = e.selectedOptions[0].getAttribute('data-sellingprice');
+        document.getElementById("quantity").value = e.selectedOptions[0].getAttribute('data-quantity');
+        document.getElementById("discount").value = e.selectedOptions[0].getAttribute('data-discount');
+
+    }
+</script>

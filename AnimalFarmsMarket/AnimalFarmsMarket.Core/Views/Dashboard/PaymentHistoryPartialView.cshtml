@@ -1,0 +1,114 @@
+﻿@model PaginatedResultDto<OrderDetailsViewModel>
+
+@{
+    if(ViewBag.isDashboard == null){
+        ViewBag.isDashboard = false;
+    }
+    bool isDashboard = ViewBag.isDashboard;
+}
+
+
+<div class="justify-content-center mt-4">
+    <div class="shadow bg-white rounded  col-sm-12 text-center p-4 table-responsive-sm" id="tbody">
+        <table class="table table-borderless">
+            @if (Model.ResponseData.Count() < 1)
+            {
+                <h2 class="brand pl-0" style="color:#2078BF; ">No Payment Record</h2>
+            }
+            else
+            {
+
+
+
+
+
+<thead>
+    <tr class="justify-content-between">
+        @if (User.IsInRole("Admin"))
+        {
+            <th>Customer name</th>
+        }
+
+        <th class="text-align-left">Order Details</th>
+        <th>Amount</th>
+        <th>Date</th>
+        <th>Status</th>
+
+    </tr>
+            </thead>
+
+
+            <tbody id="paymentInfo">
+                @if (User.IsInRole("Admin"))
+                {
+
+                    @foreach (var item in Model.ResponseData)
+                    {
+                        <tr class="justify-content-center">
+                            <td>
+                                <a href="#exampleModal" id="product-detail-link" data-toggle="modal" data-target="#exampleModal" class="text-decoration-none displayModal">
+                                    <p class="mb-0" id="@item.UserId" onclick="displayData(this)">@item.User.FirstName @item.User.LastName </p>
+                                </a>
+                            </td>
+                            <td id="product-detail">
+                                <div id="product-detail-text" class="text-left">
+                                    <a asp-controller="Dashboard" asp-action="OrderDetails" asp-route-id="@item.Id" class="mb-0">@item.Id</a>
+                                </div>
+                            </td>
+                            <td>@string.Format(new CultureInfo("ng-NG"), "{0:c}", item.PaymentAmount)</td>
+                            <td>@DateTime.Parse(item.DateCreated).ToLongDateString()</td>
+                            @if (item.PaymentStatus == 1)
+                            {
+                                <td><i class="badge badge-pill badge-success w-100">Paid</i></td>
+                            }
+                            else if (item.PaymentStatus == 0)
+                            {
+                                <td><i class="badge badge-pill badge-warning w-100">Pending</i></td>
+                            }
+
+                        </tr>
+                    }
+
+
+                }
+                else
+                {
+
+                    var count = 0;
+
+                    @foreach (var item in Model.ResponseData)
+                    {
+                        if (isDashboard && count >= 5)
+                        {
+                            break;
+                        }
+                        <tr class="justify-content-between">
+                            <td id="product-detail">
+                                <div id="product-detail-text" class="text-left">
+                                    <a asp-controller="Dashboard" asp-action="OrderDetails" asp-route-id="@item.Id" class="mb-0">@item.Id</a>
+                                </div>
+                            </td>
+                            <td>@string.Format(new CultureInfo("ng-NG"), "{0:c}", item.PaymentAmount)</td>
+                            <td>@DateTime.Parse(item.DateCreated).ToLongDateString()</td>
+                            @if (item.PaymentStatus == 1)
+                            {
+                                <td><i class="badge badge-pill badge-success w-75">Paid</i></td>
+                            }
+                            else if (item.PaymentStatus == 0)
+                            {
+                                <td><i class="badge badge-pill badge-warning w-75">Pending</i></td>
+                            }
+
+
+                        </tr>
+
+                        count++;
+                    }
+
+                }
+
+            </tbody>
+            }
+        </table>
+    </div>
+</div>

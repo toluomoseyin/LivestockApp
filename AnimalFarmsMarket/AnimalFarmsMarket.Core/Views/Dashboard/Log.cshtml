@@ -1,0 +1,19 @@
+﻿@model string[]
+
+<div class="col-sm-12 track-order" id="divtwo" style="padding-top: 70px">
+
+    <div>
+        <h1 class="track-header">Log Info <span>@ViewData["file"]</span></h1>
+    </div>
+    <div class=" col-sm-10 rounded mx-auto p-5 mb-5" style="background-color: #FFFFFF; box-shadow: rgba(32, 120, 191, 0.35) 0px 5px 15px;">
+        <div class="row" style="height: 500px; overflow-y: scroll;">
+            <div class="col">
+
+                @foreach (var d in Model)
+                {
+                    <code>@d</code><br/>
+                }
+            </div>
+        </div>
+    </div>
+</div>

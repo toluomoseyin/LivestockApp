@@ -1,0 +1,102 @@
+﻿
+@model ResponseDto<PaginatedResultDto<AssignmentDeliveryViewModel>>
+@{int count = 0; }
+@if (Model!=null)
+{
+    if (Model.Data.PageMetaData.Page == 1)
+    {
+        count = 0;
+    }
+    else
+    {
+        count = (Model.Data.PageMetaData.Page-1) * Model.Data.PageMetaData.PerPage;
+    }
+
+}
+
+
+<div class="d-flex justify-content-between">
+
+    <div class="container shadow rounded col-12 p-4" style="width">
+        <table class="table table-borderless">
+            <thead>
+                <tr class="">
+                    <th>S/N</th>
+                    <th>Order</th>
+                    @if ((await _authorization.AuthorizeAsync(User, "DeliveryRolePolicy")).Succeeded)
+                    {
+                        <th>Action</th>
+                    }
+                    else
+                    {
+                        <th>Status</th>
+                    }
+
+                </tr>
+            </thead>
+            @if (Model != null)
+            {
+                <tbody>
+
+                    @foreach (var item in Model.Data.ResponseData)
+                    {
+                        count++;
+                    <tr class="">
+                        <td>@count</td>
+                        <td><a href="">@item.OrderId</a></td>
+                        @if ((await _authorization.AuthorizeAsync(User, "DeliveryRolePolicy")).Succeeded)
+                        {
+                            <td>
+                                <a id="acceptid" data-delivery="@item.Id" onclick="acceptBtn(event)" role="button" class="btn btn-outline-success mr-1 ">
+                                    Accept
+
+                                </a>
+                            </td>
+
+                        }
+                    else
+                    {
+                    <td>
+                        <a id="acceptid" role="button" class="btn btn-outline-success mr-1 ">
+                            pending
+
+                        </a>
+                    </td>
+                    }
+
+                    </tr>
+
+                    }
+
+
+                </tbody>
+            }
+            @{else
+                {
+                    <tbody>
+                    </tbody>
+                }
+
+            }
+        </table>
+        @if (Model.Data.ResponseData.Count() == 0)
+        {
+            <div style="display:flex; justify-content:center;height:50px">
+                <p style="margin:7px auto;font-weight:bold">NO RECORD FOUND</p>
+            </div>
+        }
+    </div>
+</div>
+@if (Model!=null)
+{
+    <div class="col-12">
+        <ul class="pagination mt-3">
+            @for (int i = 1; i <= Model.Data.PageMetaData.TotalPages; i++)
+            {
+            <li class="page-item">
+                <button class="page-link btn btn-sm" id="@i" onclick="okayBtn(this)">@i</button>
+            </li>
+            }
+        </ul>
+    </div>
+}

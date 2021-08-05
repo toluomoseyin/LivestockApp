@@ -1,0 +1,242 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@{
+    ViewBag.Area = "private";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - AnimalFarmsMarket.Core</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link href="~/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="~/css/site.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/css/OrderStyle.css" rel="stylesheet"/>
+    <link href="~/css/OrderStyle.css" rel="stylesheet"/>
+    <link href="~/css/regUserStyle.css" rel="stylesheet"/>
+    <script>var currentUser = '@HttpContextAccessor.HttpContext.Session.GetString("UserId")';</script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+    <script src="~/js/cart.js"></script>
+    <link rel="stylesheet" href="~/css/regUserStyle.css"/>
+</head>
+<body>
+    <header>
+        <nav class="top-navbar-dashboard">
+            <div class="top-navbar-dashboard-columns" style="width:75%; margin:0 auto;">
+                <div class="top-navbar-dashboard-col-one">
+                    <div class="" style="position:relative; overflow:hidden; width:80px; height:70px; margin-left:20px;">
+                        <a asp-action="index" asp-controller="home"><img src="~/images/assets/footer-logo.png" alt="live stock delivery" style="margin:-20px 0px 0px -14px" /></a>
+                    </div>
+                </div>
+                <div class="top-navbar-dashboard-col-two">
+                    <div class="top-navbar-dashboard-search-div">
+                        <div>
+                            <img src="~/images/assets/search.png" alt="search" class="p-2"/>
+                        </div>
+
+                        <div class="flex-1 ">
+                            <input type="text" class="top-navbar-dashboard-search-input" aria-label="Text input with radio button" placeholder="eg orders">
+                        </div>
+                    </div>
+                </div>
+                @{
+                    var userId = HttpContextAccessor.HttpContext.Session.GetString("UserId");
+                    var userRoll = HttpContextAccessor.HttpContext.Session.GetString("UserRole");
+                }
+                @if (userId == null || (userId != null && userRoll.ToLower() == "customer"))
+                {
+                    <div class="nav-item dropdown" style="margin-left: 20px;">
+                        <div class="drop">
+                            <a href="#">
+                                <i class="bi bi-cart2" style="font-size:28px; color:#fff;"></i>
+                                <span id="shoppingCart-badge" class="badge badge-light rounded-circle"
+                                      style="font-size:10px;color:#2078bf; margin-left:-1em;top:-2em">0</span>
+                            </a>
+                            <div class="dropdown-content" style="width: 300px;">
+                                <div id="menu-cart">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+                <div class="top-navbar-dashboard-col-three">
+                    <div>
+                        <i class="bi bi-bell"></i>
+                    </div>
+                    <div>
+                        <partial name="_UserNavThumbnailPartial"/>
+                    </div>
+                </div>
+
+                <div class="mobile-nav-hamburger-order">
+
+                    <div class="pt-3">
+                        <input type="checkbox" id="nav-menu1"/>
+                        <label id="nav-icon1" for="nav-menu1">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="">
+        <main role="main" class="d-flex" style="min-height:70vh">
+            <nav id="toggle-ham-menu" class="side-navbar-dashboard ham-menu-hide">
+                <div class="side-navbar-dashboard-options">
+                    <ul class="border-0 position-relative w-100 ">
+                        <li>
+                            <div class="tooltip1">
+                                <a asp-action="Index" asp-controller="Dashboard"><i class="mr-3 bi bi-house"></i></a>
+                                <span class="tooltiptext">Overview</span>
+                            </div>
+                        </li>
+                        <li><div class="tooltip1"><a asp-controller="Dashboard" asp-action="Profile" asp-route-q="update-profile"><i class="bi bi-person mr-3"></i></a><span class="tooltiptext">Profile</span> </div></li>
+                        @if (!string.IsNullOrWhiteSpace(HttpContextAccessor.HttpContext.Session.GetString("activeStatus"))
+               && HttpContextAccessor.HttpContext.Session.GetString("activeStatus") == "True")
+                        {
+
+                            @if ((await _authorization.AuthorizeAsync(User, "AdminRolePolicy")).Succeeded)
+                            {
+                                <li><div class="tooltip1"><a asp-controller="Dashboard" asp-action="RegisteredUsers"><img src="~/images/assets/groupUser.png" class="mr-3" alt="Users" /></a><span class="tooltiptext">Registered Users</span> </div></li>
+
+                            }
+
+                            @if ((await _authorization.AuthorizeAsync(User, "AgentRolePolicy")).Succeeded)
+                            {
+                                <li><div class="tooltip1"><a asp-controller="Dashboard" asp-action="AgentOrders"><i class="mr-3 bi bi-bag"></i></a><span class="tooltiptext">Orders</span> </div></li>
+                            }
+                            else
+                            {
+                                if (!User.IsInRole("Delivery"))
+                                {
+
+                                <li><div class="tooltip1"><a asp-controller="Dashboard" asp-action="Orders"><i class="mr-3 bi bi-bag"></i></a><span class="tooltiptext">Orders</span> </div></li>
+                                }
+                            }
+
+                            @if ((await _authorization.AuthorizeAsync(User, "CustomerRolePolicy")).Succeeded)
+                            {
+                                <li><div class="tooltip1"><a asp-controller="Dashboard" asp-action="Invoice" asp-route-page="1"><i class="mr-3 bi bi-receipt"></i></a><span class="tooltiptext">Invoice</span> </div></li>
+                            }
+                            <li><div class="tooltip1"><a asp-controller="Dashboard" asp-action="PaymentHistory" asp-route-page="1"><i class="mr-3 bi bi-credit-card"></i></a><span class="tooltiptext">Payments</span> </div></li>
+                            @if ((await _authorization.AuthorizeAsync(User, "DeliveryRolePolicy")).Succeeded)
+                            {
+                                <li><div class="tooltip1"><a asp-controller="Dashboard" asp-action="AddTracking"><i class="mr-3 bi bi-plus-square"></i></a><span class="tooltiptext">Add Tracking</span> </div></li>
+                            }
+                            <li><div class="tooltip1"><a asp-controller="Dashboard" asp-action="TrackOrders"><i class="mr-3 bi bi-geo-alt-fill"></i></a><span class="tooltiptext">Track Order</span> </div></li>
+                            @if ((await _authorization.AuthorizeAsync(User, "AdminAndAgentRolePolicy")).Succeeded)
+                            {
+                                <li><div class="tooltip1"><a asp-controller="Dashboard" asp-action="Livestock"><img src="~/images/assets/cattle.png" class="mr-3" alt="Livestock" /></a><span class="tooltiptext">Livestock</span> </div></li>
+                            }
+                            @if ((await _authorization.AuthorizeAsync(User, "AdminRolePolicy")).Succeeded)
+                            {
+                                <li><div class="tooltip1"><a asp-controller="Dashboard" asp-action="DeliveryPersonRegistration"><i class="mr-3 fa fa-user-plus" style="color:grey;"></i></a><span class="tooltiptext">Delivery Person</span> </div></li>
+                            }
+                            @if ((await _authorization.AuthorizeAsync(User, "AdminAndDeliveryRolePolicy")).Succeeded)
+                            {
+                                <li><div class="tooltip1"><a asp-controller="Dashboard" asp-action="DeliveryAssignment"><i class="mr-3 bi bi-truck"></i></a><span class="tooltiptext">Delivery</span> </div></li>
+                            }
+
+                            @if ((await _authorization.AuthorizeAsync(User, "AgentRolePolicy")).Succeeded)
+                            {
+
+                                <li>
+                                    <div class="tooltip1"><a asp-controller="Dashboard" asp-action="AddLivestock"><i class="mr-3 fa fa-plus " style="color:grey;"></i></a><span class="tooltiptext">Add Livestock</span></div>
+                                </li>
+                            }}
+                        @if ((await _authorization.AuthorizeAsync(User, "AdminRolePolicy")).Succeeded)
+                        {
+                            <li><div class="tooltip1"><a asp-controller="Dashboard" asp-action="Logs"><i class="mr-3 fa fa-times-circle" style="color:grey;"></i></a><span class="tooltiptext">Error Logs</span> </div></li>
+                        }
+
+                        <li>
+                            <div class="tooltip1">
+                                <form asp-controller="Account" asp-action="Logout" method="post">
+                                    <button type="submit" class="btn btn-link text-danger" style="padding:0px">
+                                        <i class="mr-3 bi bi-box-arrow-in-right"></i>
+                                        <span class="tooltiptext">Log out</span>
+                                    </button>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="side-navbar-dashboard-empty">
+                </div>
+            </nav>
+            <div class="layout-color w-100">
+                @RenderBody()
+
+                <div class="modal fade" id="trackingHistory" role="dialog" aria-labelledby="trackingHistory" aria-hidden="true" style="z-index:999999;">
+                    <div class="modal-dialog  modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="text-center font-weight-bold w-100 text-center modal-title">Order Information</h3>
+                                <button id="playCarousel" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body overflow-auto">
+
+                                <div asp-validation-summary="ModelOnly"></div>
+                                <div class="justify-content-lg-start" style="margin-top:20px" id="trackingHistoryPage">
+                                    <div id="trackingHistory3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <partial name="_FooterLowerPartial"/>
+    </div>
+
+    <script src="~/js/Order.js"></script>
+    <script src="~/js/Livestock.js"></script>
+    <script src="~/js/MarketPlaceScript.js"></script>
+    <script src="~/js/Assignment.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/font-awesome/js/fontawesome.min.js"></script>
+    <script src="~/js/TrackingHistory.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Add down arrow icon for collapse element which is open by default
+            $(".collapse.show").each(function () {
+                $(this).prev(".heading").find(".fa").addClass("fa-angle-down").removeClass("fa-angle-right");
+            });
+            // Toggle right and down arrow icon on show hide of collapse element
+            $(".collapse").on('show.bs.collapse', function () {
+                $(this).prev(".heading").find(".fa").removeClass("fa-angle-right").addClass("fa-angle-down");
+            }).on('hide.bs.collapse', function () {
+                $(this).prev(".heading").find(".fa").removeClass("fa-angle-down").addClass("fa-angle-right");
+            });
+
+            // modal display
+
+        });
+    </script>
+    <script src="~/js/MarketPlaceScript.js"></script>
+    @RenderSection("Scripts", required: false)
+    <script>
+        $(document).ready(function () {
+            updateShoppingCart();
+            setInterval(updateShoppingCart, 5000);
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#agent_activate_confirm").modal('show');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+[
+  {
+    "AppUser": {
+      "FirstName": "Marks",
+      "LastName": "Hancock",
+      "UserName": "markshancock@bitendrex.com",
+      "email": "markshancock@bitendrex.com",
+      "gender": 1,
+      "isActive": true,
+      "ZipCode": "9565",
+      "Address": {
+        "Street": "12 Salem",
+        "City": "Ikeja",
+        "State": "Lagos"
+      },
+      "photo": "http://placehold.it/32x32",
+      "PublicID": "akk8886o9sRq"
+    },
+    "BusinessLocation": "Lagos",
+    "NIN": "12345678901",
+    "NINTrackingId": "1234567890",
+    "Bank": "Access Bank",
+    "AccountName": "Marks Hancock",
+    "AccountNumber": "0090776543"
+  },
+  {
+    "AppUser": {
+      "FirstName": "Frazier",
+      "LastName": "Spears",
+      "UserName": "frazierspears@bitendrex.com",
+      "email": "frazierspears@bitendrex.com",
+      "gender": 1,
+      "isActive": true,
+      "ZipCode": "7337",
+      "Address": {
+        "Street": "12 Salem",
+        "City": "Maitama",
+        "State": "Abuja"
+      },
+      "photo": "http://placehold.it/32x32",
+      "PublicID": "akk8886o9sRq"
+    },
+    "BusinessLocation": "Abuja",
+    "NIN": "12409678901",
+    "NINTrackingId": "1234016390",
+    "Bank": "GtBank",
+    "AccountName": "Frazier Spears",
+    "AccountNumber": "1178454623"
+  },
+  {
+    "AppUser": {
+      "FirstName": "Elizabeth",
+      "LastName": "Holman",
+      "UserName": "elizabethholman@bitendrex.com",
+      "email": "elizabethholman@bitendrex.com",
+      "gender": 0,
+      "isActive": false,
+      "ZipCode": "8281",
+      "Address": {
+        "Street": "12 Salem",
+        "City": "Abba",
+        "State": "Abia"
+      },
+      "photo": "http://placehold.it/32x32",
+      "PublicID": "akk8886o9sRq"
+    },
+    "BusinessLocation": "Abia",
+    "NIN": "12340984211",
+    "NINTrackingId": "1581267890",
+    "Bank": "Eco Bank",
+    "AccountName": "Elizabeth Holman",
+    "AccountNumber": "2349800987"
+  },
+  {
+    "AppUser": {
+      "FirstName": "Weiss",
+      "LastName": "Carroll",
+      "UserName": "weisscarroll@bitendrex.com",
+      "email": "weisscarroll@bitendrex.com",
+      "gender": 1,
+      "isActive": true,
+      "ZipCode": "7501",
+      "Address": {
+        "Street": "12 Salem",
+        "City": "Jos",
+        "State": "Plateau"
+      },
+      "photo": "http://placehold.it/32x32",
+      "PublicID": "akk8886o9sRq"
+    },
+    "BusinessLocation": "Plateau",
+    "NIN": "12340987161",
+    "NINTrackingId": "1093476590",
+    "Bank": "Heritage Bank",
+    "AccountName": "Weiss Carroll",
+    "AccountNumber": "9087654309"
+  },
+  {
+    "AppUser": {
+      "FirstName": "Frye",
+      "LastName": "Thornton",
+      "UserName": "fryethornton@bitendrex.com",
+      "email": "fryethornton@bitendrex.com",
+      "gender": 1,
+      "isActive": false,
+      "ZipCode": "5347",
+      "Address": {
+        "Street": "12 Salem",
+        "City": "PortHacourt",
+        "State": "Rivers"
+      },
+      "photo": "http://placehold.it/32x32",
+      "PublicID": "akk8886o9sRq"
+    },
+    "BusinessLocation": "Rivers",
+    "NIN": "12908778901",
+    "NINTrackingId": "1209123890",
+    "Bank": "First Bank",
+    "AccountName": "Frye Thornton",
+    "AccountNumber": "6754731290"
+  }
+]

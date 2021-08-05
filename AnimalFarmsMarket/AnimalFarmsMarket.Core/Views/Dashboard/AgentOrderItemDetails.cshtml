@@ -1,0 +1,68 @@
+﻿@model DisplayOrderItemAgent
+
+
+<div class="col-sm-8 d-flex bg-light rounded mx-auto mt-4" style="background:#fff !important; margin-top:5% !important; border:1px solid #eee !important;  margin-bottom: 40px; padding-bottom: 30px;">
+    <div class="col-sm-12">
+        <div class="text-center my-4"><h1 style="color: #2078BF">Livestock Information</h1></div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h4 class="agent-section__heading">Livestock Information</h4>
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-3 mt-1"><h6 class="mr-2"> Breed: </h6></div>
+                    <div class="col-sm-3"><p>@Model.Breed</p></div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-3 mt-1"><h6 class="mr-2"> Sex: </h6></div>
+                    <div class="col-sm-3"><p>@Model.Sex</p></div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-3 mt-1"><h6 class="mr-2"> Color: </h6></div>
+                    <div class="col-sm-3"><p>@Model.Color</p></div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-3 mt-1"><h6 class="mr-2"> Age: </h6></div>
+                    <div class="col-sm-3"><p>@Model.Age</p></div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h4 class="agent-section__heading">Pricing</h4>
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-3 mt-1"><h6 class="mr-2">Purchase Price:</h6></div>
+                    <div class="col-sm-3"><p>@string.Format(new CultureInfo("ng-NG"), "{0:c}", Model.PurchasePrice)</p></div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-3 mt-1"><h6 class="mr-2">Selling Price:</h6></div>
+                    <div class="col-sm-3"><p>@string.Format(new CultureInfo("ng-NG"), "{0:c}", Model.SellingPrice)</p></div>
+                </div>
+            </div>
+        </div>
+            <div class="text-center m-4">
+                <a asp-action="AgentOrders" asp-controller="Dashboard" asp-route-page="@ViewBag.page" class="btn btn-success font-weight-bolder px-md-5 py-md-3 md">Back to Order Page</a>
+            </div>
+        
+    </div>
+</div>
+
+
+@section scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

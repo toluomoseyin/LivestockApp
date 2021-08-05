@@ -1,0 +1,12 @@
+[
+  {
+    "Coverage": "Within state",
+    "DeliveryPeriod": 1,
+    "DeliveryCost": 450
+  },
+  {
+    "Coverage": "Outside state",
+    "DeliveryPeriod": 4,
+    "DeliveryCost": 1000
+  }
+]

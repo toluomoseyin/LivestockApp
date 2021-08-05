@@ -1,0 +1,164 @@
+@model DashboardViewModel;
+
+@{
+    var check = ViewData["value"];
+}
+
+@if (check != null && (string)check == "paid")
+{
+    <div class="modal fade" id="agent_activate_confirm" tabindex="-1" role="dialog" aria-labelledby="AgentPayTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <section class="m-auto text-center w-75">
+                        <div class="mt-5 row d-flex justify-content-center">
+                            <div class="mb-4 img-fluid mr-sm-5 ">
+                                <img src="~/images/assets/success-mark.png"/>
+                            </div>
+                            <div class="">
+                                <h1>Acount Activated</h1>
+                                <p>Your account has been successfully activated</p>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="text-center border-0 modal-footer justify-content-center">
+                        <a class="px-5 rounded btn btn-success" asp-action="Index">OK</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div class="container mt-5">
+    <div class="text-center">
+        <div class="row  mb-4 justify-content-between">
+            <div class="section-header">
+                Quicklinks
+            </div>
+        </div>
+        <div class="row quick-link-contianer w-100 justify-content-center justify-content-between align-content-center p-2 ">
+            @if (User.IsInRole("Customer") || User.IsInRole("Admin"))
+            {
+                <div class="col-9 col-md-2  quick-link-item">
+                    <a asp-action="Orders" class="mt-3" style="display: block">
+                        <img class="img-fluid quick-link-icon" src="~/images/order-icon.png" alt="" style="" />
+                    </a>
+                    <div class="mt-2 quick-link-text"> Orders</div>
+                </div>
+            }
+
+            @if (User.IsInRole("Agent"))
+            {
+                <div class="col-9 col-md-2  quick-link-item">
+                    <a asp-action="AgentOrders" class="mt-3" style="display: block">
+                        <img class="img-fluid quick-link-icon" src="~/images/order-icon.png" alt="" style="" />
+                    </a>
+                    <div class="mt-2 quick-link-text"> Orders</div>
+                </div>
+            }
+
+            @if (User.IsInRole("Customer"))
+            {
+                <div class="col-9 col-md-2  quick-link-item">
+                    <a asp-action="Invoice" class="mt-3" style="display: block">
+                        <img class="img-fluid quick-link-icon" src="~/images/invoice-icon.png" alt="" style="" />
+                    </a>
+                    <div class="mt-2 quick-link-text"> Invoices</div>
+                </div>
+            }
+            <div class="col-9 col-md-2  quick-link-item">
+                <a asp-action="PaymentHistory" class="mt-3" style="display: block">
+                    <img class="img-fluid quick-link-icon" src="~/images/payment-icon.png" alt="" style="" />
+                </a>
+                <div class="mt-2 quick-link-text"> Payments</div>
+            </div>
+            @if (User.IsInRole("Delivery"))
+            {
+                <div class="col-9 col-md-2  quick-link-item">
+                    <a asp-action="addtracking" class="mt-3" style="display: block">
+                        <img class="img-fluid quick-link-icon" width="70" src="~/images/add.png" alt="" style="" />
+                    </a>
+                    <div class="mt-2 quick-link-text">Add Tracking</div>
+                </div>
+            }
+            @if (User.IsInRole("Delivery"))
+            {
+                <div class="col-9 col-md-2  quick-link-item">
+                    <a asp-action="deliveryassignment" class="mt-3" style="display: block">
+                        <img class="img-fluid quick-link-icon" width="70" src="~/images/delivery-truck.png" alt="" style="" />
+                    </a>
+                    <div class="mt-2 quick-link-text"> Delivery </div>
+                </div>
+            }
+            <div class="col-9 col-md-2  quick-link-item">
+                <a asp-action="TrackOrders" class="mt-3" style="display: block">
+                    <img class="img-fluid quick-link-icon" src="~/images/track-order-icon.png" alt="" style="" />
+                </a>
+                <div class="mt-2 quick-link-text">Track Orders</div>
+            </div>
+        </div>
+    </div>
+
+    @if (User.IsInRole("Customer"))
+    {
+        <div class="my-5">
+            <partial name="StatisticsPartial" model="@Model.Stats" />
+        </div>
+    }
+
+
+    @if (User.IsInRole("Customer") || User.IsInRole("Admin"))
+    {
+        <div>
+            <partial name="OrderPartialView" model="@Model.Orders" />
+            <div class="my-5 d-flex justify-content-center">
+                <a class="btn btn-success" asp-controller="Dashboard" asp-action="Orders">View All Orders</a>
+            </div>
+        </div>
+    }
+
+    @if (User.IsInRole("Agent"))
+    {
+        <div>
+            <partial name="_AgentOrderPartialView" model="@Model.AgentOrder" />
+            <div class="my-5 d-flex justify-content-center">
+                <a class="btn btn-success" asp-controller="Dashboard" asp-action="AgentOrders">View All Orders</a>
+            </div>
+        </div>
+    }
+
+    @if (User.IsInRole("Customer"))
+    {
+        @if (Model.Invoices.ResponseData.Count() > 0)
+        {
+            <div class="mb-5">
+                <div class="mb-5">
+                    <h2 class="brand pl-0" style="color:#2078BF; ">Invoices</h2>
+                </div>
+                <div class="bg-light" style="box-shadow: rgba(32, 120, 191, 0.35) 0px 5px 15px;
+                    margin:50px auto 20px auto;">
+                    <div class="accordion" id="accordionFlushExample">
+                        <partial name="InvoicePartial" model="@Model.Invoices" />
+                    </div>
+                </div>
+            </div>
+        }
+
+    }
+
+    @if (User.IsInRole("Customer") || User.IsInRole("Admin"))
+    {
+        <div>
+            <div class="ml-10 bg-light">
+                <div class="mb-5">
+                    <h2 class="brand pl-0" style="color:#2078BF; ">Payments</h2>
+                </div>
+                <partial name="PaymentHistoryPartialView" model="@Model.Payments" />
+                <div class="my-5 d-flex justify-content-center">
+                    <a class="btn btn-success" asp-controller="Dashboard" asp-action="PaymentHistory">View All Payments</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

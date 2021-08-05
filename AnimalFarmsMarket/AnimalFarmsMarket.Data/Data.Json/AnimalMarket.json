@@ -1,0 +1,65 @@
+[
+  {
+    "Id": "1",
+    "MarketName": "Cattle Market",
+    "MarketAddress": {
+      "Street": "12 bode",
+      "City": "Alaba",
+      "State": "Lagos"
+    }
+  },
+  {
+    "Id": "2",
+    "MarketName": "Poultry Market",
+    "MarketAddress": {
+      "Street": "12 bode",
+      "City": "Alaba",
+      "State": "Lagos"
+    }
+  },
+  {
+    "Id": "3",
+    "MarketName": "Goat Market",
+    "MarketAddress": {
+      "Street": "12 bode",
+      "City": "Alaba",
+      "State": "Lagos"
+    }
+  },
+  {
+    "Id": "4",
+    "MarketName": "Rabbit Market",
+    "MarketAddress": {
+      "Street": "9 Sangere",
+      "City": "Plateau",
+      "State": "Jos"
+    }
+  },
+  {
+    "Id": "5",
+    "MarketName": "Pig Market",
+    "MarketAddress": {
+      "Street": "07 Iwo Road",
+      "City": "Ibadan",
+      "State": "Oyo"
+    }
+  },
+  {
+    "Id": "6",
+    "MarketName": "Sheep Market",
+    "MarketAddress": {
+      "Street": "13 Asajon",
+      "City": "Kano",
+      "State": "Kano"
+    }
+  },
+  {
+    "Id": "7",
+    "MarketName": "Fish Market",
+    "MarketAddress": {
+      "Street": "34 Ochanja",
+      "City": "Onitsha",
+      "State": "Anambara"
+    }
+  }
+]

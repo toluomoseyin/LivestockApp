@@ -1,0 +1,19 @@
+2021-07-23 10:43:40.1843 WARN|Microsoft.AspNetCore.Identity.UserManager| User 682a75ef-ffa9-4868-b618-1398279a771d password validation failed: PasswordRequiresNonAlphanumeric.
+2021-07-23 12:26:36.1928 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-23 12:26:36.2842 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-23 12:29:43.1923 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-23 17:16:31.1658 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-23 17:16:31.3741 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-23 17:16:35.5309 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-23 17:16:35.5782 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-23 17:16:39.0646 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-23 17:16:39.1174 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-23 17:16:40.4173 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-23 17:16:40.4671 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-23 17:16:42.2441 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-23 17:16:42.2833 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-23 17:16:43.6410 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-23 17:16:43.6884 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-23 17:16:46.0744 ERROR|AnimalFarmsMarket.Core.ErrorController| /lib/font-awesome/js/fontawesome.min.js
+2021-07-23 17:17:18.6073 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.
+2021-07-23 17:17:37.6638 ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware| An unhandled exception has occurred while executing the request.

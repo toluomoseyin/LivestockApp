@@ -1,0 +1,85 @@
+﻿@model CardDetails
+
+<div class="container" id="reset-password">
+    <div class="row">
+        <div class="col-md-8 mx-auto d-flex m-5 justify-content-center bg-light rounded">
+            <div class="col-10 mx-auto p-5">
+                <h1 class="text-left font-weight-bold">Enter Card Details</h1>
+                <form method="post" asp-action="Flutterwave" asp-controller="Checkout">
+                    <div class="form-group">
+                        <div class="input-group  password-input">
+                            <input asp-for="fullname" class="form-control border-right-0" value="William Anderson">
+                        </div>
+                        <small class="text-danger"> <span asp-validation-for="fullname"></span></small>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group  password-input">
+                            <input asp-for="cardNumber" class="form-control border-right-0" value="5531886652142950">
+                        </div>
+                        <small class="text-danger"> <span asp-validation-for="cardNumber"></span></small>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group  password-input">
+                            <input asp-for="amount" class="form-control border-right-0" value="2000">
+                        </div>
+                        <small class="text-danger"> <span asp-validation-for="amount"></span></small>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group  password-input">
+                            <input asp-for="currency" class="form-control border-right-0" value="NGN">
+                        </div>
+                        <small class="text-danger"> <span asp-validation-for="currency"></span></small>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group  password-input">
+                            <input asp-for="ExpirationMonth" class="form-control border-right-0" value="09">
+                        </div>
+                        <small class="text-danger"> <span asp-validation-for="ExpirationMonth"></span></small>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group  password-input">
+                            <input asp-for="ExpirationYear" class="form-control border-right-0" value="32">
+                        </div>
+                        <small class="text-danger"> <span asp-validation-for="ExpirationYear"></span></small>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group  password-input">
+                            <input asp-for="cvv" class="form-control border-right-0" value="564">
+                        </div>
+                        <small class="text-danger"> <span asp-validation-for="cvv"></span></small>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group  password-input">
+                            <input asp-for="email" class="form-control border-right-0" value="mushu_online@yahoo.com">
+                        </div>
+                        <small class="text-danger"> <span asp-validation-for="email"></span></small>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group  password-input">
+                            <input asp-for="tx_ref" class="form-control border-right-0" value="MX-24352">
+                        </div>
+                        <small class="text-danger"> <span asp-validation-for="tx_ref"></span></small>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group  password-input">
+                            <input asp-for="redirect_url" class="form-control border-right-0" value="http://localhost:68404">
+                        </div>
+                        <small class="text-danger"> <span asp-validation-for="redirect_url"></span></small>
+                    </div>
+
+                    <div asp-validation-summary="All" class="text-danger" id="resetpass-list-error"></div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-success mt-3" id="reset-password-btn">Pay</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

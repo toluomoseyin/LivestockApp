@@ -1,0 +1,58 @@
+﻿@model TrackingHistoryViewModel
+
+<div class="col-sm-12 track-order" id="divtwo" style="padding-top: 70px">
+
+    <div>
+        <h1 class="track-header">Track Order</h1>
+    </div>
+    <div class=" col-sm-10 rounded mx-auto p-5 mb-5" style="background-color: #FFFFFF;
+        box-shadow: rgba(32, 120, 191, 0.35) 0px 5px 15px">
+        <div class="row">
+            <div class="col-sm-6 ">
+                <h3 class="track-subheader">Easily track livestock <br /> with their ship number</h3>
+                <p class="content">
+                    Get to know the status of your order either by location <br /> or condition
+                    and also the specific amount of time it will <br />take the parcel to
+                    get to your current location.
+                </p>
+            </div>
+            <div class="col-sm-6 track-livestock">
+                <div>
+                    <h3 class="track-subheader-right">
+                        Track your live stock
+                    </h3>
+                </div>
+                <div>
+                    <div class="input-group mb-3">
+                        <input type="text" id="trackingIndex2" class="form-control track-input" placeholder="input your chip number here">
+                        <div class="input-group-append">
+                            <!---Button trigger modal --->
+                            <button class="btn" id="track-order__btn" onclick="TrackingBtn3(this)"><img src="~/images/assets/search.png" /></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/TrackingHistory.js"></script>
+
+@*<div id="tracking">
+        <div id="tracking1">
+        </div>
+    </div>*@
+
+<script>
+    $(document).ready(function () {
+        // Add down arrow icon for collapse element which is open by default
+        $(".collapse.show").each(function () {
+            $(this).prev(".heading").find(".fa").addClass("fa-angle-down").removeClass("fa-angle-right");
+        });
+        // Toggle right and down arrow icon on show hide of collapse element
+        $(".collapse").on('show.bs.collapse', function () {
+            $(this).prev(".heading").find(".fa").removeClass("fa-angle-right").addClass("fa-angle-down");
+        }).on('hide.bs.collapse', function () {
+            $(this).prev(".heading").find(".fa").removeClass("fa-angle-down").addClass("fa-angle-right");
+        });
+    });</script>

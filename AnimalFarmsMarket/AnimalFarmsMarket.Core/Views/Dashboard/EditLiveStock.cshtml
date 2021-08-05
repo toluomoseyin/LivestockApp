@@ -1,0 +1,203 @@
+﻿@model EditLivestockViewModel
+@using AnimalFarmsMarket.Data.ViewModels;
+@using AnimalFarmsMarket.Data.Enum;
+@{
+    var agentId = ViewData["AgentId"];
+}
+
+
+<div class="col-sm-8 d-flex bg-light rounded mx-auto mt-4" style="background:#fff !important; margin-top:5% !important; border:1px solid #eee !important;  margin-bottom: 40px; padding-bottom: 30px;">
+    <div class="col-sm-12">
+        @if (ViewBag.res == "edited")
+        {
+            <div class="alert alert-success" role="alert">
+                Saved
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        }
+        else if (ViewBag.res == "notedited")
+        {
+            <div class="alert alert-danger" role="alert">
+                Not Saved. Try Again
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        }
+        <div class="text-center my-4"><h1 style="color: #2078BF">Edit Livestock</h1></div>
+        <form asp-action="EditLivestock" asp-controller="Dashboard" method="post">
+            <input type="text" asp-for="Id" hidden />
+            @if (agentId != null)
+            {
+
+                <input type="hidden" value="@agentId" asp-for="AgentId" />}
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="agent-section__heading">Livestock Information</h4>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="Breed"></label>
+                        <div class="input-group">
+                            <input type="text" asp-for="Breed" class="form-control del_person_input_border_right_0" placeholder="breed">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <img src="~/images/assets/cattle.png" />
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Sex"></label>
+                        <div class="input-group ">
+                            <select asp-for="Sex" asp-items="Html.GetEnumSelectList<Gender>()" class="form-control">
+                                <option>Select Animal Sex ...</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="Color"></label>
+                        <div class="input-group">
+                            <input type="text" asp-for="Color" class="form-control del_person_input_border_right_0" placeholder="color">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2078bf" class="bi bi-palette" viewBox="0 0 16 16">
+                                        <path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+                                        <path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8zm-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7z" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Age"></label>
+                        <div class="input-group ">
+                            <input type="number" asp-for="Age" class="form-control del_person_input_border_right_0" placeholder="age">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2078bf" class="bi bi-calendar3-range" viewBox="0 0 16 16">
+                                        <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
+                                        <path d="M7 10a1 1 0 0 0 0-2H1v2h6zm2-3h6V5H9a1 1 0 0 0 0 2z" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                        <small class="mb-1 text-danger"><span asp-validation-for="Age"></span></small>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="Quantity"></label>
+                        <div class="input-group">
+                            <input type="number" class="form-control del_person_input_border_right_0" asp-for="Quantity" placeholder="quantity">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2078bf" class="bi bi-clipboard-data" viewBox="0 0 16 16">
+                                        <path d="M4 11a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1zm6-4a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0V7zM7 9a1 1 0 0 1 2 0v3a1 1 0 1 1-2 0V9z" />
+                                        <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                                        <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                                    </svg>
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="Weight"></label>
+                        <div class="input-group">
+                            <input type="text" class="form-control del_person_input_border_right_0" placeholder="weight" asp-for="Weight">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2078bf" class="bi bi-layer-backward" viewBox="0 0 16 16">
+                                        <path d="M8.354 15.854a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 0-.708l1-1a.5.5 0 0 1 .708 0l.646.647V4H1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9v7.793l.646-.647a.5.5 0 0 1 .708 0l1 1a.5.5 0 0 1 0 .708l-3 3z" />
+                                        <path d="M1 9a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h4.5a.5.5 0 0 1 0 1H1v2h4.5a.5.5 0 0 1 0 1H1zm9.5 0a.5.5 0 0 1 0-1H15V6h-4.5a.5.5 0 0 1 0-1H15a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4.5z" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <input type="text" asp-for="MarketId" hidden />
+                <input type="text" asp-for="CategoryId" hidden />
+                <input type="text" asp-for="AgentId" hidden />
+
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="agent-section__heading">Pricing</h4>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label asp-for="PurchasePrice"></label>
+                        <div class="input-group">
+                            <input type="number" class="form-control del_person_input_border_right_0" placeholder="how much you got the livestock" asp-for="PurchasePrice">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <i class="bi bi-cash" style="font-size: 24px; color: #4c93cb; line-height: 0.5px"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="SellingPrice"></label>
+                        <div class="input-group">
+                            <input type="number" class="form-control del_person_input_border_right_0" placeholder="how much you want to sell" asp-for="SellingPrice">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <i class="bi bi-cash" style="font-size: 24px; color: #4c93cb; line-height: 0.5px"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="Discount"></label>
+                        <div class="input-group">
+                            <input type="number" class="form-control del_person_input_border_right_0" placeholder="discount" asp-for="Discount">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <i class="bi bi-cash" style="font-size: 24px; color: #4c93cb; line-height: 0.5px"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="agent-section__heading">OTHER INFORMATION</h4>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label asp-for="Description"></label>
+                        <div class="input-group ">
+                            <textarea asp-for="Description" placeholder="Type a Description" class="w-100 " style="outline-color: #6CB4EE; outline-width: 3px; border-radius: 10px; border-color: #ced4da; padding:10px;" rows="5"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div asp-validation-summary="All" class="text-danger forgotPass-list-error text-center"></div>
+            <div class="text-center m-4">
+                <button type="submit" class="btn btn-success font-weight-bolder px-md-5 py-md-3 md">Edit Livestock</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

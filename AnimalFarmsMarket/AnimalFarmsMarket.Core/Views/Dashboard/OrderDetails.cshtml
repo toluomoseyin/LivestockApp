@@ -1,0 +1,132 @@
+﻿@model OrdersDetailsViewModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    int counter = 0;
+}
+
+
+<div class="col-sm-8 d-flex rounded mx-auto" style="background: #fff !important; margin-top: 4% !important; border: 1px solid #eee !important; margin-bottom: 40px; padding-bottom: 30px;">
+    <div class="col-12">
+        <div class="text-center my-4"><h1 style="color: #2078BF">Order Details</h1></div>
+        <div class="row mx-5">
+            <div class="col-12">
+                <table class="table table-borderless">
+
+                    <tbody>
+
+                        <tr>
+                            <td>Tracking number</td>
+                            <td>@Model.TrackingNumber</td>
+                        </tr>
+                        <tr>
+                            <td>Payment Amount</td>
+                            <td>@string.Format(new CultureInfo("ng-NG"), "{0:c}", Model.PaymentAmount)</td>
+                        </tr>
+                        <tr>
+                            <td>Payment Status</td>
+                            @if (Model.PaymentStatus == 0)
+                            {
+                                <td>Pending</td>
+                            }
+                            else
+                            {
+                                <td>Successful</td>
+                            }
+
+                        </tr>
+                        <tr>
+                            <td>Shipped To</td>
+                            <td>@Model.ShippedTo</td>
+                        </tr>
+                        <tr>
+                            <td>Delivery Date</td>
+                            <td>@Model.DeliveryDate</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <div class=""><h5 style="color: #2078BF">Ordered Items</h5></div>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                #
+                            </th>
+                            <th scope="col">
+                                Breed
+                            </th>
+                            <th scope="col">
+                                Selling Price
+                            </th>
+                            <th scope="col">
+                                Quantity
+                            </th>
+
+                            <th scope="col">
+                                Total
+                            </th>
+                        </tr>
+                    </thead>
+                    @foreach (var item in Model.OrderItems)
+                    {
+
+
+                        <tbody>
+
+                            <tr>
+
+                                <td>
+                                    @(++counter)
+                                </td>
+                                <td>
+                                    @item.Livestock.Breed
+                                </td>
+                                <td>
+                                    @string.Format(new CultureInfo("ng-NG"), "{0:c}", item.Livestock.SellingPrice)
+                                    
+                                </td>
+                                <td>
+                                    @item.Quantity
+                                </td>
+                                <td>
+                                    @string.Format(new CultureInfo("ng-NG"), "{0:c}", item.Total)
+                                </td>
+                            </tr>
+                        </tbody>
+                    }
+                </table>
+            </div>
+            
+
+        </div>
+        @if(Model.Status == 0)
+         {
+           <div class="row justify-content-center">
+                <div class=" text-center">
+                    <form asp-action="ConfirmOrder" asp-controller="Dashboard" method="post">
+                        <input type="text" name="Id" value="@ViewBag.Id" hidden/>
+                        <button type="submit" class="btn btn-success">Confirm Order</button>
+                    </form>
+                </div>
+            </div>
+         }
+         else
+         {
+            <div class="row justify-content-center">
+                <div class=" text-center">
+                    <button type="submit" class="btn btn-primary" disabled>Order Confirmed</button>
+                </div>
+            </div>
+         }
+        
+    </div>
+
+
+
+
+</div>
+

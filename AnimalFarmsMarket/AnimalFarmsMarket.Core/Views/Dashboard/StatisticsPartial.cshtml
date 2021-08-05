@@ -1,0 +1,196 @@
+@model StatsViewModel;
+
+@{
+    var date = Model.PaymentDates;
+    var incompletePayments = Model.IncompletePayments;
+    var completePayments = Model.CompletePayments;
+
+    var orderDates = Model.OrderDates;
+    var numOfOrders = Model.NumOfOrders;
+}
+
+<div class="canvas-container">
+    <div>
+        <div class="d-flex justify-content-between mb-3">
+            <div>
+                <h2 class="brand pl-0" style="color:#2078BF; ">Statistics</h2>
+            </div>
+            <div class="w-25 mb-2">
+                @if(date.Length > 0) {
+                    <select id="chartSelector" onchange="generateChart()" class="form-control">
+                        <option value="Payments" selected>Payments</option>
+                        <option value="Orders">Orders</option>
+                    </select>
+                }
+            </div>
+        </div>
+        
+        @if (date.Count() < 1)
+        {
+            <div id="no-content" class="card shadow text-center">
+                <h2 class="brand p-4" style="color:#2078BF; ">No Stats</h2>
+            </div>
+        }else{
+            <div id="stats_graph" style="width:100%; height:60vh">
+                <canvas class="mb-5 shadow p-4" id="myChart"></canvas>
+                <canvas class="mb-5 shadow p-4" id="myChart2"  style="display: none;"></canvas>
+            </div>
+        }
+    </div>
+</div>
+
+<script src="~/js/chart.min.js"></script>
+<script defer>
+    let date = @Html.Raw(Json.Serialize(date));
+    const incompletePayments = @Html.Raw(Json.Serialize(incompletePayments));
+    const completePayments = @Html.Raw(Json.Serialize(completePayments));
+    
+    let orderDates = @Html.Raw(Json.Serialize(orderDates));
+    const numOfOrders = @Html.Raw(Json.Serialize(numOfOrders));
+    
+    date = date.map(d => new Date(d).toDateString())
+    orderDates = orderDates.map(d => new Date(d).toDateString())
+
+    const paymentsData = {
+        labels: date,
+        datasets: [
+            {
+                label: "Complete Payments",
+                data: completePayments,
+                backgroundColor: "rgba(255, 99, 132, 0.2)",
+                fill: true
+            },
+            {
+                label: "Incomplete Payments",
+                data: incompletePayments,
+                backgroundColor: "rgba(255, 206, 86, 0.2)",
+                fill: true
+            }
+        ]
+    }
+    
+    const orderData = {
+        labels: orderDates,
+        datasets: [
+            {
+                label: "Orders",
+                data: numOfOrders,
+                backgroundColor: "rgba(255, 99, 132, 0.2)",
+                fill: true
+            }
+        ]
+    }
+    
+    const ctx = document.getElementById('myChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'line',
+        data: paymentsData,
+        options: {
+            legend: {
+                display: true,
+                position: "top",
+            },
+            responsive: true,
+            elements: {
+                line: {
+                    tension: 0.2
+                }
+            },
+            maintainAspectRatio: false,
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero: true
+                    }
+                }],
+                xAxes: [{
+                    ticks: {
+                        beginAtZero: true
+                    }
+                }]
+            },
+            plugins: {
+                filler: {
+                    propagate: false,
+                },
+                title: {
+                    display: true,
+                    text: (ctx) => "Payments"
+                }
+            },
+            pointBackgroundColor: '#fff',
+            radius: 0,
+            interaction: {
+                intersect: false,
+            }
+        },
+    });
+    
+    const ctx2 = document.getElementById('myChart2').getContext('2d');
+    new Chart(ctx2, {
+        type: 'line',
+        data: orderData,
+        options: {
+            legend: {
+                display: true,
+                position: "top",
+            },
+            responsive: true,
+            elements: {
+                line: {
+                    tension: 0.2
+                }
+            },
+            maintainAspectRatio: false,
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero: true
+                    }
+                }],
+                xAxes: [{
+                    ticks: {
+                        beginAtZero: true
+                    }
+                }]
+            },
+            plugins: {
+                filler: {
+                    propagate: false,
+                },
+                title: {
+                    display: true,
+                    text: (ctx) => "Orders"
+                }
+            },
+            pointBackgroundColor: '#fff',
+            radius: 0,
+            interaction: {
+                intersect: false,
+            }
+        },
+    });
+    
+    if(date.Length < 1) {
+        const no_content = document.getElementById("no-content")
+        const charts = document.getElementById("stats_graph")
+        const selector = document.getElementById("chartSelector")
+        
+        charts.style.display = "none";
+        no_content.style.display = "block";
+        selector.style.display = "none";
+    }
+
+    function generateChart() {
+        const payments = document.getElementById("myChart")
+        const orders = document.getElementById("myChart2")
+        
+        if (payments.style.display === "none") {
+            payments.style.display = "block";
+            orders.style.display = "none";
+          } else {
+            orders.style.display = "block";
+            payments.style.display = "none";
+          }
+    }
+</script>

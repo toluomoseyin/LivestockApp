@@ -1,0 +1,315 @@
+﻿/*------------------------------------------------------------------------*/
+/*-----my toogler----------------*/
+
+.navbar-toggler:focus {
+    outline: 0;
+}
+.navbar-toggler i{
+    color: forestgreen;
+    font-size:24px;
+}
+
+.toggleColor {
+    margin-left: .1em;
+    font-size: 24px;
+    
+}
+    
+/* --------------------Style for accordion---------------------------------*/
+.accordion-btn {
+    border: 1px solid rgba(0,0,0,.125);
+    font-weight: lighter;
+    text-decoration: none;
+    border-radius: 2px;
+    color: #2078BF;
+    background: white;
+    font-weight: normal;
+    padding: 0.8rem;
+}
+
+.accordion-active {
+    background: #2078BF;
+    color: white;
+}
+
+.accordion-btn:hover {
+    background: #2078BF;
+    color: white;
+}
+
+
+
+
+/*.... style for animal market display....*/
+.hover {
+
+    position: relative;
+    padding-bottom: 100%;
+    overflow-y: hidden;
+    border: 2px solid rgb(231 235 238);
+}
+
+.hover-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    transition: all 0.4s;
+    
+}
+
+.hover img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.75s;
+    border-radius:5px;
+  
+}
+
+
+.hover-2 .hover-overlay {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.1));
+}
+
+.hover-2-title {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 99;
+    transition: all 0.3s;
+    font-size: 14px;
+    text-wrap: normal;
+}
+
+.hover-2-price {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 99;
+    transition: all 0.3s;
+    font-size: 23px;
+}
+
+
+
+
+
+.hover-2-description {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    left: 0;
+    text-align: center;
+    z-index: 99;
+    transition: all 0.3s;
+}
+
+.hover-content {
+    position: relative;
+    z-index: 99;
+}
+
+.addBtn {
+    border: 1px solid #f2f2f2;
+    left: 30%;
+    width: 40%;
+    margin: 5px;
+    border-radius: 5px;
+    background: #46de1d;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+}
+
+.hover-2:hover .hover-2-title {
+    transform: translateY(-1.5rem);
+    bottom: 30%;
+}
+
+.hover-2:hover .hover-2-price {
+    transform: translateY(-1.5rem);
+    bottom: 20%;
+}
+
+.hover-2:hover .hover-2-description {
+    bottom: 0.5rem;
+    opacity: 1;
+}
+
+
+
+
+.hover-2:hover .hover-overlay {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
+}
+
+
+
+
+
+
+
+/*............................................................*/
+
+
+
+    /*-----------------------*/
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.myAdBtn {
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+}
+
+.myAdBtn,.myAdBtn span {
+    transition: 200ms;
+}
+
+    .myAdBtn .text {
+        transform: translateX(15px);
+        color: white;
+        font-weight: bold;
+    }
+
+    .myAdBtn .icon {
+        position: absolute;
+        border-left: 1px solid #c41b1b;
+        transform: translateX(110px);
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .myAdBtn:hover {
+        background: #ff3636;
+    }
+
+        .myAdBtn:hover .text {
+            color: transparent;
+        }
+
+        .myAdBtn:hover .icon {
+            width: 150px;
+            border-left: none;
+            transform: translateX(0);
+            color: white;
+        }
+
+
+    .myAdBtn:focus {
+        outline: none;
+    }
+
+
+/*________Menu-Cart____________*/
+.myDropdown {
+    background: #2078bf;
+    color: #fff;
+    outline: none;
+    border-radius: 4px;
+    width: 150px;
+}
+
+
+.myDrop {
+    position: relative;
+    display: block;
+    width: 50%;
+}
+
+.myDropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    color: #838383;
+    min-width: 20%;
+    min-height: 37vh;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.myDrop:hover .myDropdown-content:hover {
+    display: block;
+  
+}
+
+.myRow-1 {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+    .myRow-1 button {
+        font-size: 0.7rem;
+        font-weight: 300;
+        padding: 0.1rem 0.4rem;
+        height: 50%;
+        background-color: #2078bf;
+    }
+
+.myRow-2 {
+    border-top: 1px solid #838383;
+    width: 90%;
+    margin: 0.1rem auto;
+    padding: 0.5rem 0;
+}
+
+    .myRow-2 p {
+        font-weight: 400;
+        padding-left: 1.3rem;
+    }
+
+.buttons {
+    width: 90%;
+    font-size: 1rem;
+    margin: 0 auto;
+}
+
+    .buttons button {
+        color: #ffffff;
+        background-color: #06864d;
+        margin-bottom: 1rem;
+    }
+
+.shift {
+    margin-right: 1.5rem;
+}
+
+.buttons button:hover {
+    background-color: #09cf77;
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .myDropdown-content {
+        left: -8rem;
+    }
+}

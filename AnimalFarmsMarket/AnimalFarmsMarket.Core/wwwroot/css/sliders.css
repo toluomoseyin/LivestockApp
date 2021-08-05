@@ -1,0 +1,106 @@
+﻿.site-color {
+    color: #2078BF;
+}
+
+.testimonial-card {
+    width: 450px;
+    min-width: 450px;
+    height: 150px;
+}
+
+.border-grey {
+    border: 1px solid #ccc;
+}
+
+.round-border {
+    border-radius: 15px;
+}
+
+.w-450px {
+    width: 450px;
+    min-width: 450px;
+}
+
+.h-150px {
+    height: 150px;
+}
+
+.w-30px {
+    width: 35px;
+}
+
+.h-30px {
+    height: 35px;
+}
+
+.h-half {
+    height: 50%;
+}
+
+.minw-400px {
+    min-width: 400px;
+}
+
+.maxw-400px {
+    max-width: 400px;
+}
+
+.minw-250px {
+    min-width: 250px;
+}
+
+
+.text-green {
+    color: #06864D;
+}
+
+.text-grey {
+    color: #999;
+}
+
+.scrollerArrow {
+    color: #ccc;
+}
+
+    .scrollerArrow:hover {
+        color: #777;
+    }
+.home-partz {
+    width: 102%;
+    margin: 0px auto;
+}
+.partz {
+    width: 100%;
+    margin: 0px auto;
+    font-family: "Ubuntu", sans-serif;
+}
+.margin-left{
+    margin-left: 180px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+@media only screen and (max-width: 600px) {
+    .testimonial-card {
+        font-size: x-small;
+        width: 300px;
+        min-width: 300px;
+    }
+    .margin-left {
+        margin-left: 0px;
+    }
+}
+@media (max-width: 1000px){
+    .margin-left {
+        margin-left: 50px;
+    }
+}

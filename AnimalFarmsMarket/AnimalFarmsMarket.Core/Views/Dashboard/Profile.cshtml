@@ -1,0 +1,101 @@
+﻿@model ProfileViewModel
+
+<div class="row">
+    <div class="col-10 offset-1 mb-5">
+        <div class="d-flex justify-content-between">
+            <h1 class="mt-3 mb-3" style="color: #2078BF">Profile</h1>
+            @if (HttpContextAccessor.HttpContext.Session.GetString("Error") != null)
+            {
+ 
+                <div class="alert alert-danger m-3 p-3" role="alert">
+                    <span class="mr-3">An Error Occured! Our engineers are currently working on it</span>
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            }
+            @if (!string.IsNullOrWhiteSpace(HttpContextAccessor.HttpContext.Session.GetString("activeStatus"))
+               && HttpContextAccessor.HttpContext.Session.GetString("activeStatus") == "False"
+               && HttpContextAccessor.HttpContext.Session.GetString("UserRole") == "Agent")
+            {
+                <button class="my-3 px-3 border-0 btn-danger" data-toggle="modal" data-target="#AgentPay">Activate Account</button>
+            }
+
+        </div>
+        <div class="bg-white box-shadow p-3 pt-4 rounded">
+
+            @if (ViewBag.Q == "change-password")
+            {
+                <partial name="_ChangePasswordPartial" model="@Model.ChangePasswordViewModel" />
+            }
+
+            @if (ViewBag.Q == "update-profile")
+            {
+                <partial name="_UpdateProfilePartial" model="@Model.UpdateProfileViewModel" />
+            }
+
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade " id="AgentPay" tabindex="-1" role="dialog" aria-labelledby="AgentPayTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="AgentPayTitle">
+                    <span style="color: #2078bf">
+                        Hello
+                    </span>
+
+                    @if (!string.IsNullOrWhiteSpace(HttpContextAccessor.HttpContext.Session.GetString("UserName")))
+                    {
+                        @HttpContextAccessor.HttpContext.Session.GetString("UserName").Trim();
+                    }
+                    !
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <div class="px-4">
+                    <p>
+                        Activate your accout with a one time fee of <strong> &#8358;1000 </strong> to get full access to your dashboard
+                        and enjoy our exclusive services
+                    </p>
+                    <p>
+                        Proceed with the activate button below to make payment and activate your account
+                    </p>
+                </div>
+                <form asp-action="ActivateAgentPayment" asp-controller="Dashboard" method="post">
+                    <div class="d-flex justify-content-around">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="paymentType" id="paystack" value="paystack" required>
+                            <label class="form-check-label" for="paystack">
+                                <strong> Paystack</strong>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="paymentType" id="flutter_wave" value="flutter" required>
+                            <label class="form-check-label" for="flutter_wave">
+                                <strong> Flutterwave</strong>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0 justify-content-center">
+                        <button type="submit" class="btn btn-primary">PROCEED TO ACTIVATE</button>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
